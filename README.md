@@ -1,6 +1,6 @@
 # Awesome CEFI list
 
-This is a curated list for the "climate-informed resource" on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative [CEFI](https://www.fisheries.noaa.gov/topic/climate-change/climate,-ecosystems,-and-fisheries). 
+This is a curated list for the "climate-informed resource" on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/topic/climate-change/climate,-ecosystems,-and-fisheries)). 
 The goal of the information hub is
 
  > Build a comprehensive Climate, Ecosystems, and Fisheries Initiative Information Hub to provide easy access to regional ocean model outputs (high spatial resolution reanalysis, hindcasts, predictions, and projections optimized for management applications), ecosystem projections, and other information relevant to climate-informed resource management.
