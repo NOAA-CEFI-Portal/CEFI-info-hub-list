@@ -1,6 +1,4 @@
-# Contributing
-
-## Contributing to the CEFI Info-Hub Resource List
+# Contributing to the CEFI Info-Hub Resource List
 
 Please ensure your pull request follow the guidelines listed below:
 
