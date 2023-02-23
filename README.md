@@ -1,4 +1,4 @@
-# Awesome CEFI list
+# CEFI related resource list
 
 This is a curated list for the "CEFI related resource" on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/topic/climate-change/climate,-ecosystems,-and-fisheries)). 
 The goal of the information hub is
