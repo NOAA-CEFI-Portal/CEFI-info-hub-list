@@ -6,15 +6,28 @@ search tool which provide a quick way to view the entire list and provide
 a alternative platform for contributing the resource to be included in the 
 search tool.
 
+Package used:
+- mdutils (creating the markdown file from python)
+
+Conda env:
+- mdown (only mdutils is installed)
+
 """
 import json
 from mdutils.mdutils import MdUtils
 
+def get_cefi_list():
+    """
+    Read json data (soft link to the original source file)
+    """
+
+    json_file = open('./data/cefi_list.json', encoding="utf-8")
+
+    return json.load(json_file)
+
 if __name__ == '__main__':
 
-    # read json data (soft link to the original source file)
-    f = open('./data/cefi_list.json', encoding="utf-8")
-    data = json.load(f)
+    data = get_cefi_list()
 
     # create markdown file
     mdFile = MdUtils(file_name='README')
