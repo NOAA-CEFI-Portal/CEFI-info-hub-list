@@ -39,7 +39,7 @@ if __name__ == '__main__':
         "This is a curated list for the 'CEFI related resource'"+
         "on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ("+
         mdFile.new_inline_link(
-            link='https://www.fisheries.noaa.gov/topic/climate-change/climate-ecosystems-and-fisheries',
+            link='https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet',
             text='CEFI'
             )+
         "). The goal of the information hub is \n"
