@@ -1,0 +1,8 @@
+name: cefi-info-hub
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - mdutils
