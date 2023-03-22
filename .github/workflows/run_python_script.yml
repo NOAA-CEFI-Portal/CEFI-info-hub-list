@@ -1,0 +1,42 @@
+name: Generate README workflow
+
+on:
+  push:
+     branches:
+       - main
+     paths:
+       - 'generate_readme.py'
+       - 'data/cefi_list.json'
+#  schedule:
+#    - cron: "0 12 5 * *"
+
+jobs:
+  generate_readme:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Conda
+        uses: s-weigand/setup-conda@v1
+        with:
+          activate-conda: false
+          conda-channels: conda-forge
+
+      - name: Build environment
+        shell: bash -l {0}
+        run: |
+          conda env create -f environment.yml
+      - name: Generate the README from JSON source
+        run: |
+          source activate cefi-info-hub
+          python generate_readme.py
+      - name: Commit and push if it changed
+        run: |
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
