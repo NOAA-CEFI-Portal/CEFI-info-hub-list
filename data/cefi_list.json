@@ -5,7 +5,7 @@
         {
         "url" : "https://data.pmel.noaa.gov/aclim/las/UI.html",
         "title" : "Alaska Climate Integrated Modeling (ACLIM data) Live Access Server (LAS): NOAA/PMEL",
-        "desc" : "The Live Access Server is a highly configurable web server designed to provide access to geo-referenced scientific data. It can present distributed data sets as a unified virtual database through the use of OPeNDAP networking.",
+        "desc" : "The Live Access Server is a highly configurable web server designed to provide access to geo-referenced scientific data. It can present distributed datasets as a unified virtual database through the use of OPeNDAP networking.",
         "thumbnail" : "/data/gridded/images/las.gif",
         "ctype" : [10],
         "cdata" : [11],
@@ -22,7 +22,7 @@
         {
         "url" : "http://portal.aoos.org/",
         "title" : "Alaska Ocean Observing System (AOOS) Data Portal: IOOS",
-        "desc" : "The portal contains scientific and management information including real-time sensor feeds, operational oceanographic and atmospheric models, satellite observations and GIS data sets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters. Data can be viewed using interactive maps.",
+        "desc" : "The portal contains scientific and management information including real-time sensor feeds, operational oceanographic and atmospheric models, satellite observations and GIS datasets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters. Data can be viewed using interactive maps.",
         "thumbnail" : "/data/gridded/images/aoos.webcam.png",
         "ctype" :  [10],
         "cdata" :   [1, 2, 5, 8],
@@ -56,7 +56,7 @@
         {
         "url" : "https://portal.aoos.org",
         "title" : "Alaska Ocean Observing System (AOOS) Data Explorer",
-        "desc" : "Alaskan ocean data sets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters.",
+        "desc" : "Alaskan ocean datasets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters.",
         "thumbnail" : "/data/gridded/images/aoos.jpg",
         "ctype" :  [10],
         "cdata" :   [1, 2, 5, 6, 8],
@@ -412,8 +412,8 @@
 
         {
         "url" : "https://apps-st.fisheries.noaa.gov/dismap/index.html",
-        "title" : "DISMAP: Distribution Mapping and Analysis Portal: NOAA Fisheries",
-        "desc" : "The Distribution Mapping and Analysis Portal (DisMAP) is a user friendly and interactive website designed to provide visualization and analysis tools to better track, understand, and respond to shifting distributions of marine species. It allows users to examine changes in species distributions over time by looking at both location maps as well as graphs of key indicators of a species distribution. ",
+        "title" : "Distribution Mapping and Analysis Portal : NOAA Fisheries",
+        "desc" : "The Distribution Mapping and Analysis Portal (DisMAP) is a user friendly and interactive website designed to provide visualization and analysis tools to better track, understand, and respond to shifting distributions of marine species. It allows users to examine changes in species distributions over time by looking at both location maps as well as graphs of key indicators of a species distribution. (previous hosted at <a href='https://oceanadapt.rutgers.edu'>OceanAdapt</a>)",
         "thumbnail" : "/data/gridded/images/dismap.png",
         "ctype" :  [11, 21],
         "cdata" :   [],
@@ -1263,7 +1263,7 @@
         {
         "url" : "https://climatedataguide.ucar.edu/climate-data/ocean",
         "title" : "Ocean Data Guide: NCAR/UCAR",
-        "desc" : "Search for ocean variables and datasets. Detailed information about the data sets, including their strengths and limitations are provided by experts in the field.",
+        "desc" : "Search for ocean variables and datasets. Detailed information about the datasets, including their strengths and limitations are provided by experts in the field.",
         "thumbnail" : "/data/gridded/images/ncar.climate.png",
         "ctype" :  [1, 2, 4, 5, 7],
         "cdata" :   [2, 3, 7],
