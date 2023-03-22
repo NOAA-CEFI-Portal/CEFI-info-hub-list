@@ -11,7 +11,7 @@ Contents
 # CEFI related resource list
 
 
-This is a curated list for the 'CEFI related resource'on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/topic/climate-change/climate-ecosystems-and-fisheries)). The goal of the information hub is 
+This is a curated list for the 'CEFI related resource'on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet)). The goal of the information hub is 
   
 > Build a comprehensive Climate, Ecosystems, and Fisheries Initiative Information Hub to provide easy access to regional ocean model outputs (high spatial resolution reanalysis, hindcasts, predictions, and projections optimized for management applications), ecosystem projections, and other information relevant to climate-informed resource management. 
   
@@ -23,11 +23,11 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Alaska Climate Integrated Modeling (ACLIM data) Live Access Server (LAS): NOAA/PMEL](https://data.pmel.noaa.gov/aclim/las/UI.html) 
   
-> The Live Access Server is a highly configurable web server designed to provide access to geo-referenced scientific data. It can present distributed data sets as a unified virtual database through the use of OPeNDAP networking.
+> The Live Access Server is a highly configurable web server designed to provide access to geo-referenced scientific data. It can present distributed datasets as a unified virtual database through the use of OPeNDAP networking.
   
 [Alaska Ocean Observing System (AOOS) Data Portal: IOOS](http://portal.aoos.org/) 
   
-> The portal contains scientific and management information including real-time sensor feeds, operational oceanographic and atmospheric models, satellite observations and GIS data sets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters. Data can be viewed using interactive maps.
+> The portal contains scientific and management information including real-time sensor feeds, operational oceanographic and atmospheric models, satellite observations and GIS datasets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters. Data can be viewed using interactive maps.
   
 [Animal Telemetry Network (ATN) Data Portal: IOOS](https://portal.atn.ioos.us/) 
   
@@ -35,7 +35,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Alaska Ocean Observing System (AOOS) Data Explorer](https://portal.aoos.org) 
   
-> Alaskan ocean data sets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters.
+> Alaskan ocean datasets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters.
   
 [Arctic Heat Ocean Science Experiment: NOAA/PMEL ](https://data.pmel.noaa.gov/alamo/erddap/index.html) 
   
@@ -117,9 +117,9 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > Plots monthly and seasonal correlations of gridded variables with ocean/atmosphere index time-series like the PNA or ENSO. User can specify their own time-series
   
-[DISMAP: Distribution Mapping and Analysis Portal: NOAA Fisheries](https://apps-st.fisheries.noaa.gov/dismap/index.html) 
+[Distribution Mapping and Analysis Portal : NOAA Fisheries](https://apps-st.fisheries.noaa.gov/dismap/index.html) 
   
-> The Distribution Mapping and Analysis Portal (DisMAP) is a user friendly and interactive website designed to provide visualization and analysis tools to better track, understand, and respond to shifting distributions of marine species. It allows users to examine changes in species distributions over time by looking at both location maps as well as graphs of key indicators of a species distribution. 
+> The Distribution Mapping and Analysis Portal (DisMAP) is a user friendly and interactive website designed to provide visualization and analysis tools to better track, understand, and respond to shifting distributions of marine species. It allows users to examine changes in species distributions over time by looking at both location maps as well as graphs of key indicators of a species distribution. (previous hosted at <a href='https://oceanadapt.rutgers.edu'>OceanAdapt</a>)
   
 [El Ni&ntilde;o Theme Page: NOAA/PMEL](https://www.pmel.noaa.gov/elnino/) 
   
@@ -319,7 +319,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Ocean Data Guide: NCAR/UCAR](https://climatedataguide.ucar.edu/climate-data/ocean) 
   
-> Search for ocean variables and datasets. Detailed information about the data sets, including their strengths and limitations are provided by experts in the field.
+> Search for ocean variables and datasets. Detailed information about the datasets, including their strengths and limitations are provided by experts in the field.
   
 [Oceancolor Web: NASA](https://oceancolor.gsfc.nasa.gov) 
   
