@@ -10,7 +10,7 @@ import generate_readme
 cefi_data = generate_readme.get_cefi_list()
 
 # read the title part of the issue template
-ISSUE_TEMP = ".github/ISSUE_TEMPLATE/add_cefi_resource_head.yml"
+ISSUE_TEMP = ".github/ISSUE_TEMPLATE/header_file/add_cefi_resource_head.yml"
 with open(ISSUE_TEMP,'r',encoding='utf8') as f:
     issue_temp_head = yaml.load(f,Loader=yaml.loader.SafeLoader)
 
