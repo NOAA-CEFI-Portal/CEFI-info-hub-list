@@ -1,3 +1,4 @@
+---
 name: Add a resource
 description: To add a resource
 title: '[New Resource]: '
@@ -309,3 +310,4 @@ body:
     - NOAA GFDL
     - NOAA Exploration
     - 'AOOS:  Alaska Ocean Observing System '
+---
