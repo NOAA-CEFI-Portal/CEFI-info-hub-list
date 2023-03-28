@@ -27,6 +27,7 @@ with open(issue_temp) as f:
 #                     }
 #      }
 # )
+issue_data['name'] = 'Add a new resource'
 
 # loop over all categories
 for cat in cefi_data['categories_definition'].keys():
