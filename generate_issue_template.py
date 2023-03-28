@@ -14,6 +14,9 @@ ISSUE_TEMP = ".github/ISSUE_TEMPLATE/add_cefi_resource_head.yml"
 with open(ISSUE_TEMP,'r',encoding='utf8') as f:
     issue_temp_head = yaml.load(f,Loader=yaml.loader.SafeLoader)
 
+# solve the unique name issue in ISSUE_TEMPLATE
+issue_temp_head['name'] = 'Contribute to the CEFI resource list'
+
 # loop over all categories (variable is skipped at the moment)
 for cat in cefi_data['categories_definition'].keys():
     if cat != 'cvar':
