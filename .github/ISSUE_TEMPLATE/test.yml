@@ -89,3 +89,277 @@ body:
     - Animations
     - Profiles
     - Maps
+- type: dropdown
+  id: cdata
+  attributes:
+    label: Dataset
+    multiple: 'True'
+    options:
+    - Any
+    - ICOADS
+    - CMIP5
+    - CMIP6
+    - NOAA GODAS
+    - TAO Array
+    - AMIPS
+    - ARGO Floats
+    - NOAA ERSST V5
+    - North American Multi-Model Ensemble (NMME)
+    - Alaska Climate Integrated Modeling (ACLIM data)
+    - NOAA OI SST
+    - Coupled Models
+    - GLORYS
+- type: dropdown
+  id: ctime
+  attributes:
+    label: Time Scale
+    multiple: 'True'
+    options:
+    - Any
+    - Sub Daily
+    - Daily
+    - Pentad
+    - Weekly
+    - Monthly
+    - Seasonal
+    - Annual
+    - Decadal
+    - Century
+- type: dropdown
+  id: crange
+  attributes:
+    label: Time Range
+    multiple: 'True'
+    options:
+    - Any
+    - Current Values
+    - Post 2020
+    - Post 1900
+    - Pre 1900
+    - Full Year
+    - Future
+- type: dropdown
+  id: cvar
+  attributes:
+    label: Variables
+    multiple: 'True'
+    options:
+    - - Any
+      - atm
+    - - Sea Surface Temperature (SST)
+      - ocn
+    - - Sea Level Height
+      - ocn
+    - - Sea Level Pressure (SLP)
+      - ocn
+    - - Surface Pressure
+      - ocn
+    - - Currents
+      - ocn
+    - - Salinity
+      - ocn
+    - - Heat Fluxes
+      - ocn
+    - - Tidal
+      - ocn
+    - - Chlorphyll
+      - ocn
+    - - Mixed Layer Depth
+      - ocn
+    - - Waves
+      - ocn
+    - - Precipitation
+      - atm
+    - - Sea-Ice
+      - ocn
+    - - Fish
+      - ocn
+    - - Wind Stress
+      - ocn
+    - - Evaporation
+      - atm
+    - - Potential Temperature
+      - atm
+    - - OLR
+      - atm
+    - - Upwelling Indices
+      - ocn
+    - - Surface Temperature
+      - ocn
+    - - 20C Isotherm
+      - ocn
+    - - Surface Winds
+      - ocn
+    - - Kelp and Seagrasses
+      - ocn
+    - - Algal Blooms
+      - ocn
+    - - Carbon
+      - ocn
+    - - Bathymetry
+      - ocn
+    - - Zooplankton
+      - ocn
+    - - Phytoplankton
+      - ocn
+    - - Oxygen
+      - ocn
+    - - Nitrates
+      - ocn
+    - - Bottom Temperature
+      - ocn
+    - - Clouds
+      - atm
+    - - Heat Content
+      - ocn
+    - - DNA
+      - ocn
+    - - Density
+      - ocn
+    - - Coral
+      - ocn
+    - - Sea Mammals
+      - ocn
+    - - Atmosphere Variables
+      - ocn
+    - - Ocean Surface Variables
+      - ocn
+    - - Subsurface Ocean Variables
+      - ocn
+    - - Chemical Variables
+      - ocn
+    - - Marine Animal Variables
+      - ocn
+    - - Fish
+      - ocn
+    - - Marine Plant Variables
+      - ocn
+- type: dropdown
+  id: cproduct
+  attributes:
+    label: Product Types
+    multiple: 'True'
+    options:
+    - Any
+    - 'Values: Current'
+    - 'Values: Historic'
+    - Reanalysis
+    - Gridded Analysis
+    - Interactive Plotting Pages
+    - Forecasts
+    - Stations
+    - Animations
+    - In-situ
+    - Remote Sensing
+    - Data Guides/Repositories
+    - Code Repository
+    - Index Time-series
+    - Image/Animation Repository
+    - Educational
+    - International Data Repositories
+    - Analysis Tools
+    - ERDDAP Installations
+- type: dropdown
+  id: ctopics
+  attributes:
+    label: Topics Types
+    multiple: 'True'
+    options:
+    - Any
+    - ENSO
+    - MJO
+    - AMOC
+    - PDO
+    - Sea Level
+    - Climate Change
+    - Climate Indices
+    - Extremes
+    - Marine Heatwaves
+    - Arctic
+    - Hurricanes
+    - Air-Sea Interaction
+    - Upwelling
+    - Coastal Processes
+    - Inundation
+    - Economics
+    - Gulf Stream
+- type: dropdown
+  id: cplatforms
+  attributes:
+    label: Observing Platforms
+    multiple: 'True'
+    options:
+    - Any
+    - Buoy
+    - Platform
+    - Ship
+    - Airplane
+    - Satellite
+    - Floats
+    - CTDs
+    - Saildrone
+    - Drones
+    - Gliders
+    - Radar
+    - River Gauge
+    - Stations
+    - Surface Drifters
+    - Wave Gliders
+- type: dropdown
+  id: cregions
+  attributes:
+    label: Regions
+    multiple: 'True'
+    options:
+    - Any
+    - Atlantic Ocean
+    - Pacific Ocean
+    - Indian Ocean
+    - Arctic Ocean
+    - Bering Sea
+    - 'US: Coastal'
+    - California
+    - Oregon
+    - Washington
+    - Maine
+    - Florida
+    - 'US: East Coast'
+    - LMEs
+    - Hawaii
+    - Global
+    - Alaska
+    - 'US: West Coast'
+    - Louisiana
+    - 'US: CONUS'
+    - Pacific Islands
+- type: dropdown
+  id: corgs
+  attributes:
+    label: Organizations
+    multiple: 'True'
+    options:
+    - Any
+    - NOAA PSL
+    - NOAA PMEL
+    - NOAA AOML
+    - NOAA NOS
+    - NOAA NESDIS
+    - NOAA NCEI
+    - NCAR/UCAR
+    - U Hawaii
+    - 'UCSD: University of California at San Diego'
+    - NASA
+    - NOAA IRI
+    - 'NOAA: Center for Operational Oceanographic Products and Services'
+    - NOAA Data
+    - NOAA Fisheries
+    - 'IOOS: Integrated Ocean Observing System'
+    - NOAA CPC
+    - NOAA Tides and Currents
+    - Other
+    - NOAA (Any)
+    - NOAA Integrated Ecosystem Assessment
+    - NOAA Coastwatch
+    - NOAA GFDL
+    - NOAA Exploration
+    - 'AOOS:  Alaska Ocean Observing System '
