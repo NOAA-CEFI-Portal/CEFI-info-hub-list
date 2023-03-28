@@ -1,0 +1,9 @@
+name: Add a resource
+description: To add a resource
+title: "[New Resource]: "
+labels: ["new resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
