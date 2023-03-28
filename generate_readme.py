@@ -21,7 +21,7 @@ def get_cefi_list():
     Read json data (soft link to the original source file)
     """
 
-    json_file = open('./data/cefi_list.json', encoding="utf-8")
+    json_file = open('data/cefi_list.json', encoding="utf-8")
 
     return json.load(json_file)
 
