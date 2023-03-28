@@ -6,7 +6,6 @@
 - assignees:
   - chiaweh2
 - body:
-  - type:
-    - markdown
+  - type:markdown
     - attributes:
       - value: Thanks for taking the time to contribute to the CEFI resource list!
