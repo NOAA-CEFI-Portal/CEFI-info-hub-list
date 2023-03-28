@@ -11,7 +11,7 @@ body:
   id: ctype
   attributes:
     label: Analysis Type
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - Accumulated precipitation
@@ -39,7 +39,7 @@ body:
   id: cdata
   attributes:
     label: Dataset
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - ICOADS
@@ -59,7 +59,7 @@ body:
   id: ctime
   attributes:
     label: Time Scale
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - Sub Daily
@@ -75,7 +75,7 @@ body:
   id: crange
   attributes:
     label: Time Range
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - Current Values
@@ -88,7 +88,7 @@ body:
   id: cvar
   attributes:
     label: Variables
-    multiple: 'True'
+    multiple: true
     options:
     - - Any
       - atm
@@ -184,7 +184,7 @@ body:
   id: cproduct
   attributes:
     label: Product Types
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - 'Values: Current'
@@ -209,7 +209,7 @@ body:
   id: ctopics
   attributes:
     label: Topics Types
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - ENSO
@@ -233,7 +233,7 @@ body:
   id: cplatforms
   attributes:
     label: Observing Platforms
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - Buoy
@@ -255,7 +255,7 @@ body:
   id: cregions
   attributes:
     label: Regions
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - Atlantic Ocean
@@ -282,7 +282,7 @@ body:
   id: corgs
   attributes:
     label: Organizations
-    multiple: 'True'
+    multiple: true
     options:
     - Any
     - NOAA PSL

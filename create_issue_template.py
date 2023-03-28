@@ -34,7 +34,7 @@ for cat in cefi_data['categories_definition'].keys():
         {'type': 'dropdown',
          'id': cat,
          'attributes': {'label': cefi_data['categories_definition'][cat]['name'],
-                        'multiple': 'True',
+                        'multiple': True,
                         'options': list(cefi_data['categories_definition'][cat].values())[1:]
                         }
          }
