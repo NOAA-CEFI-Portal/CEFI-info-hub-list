@@ -8,15 +8,19 @@ dict_yml = [
   {"labels" : "cefi_contribution "},
   {"assignees" : ["chiaweh2"]},
   {"body" : [
-    {"type" : [
-        "markdown",
-        {"attributes" : 
-         [{"value" : "Thanks for taking the time to contribute to the CEFI resource list!"}]
-        }
+    {"type" : "markdown"},
+    {"attributes" : 
+        [{"value" : "Thanks for taking the time to contribute to the CEFI resource list!"}]
+    }
     ]},
+    {"type" : "input"},
+    {"id" : "contact"},
+    {"attributes" : 
+        [
+        {"label": "Contact Details"},
+        {"value" : "Thanks for taking the time to contribute to the CEFI resource list!"}]
+    }
   ]}
-
-
 ]
 
 with open(r'output.yml', 'w') as file:
