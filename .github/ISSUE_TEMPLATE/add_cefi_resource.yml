@@ -1,0 +1,261 @@
+name: Contribute to the CEFI resource list
+description: The form is designed for user to easily contribute to the CEFI resource
+  list that will be used in the CEFI resource search portal
+title: '[Add new CEFI resource]: '
+labels:
+- new resource
+assignees:
+- chiaweh2
+body:
+- type: markdown
+  attributes:
+    value: Thanks for taking the time to contribute to the CEFI resource list!
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: How can we get in touch with you if we need more info?
+    placeholder: ex. email@example.com
+  validations:
+    required: false
+- type: textarea
+  id: data-why
+  attributes:
+    label: Tell us a bit about the data/resource!
+    description: Why you think this data worth to be put into the CEFI resource list
+    placeholder: A short sentence or paragraph on why you think the data/resource
+      is important.
+  validations:
+    required: false
+- type: textarea
+  id: data-title
+  attributes:
+    label: What is the best title for the data/resource?
+    description: A title that best summarize the content.
+    placeholder: Global Marine Heatwaves
+  validations:
+    required: true
+- type: dropdown
+  id: ctype
+  attributes:
+    label: Analysis Type
+    multiple: true
+    options:
+    - 1-Any
+    - 2-Accumulated precipitation
+    - 3-Anomaly
+    - 4-Climatology
+    - 5-Compare two datasets
+    - 6-Composite (average)
+    - 7-Correlation
+    - 8-ENSO relationships
+    - 9-Individual value
+    - 10-Ocean/Atmosphere time-series relationships
+    - 11-Data subsetting
+    - 12-Time-series
+    - 13-Regression
+    - 14-Seasonal Forecast
+    - 15-Time-section plots (Hovmoller)
+    - 16-Wavelet analysis
+    - 17-Sub seasonal forecast
+    - 18-Trajectory
+    - 19-Data Distributions
+    - 20-Animations
+    - 21-Profiles
+    - 22-Maps
+  validations:
+    required: true
+- type: dropdown
+  id: cdata
+  attributes:
+    label: Dataset
+    multiple: true
+    options:
+    - 1-Any
+    - 2-ICOADS
+    - 3-CMIP5
+    - 4-CMIP6
+    - 5-NOAA GODAS
+    - 6-TAO Array
+    - 7-AMIPS
+    - 8-ARGO Floats
+    - 9-NOAA ERSST V5
+    - 10-North American Multi-Model Ensemble (NMME)
+    - 11-Alaska Climate Integrated Modeling (ACLIM data)
+    - 12-NOAA OI SST
+    - 13-Coupled Models
+    - 14-GLORYS
+  validations:
+    required: true
+- type: dropdown
+  id: ctime
+  attributes:
+    label: Time Scale
+    multiple: true
+    options:
+    - 1-Any
+    - 2-Sub Daily
+    - 3-Daily
+    - 4-Pentad
+    - 5-Weekly
+    - 6-Monthly
+    - 7-Seasonal
+    - 8-Annual
+    - 9-Decadal
+    - 10-Century
+  validations:
+    required: true
+- type: dropdown
+  id: crange
+  attributes:
+    label: Time Range
+    multiple: true
+    options:
+    - 1-Any
+    - 2-Current Values
+    - 3-Post 2020
+    - 4-Post 1900
+    - 5-Pre 1900
+    - 6-Full Year
+    - 7-Future
+  validations:
+    required: true
+- type: dropdown
+  id: cproduct
+  attributes:
+    label: Product Types
+    multiple: true
+    options:
+    - 1-Any
+    - '2-Values: Current'
+    - '3-Values: Historic'
+    - 4-Reanalysis
+    - 5-Gridded Analysis
+    - 6-Interactive Plotting Pages
+    - 7-Forecasts
+    - 8-Stations
+    - 9-Animations
+    - 10-In-situ
+    - 11-Remote Sensing
+    - 12-Data Guides/Repositories
+    - 13-Code Repository
+    - 14-Index Time-series
+    - 15-Image/Animation Repository
+    - 16-Educational
+    - 17-International Data Repositories
+    - 18-Analysis Tools
+    - 19-ERDDAP Installations
+  validations:
+    required: true
+- type: dropdown
+  id: ctopics
+  attributes:
+    label: Topics Types
+    multiple: true
+    options:
+    - 1-Any
+    - 2-ENSO
+    - 3-MJO
+    - 4-AMOC
+    - 5-PDO
+    - 6-Sea Level
+    - 7-Climate Change
+    - 8-Climate Indices
+    - 9-Extremes
+    - 10-Marine Heatwaves
+    - 11-Arctic
+    - 12-Hurricanes
+    - 13-Air-Sea Interaction
+    - 14-Upwelling
+    - 15-Coastal Processes
+    - 16-Inundation
+    - 17-Economics
+    - 18-Gulf Stream
+  validations:
+    required: true
+- type: dropdown
+  id: cplatforms
+  attributes:
+    label: Observing Platforms
+    multiple: true
+    options:
+    - 1-Any
+    - 2-Buoy
+    - 3-Platform
+    - 4-Ship
+    - 5-Airplane
+    - 6-Satellite
+    - 7-Floats
+    - 8-CTDs
+    - 9-Saildrone
+    - 10-Drones
+    - 11-Gliders
+    - 12-Radar
+    - 13-River Gauge
+    - 14-Stations
+    - 15-Surface Drifters
+    - 16-Wave Gliders
+  validations:
+    required: true
+- type: dropdown
+  id: cregions
+  attributes:
+    label: Regions
+    multiple: true
+    options:
+    - 1-Any
+    - 2-Atlantic Ocean
+    - 3-Pacific Ocean
+    - 4-Indian Ocean
+    - 5-Arctic Ocean
+    - 6-Bering Sea
+    - '7-US: Coastal'
+    - 8-California
+    - 9-Oregon
+    - 10-Washington
+    - 11-Maine
+    - 12-Florida
+    - '13-US: East Coast'
+    - 14-LMEs
+    - 15-Hawaii
+    - 16-Global
+    - 17-Alaska
+    - '18-US: West Coast'
+    - 19-Louisiana
+    - '20-US: CONUS'
+    - 21-Pacific Islands
+  validations:
+    required: true
+- type: dropdown
+  id: corgs
+  attributes:
+    label: Organizations
+    multiple: true
+    options:
+    - 1-Any
+    - 2-NOAA PSL
+    - 3-NOAA PMEL
+    - 4-NOAA AOML
+    - 5-NOAA NOS
+    - 6-NOAA NESDIS
+    - 7-NOAA NCEI
+    - 8-NCAR/UCAR
+    - 9-U Hawaii
+    - '10-UCSD: University of California at San Diego'
+    - 11-NASA
+    - 12-NOAA IRI
+    - '13-NOAA: Center for Operational Oceanographic Products and Services'
+    - 14-NOAA Data
+    - 15-NOAA Fisheries
+    - '16-IOOS: Integrated Ocean Observing System'
+    - 17-NOAA CPC
+    - 18-NOAA Tides and Currents
+    - 19-Other
+    - 20-NOAA (Any)
+    - 21-NOAA Integrated Ecosystem Assessment
+    - 22-NOAA Coastwatch
+    - 23-NOAA GFDL
+    - 24-NOAA Exploration
+    - '25-AOOS:  Alaska Ocean Observing System '
+  validations:
+    required: true
