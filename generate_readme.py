@@ -10,7 +10,7 @@ Package used:
 - mdutils (creating the markdown file from python)
 
 Conda env:
-- mdown (only mdutils is installed)
+- cefilist (only mdutils is installed)
 
 """
 import json
