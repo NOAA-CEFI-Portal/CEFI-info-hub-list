@@ -1,0 +1,14 @@
+name: PR check for JSON
+
+on:
+  pull_request:
+     branches:
+       - main
+     paths-ignore:
+       - 'data/cefi_list.json'
+
+jobs:
+  checking_json:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No build required"'
