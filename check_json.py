@@ -8,4 +8,4 @@ Conda env:
 from generate_readme import get_cefi_list
 
 data = get_cefi_list()
-print('json file loaded')
+print('json file successfully loaded')
