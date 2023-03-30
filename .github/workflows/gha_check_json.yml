@@ -5,7 +5,7 @@ on:
      branches:
        - main
      paths:
-       - 'check_json.py'
+       - 'data/cefi_list.json'
 
 jobs:
   checking_json:
