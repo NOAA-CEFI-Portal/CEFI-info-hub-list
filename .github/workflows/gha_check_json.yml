@@ -1,0 +1,32 @@
+name: PR check for JSON
+
+on:
+  pull_request:
+     branches:
+       - main
+     paths:
+       - 'check_json.py'
+
+jobs:
+  generate_readme:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Conda
+        uses: s-weigand/setup-conda@v1
+        with:
+          activate-conda: false
+          conda-channels: conda-forge
+
+      - name: Build environment
+        shell: bash -l {0}
+        run: |
+          conda env create -f environment.yml
+
+      - name: check JSON source
+        run: |
+          source activate cefi-info-hub
+          python check_json.py
