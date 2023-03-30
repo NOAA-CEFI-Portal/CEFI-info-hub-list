@@ -8,7 +8,7 @@ on:
        - 'check_json.py'
 
 jobs:
-  generate_readme:
+  checking_json:
     runs-on: ubuntu-20.04
 
     steps:
