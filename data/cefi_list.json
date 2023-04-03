@@ -1901,7 +1901,7 @@
 
         {
         "url" : "https://www.pmel.noaa.gov/tao/drupal/disdel/",
-        "title" : "TOGA-TAO Data Display and Delivery: NOAA/PMEL",
+        "title" : "TOGA-TAO Data : NOAA/PMEL",
         "desc" : "Display and access data from global tropical buoy arrays including TOGA-TAO in the Pacific, PIRATA in the Atlantic and RAMA in the Indian Ocean.  Includes profiles, time series and more.",
         "thumbnail" : "/data/gridded/images/togatao.png",
         "ctype" :  [8, 10, 11, 19, 20],
