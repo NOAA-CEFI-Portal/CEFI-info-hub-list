@@ -17,14 +17,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: data-why
-    attributes:
-      label: Tell us a bit about the data/resource!
-      description: Why you think this data worth to be put into the CEFI resource list
-      placeholder: A short sentence or paragraph on why you think the data/resource is important.
-    validations:
-      required: false
-  - type: textarea
     id: data-title
     attributes:
       label: What is the best title for the data/resource?
@@ -32,4 +24,21 @@ body:
       placeholder: Global Marine Heatwaves
     validations:
       required: true
+  - type: textarea
+    id: data-url
+    attributes:
+      label: What is URL that links to data/resource?
+      description: A complete URL that lead to the data/resource
+      placeholder: https://psl.noaa.gov/marine-heatwaves/
+    validations:
+      required: true   
+  - type: textarea
+    id: data-why
+    attributes:
+      label: Tell us a bit about the data/resource!
+      description: Why you think this data worth to be put into the CEFI resource list
+      placeholder: A short sentence or paragraph on why you think the data/resource is important.
+    validations:
+      required: false
+  
       
