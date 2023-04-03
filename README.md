@@ -413,7 +413,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > Interactively access meteorological data, water levels, and other coastal water related station information from a GIS enabled map for the US.
   
-[TOGA-TAO Data Display and Delivery: NOAA/PMEL](https://www.pmel.noaa.gov/tao/drupal/disdel/) 
+[TOGA-TAO Data : NOAA/PMEL](https://www.pmel.noaa.gov/tao/drupal/disdel/) 
   
 > Display and access data from global tropical buoy arrays including TOGA-TAO in the Pacific, PIRATA in the Atlantic and RAMA in the Indian Ocean.  Includes profiles, time series and more.
   
