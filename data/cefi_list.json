@@ -232,6 +232,8 @@
     },
 
 
+
+
     "lists" : [
         {
         "url" : "https://data.pmel.noaa.gov/aclim/las/UI.html",
@@ -1982,23 +1984,7 @@
         "cplatforms" :   [6],
         "cregions" :   [15],
         "corgs" :   [18]		
-        },
-        
-        {
-        "url" : "https://reanalyses.org",
-        "title" : "Ocean & Atmosphere Reanalysis Information (reanalyses.org): NOAA/PSL",
-        "desc" : "The reanalyses.org website is a wiki website whose goal is to facilitate comparison between reanalysis and observational datasets. Evaluative content provided by reanalysis developers, observationalists, and users; and links to detailed data descriptions, data access methods, analysis and plotting tools, and dataset references are all available. There is a specific section on ocean reanalyses.",
-        "thumbnail" : "/data/gridded/images/reanalysesorg.png",
-        "ctype" :  [1],
-        "cdata" :   [5,14],
-        "ctime" :   [1, 2, 3, 5, 6, 7, 8, 9, 10],
-        "crange" :   [2, 3, 4, 5, 6],
-        "cvar" :   [],
-        "cproduct" :   [1, 4, 12],
-        "ctopics" :   [1],
-        "cplatforms" :   [1],
-        "cregions" :   [16],
-        "corgs" :   [2]		
         }
+	
     ]
 }
