@@ -50,7 +50,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: CEFI data/resource categories 
+      value: "# CEFI data/resource categories"
   - type: markdown
     attributes:
       value: ---
