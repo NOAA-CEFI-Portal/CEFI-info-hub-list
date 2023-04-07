@@ -9,35 +9,43 @@ body:
     attributes:
       value: Thanks for taking the time to contribute to the CEFI resource list!
   - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
     id: data-title
     attributes:
       label: What is the best title for the data/resource?
       description: A title that best summarize the content.
-      placeholder: Global Marine Heatwaves
+      placeholder: Global Marine Heatwaves Forecast and Observation
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: data-url
     attributes:
       label: What is URL that links to data/resource?
       description: A complete URL that lead to the data/resource
       placeholder: https://psl.noaa.gov/marine-heatwaves/
     validations:
-      required: true   
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false   
   - type: textarea
     id: data-why
     attributes:
       label: Tell us a bit about the data/resource!
-      description: Why you think this data worth to be put into the CEFI resource list
+      description: Why you think this data worth to be put into the CEFI resource list?
       placeholder: A short sentence or paragraph on why you think the data/resource is important.
+    validations:
+      required: false
+  - type: textarea
+    id: data-figure
+    attributes:
+      label: Provide a representative figure that relates to the data/resource!
+      description: What figure best summarize the data/resource?
+      placeholder: A short name for the figure (aspect ratio of 16:9 is prefered) and please attach the figure here.
     validations:
       required: false
   
