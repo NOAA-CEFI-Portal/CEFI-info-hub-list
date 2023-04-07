@@ -50,5 +50,14 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: ---\n Below are multiple dropdowns with multiple choices available in each dropdown.\n Please select all options that the CEFI data/resource provides.
+      value: CEFI data/resource categories 
+  - type: markdown
+    attributes:
+      value: ---
+  - type: markdown
+    attributes:
+      value: Below are multiple dropdowns with multiple choices available in each dropdown.
+  - type: markdown
+    attributes:
+      value: Please select all options that the CEFI data/resource provides.
       
