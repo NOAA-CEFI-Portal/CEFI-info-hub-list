@@ -52,6 +52,10 @@ body:
       please attach the figure here.
   validations:
     required: false
+- type: markdown
+  attributes:
+    value: '---\n Below are multiple dropdowns with multiple choices available in
+      each dropdown.\n Please select all options that the CEFI data/resource provides.'
 - type: dropdown
   id: ctype
   attributes:
