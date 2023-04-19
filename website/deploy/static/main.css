@@ -1,0 +1,817 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: Arial Narrow, Arial, sans-serif;
+  color: #0055A4;
+  margin: 40px;
+  font-size: 16px;
+}
+
+.mywrap_center {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-left: 15px;
+}
+
+.mywrap_head {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.mywrap {
+  display: flex;
+  flex-direction:row;
+  align-content: center;
+  /* align-items: center;
+  justify-content: stretch; */
+}
+
+h1 {
+  min-width: 200px;
+  margin-right: auto;
+  font-weight: bold;
+  color: #0055A4;
+  font-family: Cambria, Georgia, serif;
+  font-size: 2.2em;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 1.4em;
+  padding-left: 2px;
+}
+
+h3{
+  font-size: 1.2em;
+  color:#0055A4;
+  line-height:0px;
+  padding-left:5px;
+}
+
+p{
+  font-size: 1em;
+  line-height:20px;
+  padding-left:5px;
+}
+
+ul {
+  list-style-type: square;
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+  padding: 0px;
+  line-height:20px;
+  font-size:1em;
+  color:#0055A4;
+}
+
+a{
+  color:#0093D0;
+  font-style:normal;
+}
+.title {
+  text-align: left;
+  color: #0055A4;
+  font-size: 1.625em;
+  min-width: 200px;
+  padding: 0px;
+  font-family: Cambria, Georgia, serif;
+}
+
+.shortTitle {
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  padding:5px;
+  color: white;
+  background-color: #0055A4;
+}
+
+
+.codelink.nolink{
+  color:#d1d3de;
+  pointer-events: none;
+
+}
+
+.badge{
+  width: 60px;
+  max-height: 60px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .codelink{
+ width: 120px;
+ height: 45px;
+ color: #000000;
+ font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ text-decoration: none;
+ text-align: center;
+ background: #FFFFFF;
+ border: 3px dotted #0055A4;
+ border-radius: 21px;
+ margin-right: 10px;
+
+ }
+
+ .codelink:hover{
+   cursor: pointer;
+   background-color:#0093D0
+ }
+
+.toolbox_drawers {
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size:16px;
+}
+
+.keywords {
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size:16px;
+}
+
+.language {
+  color: rgb(26, 138, 45);
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.longTitle {
+  font-style:italic;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #0055A4;
+  font-family: Cambria, Georgia, serif;
+}
+
+.header_title {
+  min-width: 200px;
+  margin-right: auto;
+  font-weight: normal;
+  color: #0055A4;
+  font-family: Cambria, Georgia, serif;
+  font-size: 2.5em;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.main_button {
+  width: 300px;
+  height: 60px;
+  margin: 0 auto 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0055A4;
+  border-color: #0055A4;
+  color: white;
+  font-size: 1.6em;
+}
+
+.main_button:hover {
+  background-color: #0093D0;
+  cursor: pointer;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  margin-top: auto;
+  background-color: #0055A4;
+}
+
+.icon_small {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto 0 auto;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: none;
+}
+
+.row .icon_small {
+  margin: 0 10px 0 0;
+  background-size:contain;
+}
+
+button:disabled,
+button:[disabled] {
+
+  background-color: grey;
+  display: none;
+
+}
+
+button.icon_small:disabled,
+button.icon_small[disabled] {
+
+  background-color: grey;
+  clip-path: polygon(0 0, 0% 0, 0% 0%);
+  display: none;
+
+}
+
+
+.online {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/app-slider-50_white_filled.png");
+}
+
+.online:hover{
+    cursor: pointer;
+}
+
+.github {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/code-fork-50_white_filled.png");
+}
+
+.github:hover{
+  cursor: pointer;
+}
+
+
+.down {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/lightning-bolt_white_filled.png");
+}
+.down:hover{
+  cursor: pointer;
+}
+
+
+.cert {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-approval-filled-50.png");
+}
+
+.checkmark {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-checkmark-24.png");
+}
+
+/* .legacy {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/legacy_icon.png");
+} */
+
+.checkmarkN {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
+}
+
+.checkmarkE {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/e_icon_white_filled.png");
+}
+
+/* .internal_inactive {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
+  background-repeat: none;
+  background-size: cover;
+} */
+
+.internal_active {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/n_icon_white_filled.png");
+  background-repeat: none;
+  background-size: cover;
+}
+
+.external_active {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/e_icon_white_filled.png");
+  background-repeat: none;
+  background-size: cover;
+}
+
+#email {
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-email-send-24.png");
+  background-repeat: none;
+  background-size: cover;
+  border: none;
+
+}
+
+
+.pdfIcon{
+  width:35px;
+  height: 35px;
+  color: #0055A4;
+  font-size: 24px;
+  font-weight: normal;
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-pdf-50.png");
+  border: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .githubIcon{
+      width: 35px;
+  height: 35px;
+  color: #444444;
+  font-size: 24px;
+  font-weight: normal;
+  border: none;
+  background-image: url("https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/icons/icons8-github-24.png");
+  border: 1px solid #00000066;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  }
+
+  .versionButton{
+
+  width: 97px;
+  height: 45px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  /* background-color:#00000066; */
+  border: none;
+  /* border-radius: 21px; */
+  margin-left: auto;
+  }
+
+
+.boxcontainer {
+  padding: 40px 40px 0 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box2,
+.box {
+  width: 200px;
+  height: 400px;
+  border: 1px solid black;
+  /*border-width: 0 1px 0 1px;*/
+  margin-left: 40px;
+  margin-bottom: 40px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box2 {
+  color: white;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /*overflow-y: hidden;*/
+  font-size: 14px;
+  border: none;
+  border-top: 1px solid white;
+  margin: 5px;
+}
+
+/*.box2:hover{
+
+    background-color:rgb(20,70,160);
+  }*/
+
+.header_button {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0055A4;
+  border-color: #0055A4;
+  color: white;
+  font-size: 1.2em;
+}
+
+.header_button:hover {
+  background-color: #0093D0;
+  cursor: pointer;
+}
+
+/* .modelType {
+  font-size: 14px;
+  padding-right: 5px;
+  padding-left: 5px;
+} */
+
+
+.divider {
+  width: 100%;
+  height: 8px;
+  background-color: #0055A4;
+  border: 0 none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.divider_thin{
+  width: 100%;
+  height: 2px;
+  background-color:#0055A4;
+  border: 0 none;
+  margin-top: 40px;
+  margin-bottom:20px;
+
+  }
+
+  .label {
+
+    width: auto;
+    height: 30px;
+    color: #0055A4;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    margin-right: auto;
+    line-height: 30px;
+    font-size: large;
+    }
+
+
+.infoText {
+  width: auto;
+  height: auto;
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 20px 80px 20px 80px;
+  font-family: Arial Narrow, Arial, sans-serif;
+  color: #0055A4;
+}
+
+.release {
+  margin-top: auto;
+  padding: 5px 5px 0px 5px;
+}
+
+img {
+  pointer-events: none;
+  padding-right: 15px;
+}
+
+.software_badge{
+  height: 1.4em;
+  width:fit-content;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  color: #0055A4;
+  padding-left: 60px;
+  padding-right: 260px;
+  font-family: Cambria, Georgia, serif;
+}
+
+.line {
+  border-right: 1px solid #0055A4;
+}
+
+.mylink {
+  padding: 5px;
+  font-size: 1em;
+}
+
+.mylink:any-link {
+  color: #0055A4;
+  ;
+  height: fit-content;
+}
+
+
+/* WebKit browsers */
+.mylink:-webkit-any-link {
+  color: #0055A4;
+  height: fit-content;
+}
+
+
+.contact,
+.contact:any-link,
+.contact:-webkit-any-link,
+a,
+a.contact:link {
+  color: #0055A4;
+  text-decoration: underline;
+}
+
+a.contact {
+  color: #0055A4;
+  text-decoration: underline;
+}
+
+a.title_link:link,
+a.title_link:visited,
+a.title_link:-wekit-any-link,
+.title,
+.title:any-link,
+.title:-webkit-any-link,
+.title a,
+.title a:link,
+.title a:visited {
+  color: #0055A4;
+  text-decoration: underline;
+}
+
+.attribution {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  color: grey;
+}
+
+/* selected li
+
+
+/* selected link */
+
+/* menu css */
+.menu-toggle {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  border: none;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+
+}
+
+.menulabel {
+
+  border: none;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+
+}
+
+#menu {
+  margin-top: 50px;
+  display: none;
+}
+
+#menu.is_active {
+  display: inline-block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  padding-left: 5px;
+  width: 35px;
+  height: 5px;
+  background-color: #0055A4;
+  margin: 6px 0;
+  transition: 0.6s;
+
+}
+
+/* Rotate first bar */
+.menulabel.change .bar1 {
+  -webkit-transform: rotate(90deg) translate(14px, 16px);
+  transform: rotate(90deg) translate(14px, 16px);
+  background-color: white;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  -webkit-transform: rotate(90deg) translate(3px, 5px);
+  transform: rotate(90deg) translate(3px, 5px);
+  background-color: white;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(90deg) translate(-8px, -6px);
+  transform: rotate(90deg) translate(-8px, -6px);
+  background-color: white;
+}
+
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0055A4;
+  font-family: Arial Narrow, Arial, sans-serif;
+  padding: 0px;
+  padding-top: 0px;
+  transition: 0.6s;
+  width: 0;
+  overflow: hidden;
+}
+
+.sidenav.open {
+  padding: 20px;
+  padding-top: 5px;
+  min-width: 210px;
+  overflow: auto;
+  z-index: 0;
+
+}
+
+/* Style the sidenav links and the dropdown button */
+
+.boxInput {
+  /*width: 200px;*/
+  font-size: 18px;
+  border: 1px solid #0055A4;
+  border-radius: 4px;
+  background-color: white;
+  color: #0055A4;
+  /*  margin-left: 40px;*/
+  /*  color: black;
+    display: flex;*/
+
+}
+
+.boxInput::placeholder {
+  font-size: 18px;
+  color: #0055A4;
+}
+
+
+
+
+/* Accordion styles */
+.tabs {
+  overflow: hidden;
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+label:hover {
+  background-color: rgb(20, 70, 160);
+
+}
+
+input[type="checkbox"] {
+
+  position: absolute;
+  left: -9999px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all .35s;
+}
+
+.tab-content {
+  height: 0;
+  transition: .5s;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+}
+
+.sidenav input[type="button"] {
+  all: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1em;
+
+
+}
+
+.sidenav input[type="button"]:hover {
+  background-color: rgb(20, 70, 160);
+  text-decoration: underline;
+}
+
+.sidenav .tab-content input[type="button"] {
+  padding-left: 2em;
+}
+
+input:checked+label::after {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+input:checked~.tab-content {
+  height: auto;
+  padding-top: 5px;
+}
+
+/* Could be needed by tool landing page in the future */
+  /* [data-md-tooltip] {
+    position: relative;
+  }
+  [data-md-tooltip]:before {
+      content: attr(data-md-tooltip);
+      position: absolute;
+      bottom: -35px;
+      left: 50%;
+      padding: 8px;
+      transform: translateX(-50%) scale(0);
+      transition: transform 0.3s ease-in-out;
+      transform-origin: top;
+      background: #616161e6;
+      color: white;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: Arial Narrow,Arial,sans-serif;
+      font-weight: 400;
+  }
+  [data-md-tooltip]:hover:before {
+    transform: translateX(-50%) scale(1);
+  }
+
+   */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #0055A4;
+  border-color: #002364;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn:hover {
+  background-color: #0093D0;
+  cursor: pointer;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #0093D0;}
