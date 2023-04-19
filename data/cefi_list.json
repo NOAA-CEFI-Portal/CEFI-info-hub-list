@@ -1851,7 +1851,7 @@
         {
         "url" : "https://www.socat.info/",
         "title" : "Surface Ocean Carbon (SOCAT) Atlas: Bjerknes Climate Data Centre",
-        "desc" : "A Collection of Surface Ocean CO₂ Observations Quality Controlled by the Science Community. It includes access to the LAS viewer.",
+        "desc" : "A Collection of Surface Ocean Carbon Dioxide Observations Quality Controlled by the Science Community. It includes access to the LAS viewer.",
         "thumbnail" : "/data/gridded/images/socat.png",
         "ctype" :  [10],
         "cdata" :   [25],
