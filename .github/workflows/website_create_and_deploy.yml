@@ -33,5 +33,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: website/deploy # The folder the action should deploy.
-  #      repository-name: mathewbiddle/CEFI-info-hub-list
+        repository-name: mathewbiddle/CEFI-info-hub-list
   #      token: ${{ secrets.API_TOKEN_GITHUB }}
