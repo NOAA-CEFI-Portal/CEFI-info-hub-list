@@ -1,0 +1,37 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Create and Deploy Prod HTMl site
+# Includes building automatically when either of the relavent JSON files update on the main branch or on the push of a button
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jinja2
+    - name: create HTML file
+      run: |
+        cd website
+        python create_catalog_landing_page.py
+        # note that static images and CEFI landing page (index.html) are
+        # already in the deploy folder.
+        # for now, don't create individual drawer pages
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: website/deploy # The folder the action should deploy.
+        repository-name: mathewbiddle/CEFI-info-hub-list
+        token: ${{ secrets.API_TOKEN_GITHUB }}
