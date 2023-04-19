@@ -403,7 +403,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Surface Ocean Carbon (SOCAT) Atlas: Bjerknes Climate Data Centre](https://www.socat.info/) 
   
-> A Collection of Surface Ocean CO₂ Observations Quality Controlled by the Science Community. It includes access to the LAS viewer.
+> A Collection of Surface Ocean Carbon Dioxide Observations Quality Controlled by the Science Community. It includes access to the LAS viewer.
   
 [Tides and Currents: NOAA Center for Operational Oceanographic Products and Services](https://tidesandcurrents.noaa.gov) 
   
