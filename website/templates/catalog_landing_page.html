@@ -20,12 +20,13 @@
         <div class="mywrap_head">
             <img src="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/logo-navbar.png" alt="NOAA IOOS Logo" height="75">&nbsp;&nbsp;&nbsp;
             <h1 class ="header_title">CEFI Resources</h1>
+            <p>Source information from <a href="https://github.com/chiaweh2/CEFI-info-hub-list/blob/main/data/cefi_list.json">https://github.com/chiaweh2/CEFI-info-hub-list/blob/main/data/cefi_list.json</a></p>
         </div>
         <div class = "divider"></div>
           <div class ="mywrap_head">
-            <button class="header_button" onclick="location.href='./index.html';" value="Metrics homepage" >CEFI Homepage</button>
+            <button class="header_button" onclick="location.href='./index.html';" value="CEFI homepage" >CEFI Homepage</button>
             <button class="header_button" onclick="location.href='./resources.html';" value="Explore Resources" >Explore Resources</button>
-            <button class="header_button" onclick="location.href='./resources/noaa%20fit/contact';" value="Contact FIT" >Contact FIT</button>
+            <button class="header_button" onclick="location.href='https://github.com/chiaweh2/CEFI-info-hub-list/issues'" value="Contact CEFI" >Contact CEFI</button>
           </div>
         <div class = "divider"></div>
         <div class ="mywrap">
@@ -37,13 +38,27 @@
 
           <input type="button" class="dropbtn" value="See all tools" onclick="resetSearch()">
 
+            <!-- create the dropdown filters-->
           {% for kwd in cat_defs %}
           <div class="dropdown">
             <button class="dropbtn">Filter tools by {{ kwd }} </button>
             <div class="dropdown-content">
-                {% for term in cat_defs[kwd]%}
-                <input type="button" value={{term}} onclick="simpleSearch(this.value)">
+
+                {% for key, term in cat_defs[kwd].items()%}
+
+                {% if not key in ['name','0'] %}
+
+                {% if kwd == 'cvar' %}
+                <input type="button" value="{{term[0]}}" onclick="simpleSearch(this.value)">
+                {% else %}
+
+                <input type="button" value="{{term}}" onclick="simpleSearch(this.value)">
+                {% endif %}
+
+                {% endif %}
+
                 {% endfor %}
+
             </div>
           </div>
             {% endfor %}
@@ -104,28 +119,26 @@
           {% for key, value in configs.items() %}
           <div class = "box">
               {% set my_string = value['tool_abbreviation']  %}
-              <a class = "shortTitle" href= {{my_string}}.html> {{value['tool_abbreviation']}} </a>
-              <div class = "longTitle">{{value['title']}}</div>
-              <div class = "toolbox_drawers">
-                <h3>Toolbox drawer(s):</h3>
-                <ul>
-                {% for kwd in value['toolbox_drawers']%}
-                 <li>{{kwd}}</li>
-                {% endfor %}
-                </ul>
-              </div>
+              <a class = "shortTitle" href= {{value['url']}} target=”_blank”> {{value['title']}} </a>
+              <div class = "longTitle">{{value['desc']}}</div>
               {% for filter in cat_defs %}
-              <div class = "keywords">
+              {% if filter != 'name' or filter != '0' %}
+              {% if value[filter] is defined and value[filter]|length %}
+              <div>
                   <h3>{{filter}}:</h3>
-                  {% if value[filter] is defined and value[filter]|length %}
-                  <p>{{ value[filter] }}</p>
-                  <!--<ul>
-                    {% for kwd in value[filter]%}
-                      <li>{{kwd}}</li>
-                    {% endfor %}
-                  </ul>-->
+                  {% if filter == 'cvar' %}
+                  {% for intmap in value[filter] %}
+                  <a class = "keywords">{{ cat_defs[filter][intmap.__str__()] }}</a> <!-- should be able to add [0] but Broken because defs are wrong-->
+                  {% endfor %}
+                  {% else %}
+                  <!--<p>{{ value[filter] }}</p>-->
+                  {% for intmap in value[filter] %}
+                  <a class = "keywords">{{ cat_defs[filter][intmap.__str__()] }}</a>
+                  {% endfor %}
                   {% endif %}
               </div>
+              {% endif %}
+              {% endif %}
               {% endfor %}
               <!-- <div class = "modelType">{{value['tool_type']}}</div>
               <div class = "modelType">{{value['model_type']}}</div> -->
@@ -204,11 +217,12 @@
       <div class = "divider"></div>
 
         <footer >
-             <img src="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/IOOS_Emblem_Tertiary_B_RGB.png" alt="NOAA Fisheries Logo" height="75">
+             <img src="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/logo-navbar.png" alt="NOAA IOOS Logo" height="75">
          <div class="mywrap_center">
-          <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
-         <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
-         <a class ="mylink" href="https://www.ioos.noaa.gov/">NOAA IOOS</a>
+             <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+             <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+             <a class ="mylink line" href="https://www.ioos.noaa.gov/">NOAA IOOS</a>
+             <a class ="mylink" href="https://github.com/chiaweh2/CEFI-info-hub-list">GitHub Repository</a>
          </div>
         </footer>
         <div class ="attribution">Icons by icons8 https://icons8.com/</div>
@@ -237,7 +251,7 @@
                 box_each_keywords = box[i].getElementsByClassName("keywords")[0];
                 box_each_drawer = box[i].getElementsByClassName("toolbox_drawers")[0];
                 //console.log(box_each_keywords); // For Debugging
-                txtValue = box_each.textContent + " " + box_each_abbrev.innerText + " " + box_each_keywords.innerText + " " + box_each_drawer.innerText;
+                txtValue = box_each.textContent + " " + box_each_abbrev.innerText + " " + box_each_keywords.innerText;
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     box[i].style.display = "";
                 } else {
