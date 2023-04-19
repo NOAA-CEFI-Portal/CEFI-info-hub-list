@@ -12,9 +12,5 @@ The webpages are built from the `website/` directory.
 ```bash
 >cd website
 
->python create_tool_landing_page.py
-2BOX
-AcousticThresholds
-
 >python create_catalog_landing_page.py
 ```
