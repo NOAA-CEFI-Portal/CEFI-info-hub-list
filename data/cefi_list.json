@@ -2,31 +2,6 @@
     "list_name" : "CEFI list",
     
     "categories_definition" : {
-        "ctype" : {
-            "name" : "Analysis Type",
-            "0" : "Any",
-            "1" : "Accumulated precipitation",
-            "2" : "Anomaly",
-            "3" : "Climatology",
-            "4" : "Compare two datasets",
-            "5" : "Composite (average)",
-            "6" : "Correlation",
-            "7" : "ENSO relationships",
-            "8" : "Individual value",
-            "9" : "Ocean/Atmosphere time-series relationships",
-            "10" : "Data subsetting",
-            "11" : "Time-series",
-            "12" : "Regression",
-            "13" : "Seasonal Forecast",
-            "14" : "Time-section plots (Hovmoller)",
-            "15" : "Wavelet analysis",
-            "16" : "Sub seasonal forecast",
-            "17" : "Trajectory",
-            "18" : "Data Distributions",
-            "19" : "Animations",
-            "20" : "Profiles",
-            "21" : "Maps"
-        },
         "cdata" :  {
             "name" : "Dataset",
             "0" : "Any",
@@ -56,16 +31,6 @@
             "7" : "Annual",
             "8" : "Decadal",
             "9" : "Century"
-        },
-        "crange" : {
-            "name" : "Time Range",
-            "0" : "Any",
-            "1" : "Current Values",
-            "2" : "Post 2020",
-            "3" : "Post 1900",
-            "4" : "Pre 1900",
-            "5" : "Full Year",
-            "6" : "Future"
         },
         "cvar" : {
             "name" : "Variables",
@@ -135,10 +100,11 @@
             "15" : "Educational",
             "16" : "International Data Repositories",
             "17" : "Analysis Tools",
-            "18" : "ERDDAP Installations"
+            "18" : "ERDDAP Installations",
+            "19" : "Reports"
         },
         "ctopics" : {
-            "name" : "Topics Types",
+            "name" : "Topics",
             "0" : "Any",
             "1" : "ENSO",
             "2" : "MJO",
@@ -156,7 +122,11 @@
             "14" : "Coastal Processes",
             "15" : "Inundation",
             "16" : "Economics",
-            "17" : "Gulf Stream"
+            "17" : "Gulf Stream",
+            "18" : "Wind Energy",
+            "19" : "Indicators",
+            "20" : "Resiliency",
+            "21" : "Algae Blooms"
         },
         "cplatforms" : {
             "name" : "Observing Platforms",
