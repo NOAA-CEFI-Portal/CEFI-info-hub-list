@@ -159,7 +159,7 @@ body:
     - 19-Wind Energy
     - 20-Indicators
     - 21-Resiliency
-    - 22-Algae Bloom
+    - 22-Algae Blooms
   validations:
     required: true
 - type: dropdown
