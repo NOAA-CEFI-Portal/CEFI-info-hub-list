@@ -54,7 +54,7 @@ body:
     required: false
 - type: markdown
   attributes:
-    value: "# CEFI data/resource categories"
+    value: '# CEFI data/resource categories'
 - type: markdown
   attributes:
     value: '---'
@@ -64,36 +64,6 @@ body:
 - type: markdown
   attributes:
     value: Please select all options that the CEFI data/resource provides.
-- type: dropdown
-  id: ctype
-  attributes:
-    label: Analysis Type
-    multiple: true
-    options:
-    - 1-Any
-    - 2-Accumulated precipitation
-    - 3-Anomaly
-    - 4-Climatology
-    - 5-Compare two datasets
-    - 6-Composite (average)
-    - 7-Correlation
-    - 8-ENSO relationships
-    - 9-Individual value
-    - 10-Ocean/Atmosphere time-series relationships
-    - 11-Data subsetting
-    - 12-Time-series
-    - 13-Regression
-    - 14-Seasonal Forecast
-    - 15-Time-section plots (Hovmoller)
-    - 16-Wavelet analysis
-    - 17-Sub seasonal forecast
-    - 18-Trajectory
-    - 19-Data Distributions
-    - 20-Animations
-    - 21-Profiles
-    - 22-Maps
-  validations:
-    required: true
 - type: dropdown
   id: cdata
   attributes:
@@ -135,21 +105,6 @@ body:
   validations:
     required: true
 - type: dropdown
-  id: crange
-  attributes:
-    label: Time Range
-    multiple: true
-    options:
-    - 1-Any
-    - 2-Current Values
-    - 3-Post 2020
-    - 4-Post 1900
-    - 5-Pre 1900
-    - 6-Full Year
-    - 7-Future
-  validations:
-    required: true
-- type: dropdown
   id: cproduct
   attributes:
     label: Product Types
@@ -174,12 +129,13 @@ body:
     - 17-International Data Repositories
     - 18-Analysis Tools
     - 19-ERDDAP Installations
+    - 20-Reports
   validations:
     required: true
 - type: dropdown
   id: ctopics
   attributes:
-    label: Topics Types
+    label: Topics
     multiple: true
     options:
     - 1-Any
@@ -200,6 +156,10 @@ body:
     - 16-Inundation
     - 17-Economics
     - 18-Gulf Stream
+    - 19-Wind Energy
+    - 20-Indicators
+    - 21-Resiliency
+    - 22-Algae Bloom
   validations:
     required: true
 - type: dropdown
@@ -248,11 +208,12 @@ body:
     - 14-LMEs
     - 15-Hawaii
     - 16-Global
-    - 17-Alaska
-    - '18-US: West Coast'
-    - 19-Louisiana
-    - '20-US: CONUS'
-    - 21-Pacific Islands
+    - 17-Northern Hemisphere
+    - 18-Alaska
+    - '19-US: West Coast'
+    - 20-Louisiana
+    - '21-US: CONUS'
+    - 22-Pacific Islands
   validations:
     required: true
 - type: dropdown
