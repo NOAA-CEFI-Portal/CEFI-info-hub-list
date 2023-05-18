@@ -126,7 +126,7 @@
             "18" : "Wind Energy",
             "19" : "Indicators",
             "20" : "Resiliency",
-            "21" : "Algae Bloom"
+            "21" : "Algae Blooms"
         },
         "cplatforms" : {
             "name" : "Observing Platforms",
