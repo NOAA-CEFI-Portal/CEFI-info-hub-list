@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NOAA Fisheries {{tool_name}}</title>
+    <link rel="icon" type="image/png" href="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/favicon.ico">
+   <link type="text/css" rel="stylesheet" href="./static/main.css" />
+
+</head>
+<body>
+    <div class="container">
+      <div class="mywrap_head">
+        <img src="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/logo-navbar.png" alt="NOAA IOOS Logo" height="75">&nbsp;&nbsp;&nbsp;
+        <h1 class ="header_title">NOAA Integrated Ocean Observing System Metrics</h1>
+    </div>
+    <div class = "divider"></div>
+      <div class ="mywrap_head">
+        <button class="header_button" onclick="location.href='./index.html';" value="Metrics homepage">Metrics Homepage</button>
+        <button class="header_button" onclick="location.href='./resources.html';" value="Explore Resources" >Explore Resources</button>
+        <button class="header_button" onclick="location.href='./resources/noaa%20fit/contact.html';" value="Contact FIT" >Contact FIT</button>
+      </div>
+    <div class = "divider"></div>
+        <div class="mywrap">
+            <h2 class ="title">
+              Tool: {{tool_name}} ({{tool_abbreviation}})
+            </h2>
+        </div>
+        <div class="mywrap">
+              {% if online_app_link is defined and online_app_link|length %}
+              <button class = "codelink" title="link to online application" onclick=" window.open('{{online_app_link}}', '_blank'); return false;">
+                Online Application
+                </button>
+              {% else %}
+                <button class = "codelink nolink" title="Online application unavailable">
+                Online Application
+                </button>
+              {% endif%}
+
+              {% if executable_link is defined and executable_link|length %}
+              <button class = "codelink" title="link to download application" onclick=" window.open('{{executable_link}}', '_blank'); return false;">
+                Download Application
+                </button>
+              {% else %}
+                <button class = "codelink nolink" title="Downloadable application unavailable">
+                Download Application
+                </button>
+              {% endif %}
+
+              {% if website_link is defined and website_link|length %}
+               <button class = "codelink" title="link to website" onclick=" window.open('{{website_link}}', '_blank'); return false;">
+                Website
+                </button>
+              {% else %}
+                <button class = "codelink nolink" title="Website unavailable">
+                Website
+                </button>
+              {% endif %}
+
+
+              {% if documentation_link is defined and documentation_link|length %}
+               <button class = "codelink" title="link to documentation" onclick=" window.open('{{documentation_link}}', '_blank'); return false;">
+                Documentation
+                </button>
+              {% else %}
+                <button class = "codelink nolink" title="Documentation unavailable">
+                Documentation
+                </button>
+              {% endif %}
+
+              {% if source_code_link is defined and source_code_link|length %}
+               <button class = "codelink" title="link to Code Repository" onclick=" window.open('{{source_code_link}}', '_blank'); return false;">
+                Code Repository
+                </button>
+              {% else %}
+                <button class = "codelink nolink" title="Code Repository unavailable">
+                Code Repository
+                </button>
+              {% endif %}
+
+              {% if pdf_download_link is defined and pdf_download_link|length %}
+              <a class = "pdfIcon" title="download pdf"
+                href="{{pdf_download_link}}" download>
+              </a>
+              {% endif %}
+
+              {% if release_badge is defined and release_badge %}
+              {% set release = "https://img.shields.io/github/v/release/"   ~ release_badge  ~ "?color=%230093D0&include_prereleases&label=%20" %}
+              <img class = "versionButton" alt="GitHub release (latest by date)" src="{{release}}">
+              {% elif static_version_number is defined and static_version_number %}
+               <button class = "versionButton">
+                v{{static_version_number}}
+                </button>
+              {% endif %}
+
+        </div>
+      <div class = "divider_thin">
+      </div>
+
+
+
+        {% if authors is defined and authors|length > 1 %}
+        <h3>Authors</h3>
+        <p>
+        {{authors}}
+        </p>
+        {% elif authors is defined and authors %}
+        <h3>Author</h3>
+        <p>
+        {{authors}}
+        </p>
+        {% endif %}
+
+        <h3>Description</h3>
+        <p>
+          {{background_text}}
+        </p>
+
+        {% if references is defined and references|length%}
+        <h3>References</h3>
+            <ul>
+              {% for ref in references %}
+              <li>{{ref}}</li>
+              {% endfor %}
+            </ul>
+        {% endif %}
+
+
+        {% if associated_tools is defined and associated_tools|length %}
+        <h3>
+        Associated Tools
+        </h3>
+            <ul id = "associated_tools">
+            {% for tools in associated_tools%}
+              <li><a href="{{tools.link}}">{{tools.name}}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
+          {% if orgs_of_use is defined and orgs_of_use|length %}
+          <h3>
+          Organizations using {{tool_abbreviation}}
+          </h3>
+            <ul>
+                {% for org in orgs_of_use%}
+                <li><a href="{{org.link}}">{{org.name}}</a></li>
+                {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if citation is defined and citation|length %}
+          <h3>
+          Citation
+          </h3>
+            <p>{{citation}}</p>
+          {% endif %}
+          {% if software_badges is defined and software_badges|length %}
+          <h3>
+          Code Repository Badges
+          </h3>
+            {% for tools in software_badges%}
+            <img class="software_badge" src="{{tools}}">
+            <br>
+            {% endfor %}
+          {% endif %}
+
+          <h3>
+          Keywords
+          </h3>
+          {% if keywords is defined and keywords|length %}
+          <ul>
+          {% for key in keywords%}
+            <li>{{key}}</li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+
+      <div class = "divider"></div>
+
+        <footer >
+         <img src="https://raw.githubusercontent.com/noaa-fisheries-integrated-toolbox/FIT_graphics/main/NOAA_logos/noaa-fisheries-rgb-2line-horizontal-small.png" height="75" alt="NOAA Fisheries">
+         <div class="mywrap_center">
+          <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+         <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+         <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a>
+         </div>
+
+        </footer>
+        <div class ="attribution">Icons by icons8 https://icons8.com/</div>
+
+    </div>
+
+
+</body>
+</html>
