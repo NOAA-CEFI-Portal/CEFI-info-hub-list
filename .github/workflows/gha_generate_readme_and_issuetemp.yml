@@ -1,4 +1,4 @@
-name: Generate README workflow
+name: Generate README and ISSUE TEMPLATE workflow
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
 #    - cron: "0 12 5 * *"
 
 jobs:
-  generate_readme:
+  generate_readme_and_issue_temp:
     runs-on: ubuntu-20.04
 
     steps:
