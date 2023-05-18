@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
+  - yaml
   - pip
   - pip:
     - mdutils
-    - yaml
