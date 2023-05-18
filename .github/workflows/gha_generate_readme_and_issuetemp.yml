@@ -5,6 +5,7 @@ on:
      branches:
        - main
      paths:
+       - 'generate_issue_template.py' 
        - 'generate_readme.py'
        - 'data/cefi_list.json'
 #  schedule:
@@ -33,6 +34,11 @@ jobs:
         run: |
           source activate cefi-info-hub
           python generate_readme.py
+
+      - name: Generate the ISSUE TEMPLATE from JSON source
+        run: |
+          source activate cefi-info-hub
+          python generate_issue_template.py
 
       - name: Commit and push if it changed
         run: |
