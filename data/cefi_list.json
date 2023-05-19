@@ -9,6 +9,7 @@
             "2" : "CMIP5",
             "3" : "CMIP6",
             "4" : "NOAA GODAS",
+            "5" : "CMIP3",
             "6" : "TAO Array",
             "7" : "AMIPS",
             "8" : "ARGO Floats",
@@ -193,12 +194,12 @@
             "16" : "NOAA CPC",
             "17" : "NOAA Tides and Currents",
             "18" : "Other",
-            "25" : "NOAA (Any)",
             "19" : "NOAA Integrated Ecosystem Assessment",
             "20" : "NOAA Coastwatch",
             "21" : "NOAA GFDL",
             "22" : "NOAA Exploration",
-            "24" : "AOOS:  Alaska Ocean Observing System "
+            "23" : "NOAA (Any)",
+            "24" : "AOOS: Alaska Ocean Observing System"
         }
     },
 
@@ -218,7 +219,7 @@
         "ctopics" : [10],
         "cplatforms" : [ ],
         "cregions" : [17, 18],
-        "corgs" : [2, 25]		
+        "corgs" : [2, 23]		
         },
         
         {
@@ -286,7 +287,7 @@
         "ctopics" :   [10],
         "cplatforms" :   [6],
         "cregions" :   [4,15],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },
 
         {
@@ -320,7 +321,7 @@
         "ctopics" :   [10],
         "cplatforms" :   [],
         "cregions" :   [4],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -371,7 +372,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },         
 
         {
@@ -439,7 +440,7 @@
         "ctopics" :   [8, 9 ],
         "cplatforms" :   [],
         "cregions" :   [6, 7, 9],
-        "corgs" :   [19, 25]		
+        "corgs" :   [19, 23]		
         },
 
         {
@@ -473,7 +474,7 @@
         "ctopics" :   [9, 11],
         "cplatforms" :   [],
         "cregions" :   [2, 7, 8, 9],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },
 
         {
@@ -490,7 +491,7 @@
         "ctopics" :   [6, 8],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -507,7 +508,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [11, 25]		
+        "corgs" :   [11, 23]		
         },
 
         {
@@ -558,7 +559,7 @@
         "ctopics" :   [5, 14, 15],
         "cplatforms" :   [],
         "cregions" :   [8, 9, 10, 11, 12, 18, 19, 20],
-        "corgs" :   [12, 25]		
+        "corgs" :   [12, 23]		
         },
 
         {
@@ -575,7 +576,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]	
+        "corgs" :   [1, 23]	
         },
 
         {
@@ -609,7 +610,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]
+        "corgs" :   [1, 23]
         },
 
         {
@@ -626,7 +627,7 @@
         "ctopics" :   [13, 14],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [14, 25]		
+        "corgs" :   [14, 23]		
         },
 
         {
@@ -643,7 +644,7 @@
         "ctopics" :   [1],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },
 
         {
@@ -660,7 +661,7 @@
         "ctopics" :   [1],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -677,7 +678,7 @@
         "ctopics" :   [1],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },    
 
         {
@@ -694,7 +695,7 @@
         "ctopics" :   [1],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -711,7 +712,7 @@
         "ctopics" :   [1],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [11, 25]		
+        "corgs" :   [11, 23]		
         },
 
         {
@@ -728,7 +729,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [22, 25]		
+        "corgs" :   [22, 23]		
         },
 
         {
@@ -745,7 +746,7 @@
         "ctopics" :   [1, 6, 7, 8, 9, 10, 11, 14, 17],
         "cplatforms" :   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15],
         "cregions" :   [15],
-        "corgs" :   [25]		
+        "corgs" :   [23]		
         },
 
         {
@@ -762,7 +763,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -779,7 +780,7 @@
         "ctopics" :   [1, 7, 12],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -796,7 +797,7 @@
         "ctopics" :   [16],
         "cplatforms" :   [],
         "cregions" :   [],
-        "corgs" :   [14, 25]		
+        "corgs" :   [14, 23]		
         },                                    
 
         {
@@ -830,7 +831,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [21, 25]		
+        "corgs" :   [21, 23]		
         },
 
         {
@@ -847,7 +848,7 @@
         "ctopics" :   [1, 17],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [21, 25]		
+        "corgs" :   [21, 23]		
         },
 
         {
@@ -881,7 +882,7 @@
         "ctopics" :   [13, 14],
         "cplatforms" :   [7],
         "cregions" :   [15],
-        "corgs" :   [16, 25]
+        "corgs" :   [16, 23]
         },
 
         {
@@ -898,7 +899,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]
+        "corgs" :   [1, 23]
         },
 
         {
@@ -949,7 +950,7 @@
         "ctopics" :   [11],
         "cplatforms" :   [],
         "cregions" :   [1, 15],
-        "corgs" :   [3, 25]		
+        "corgs" :   [3, 23]		
         },
 
         {
@@ -1221,7 +1222,7 @@
         "ctopics" :   [],
         "cplatforms" :   [ ],
         "cregions" :   [15],
-        "corgs" :   [6, 25]		
+        "corgs" :   [6, 23]		
         },
 
         {
@@ -1272,7 +1273,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },
 
         {
@@ -1527,7 +1528,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]
+        "corgs" :   [1, 23]
         },
 
         {
@@ -1544,7 +1545,7 @@
         "ctopics" :   [1, 4, 7, 11],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -1561,7 +1562,7 @@
         "ctopics" :   [1, 4, 7, 11],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]
+        "corgs" :   [1, 23]
         },
 
         {
@@ -1578,7 +1579,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]
+        "corgs" :   [1, 23]
         }, 
 
         {
@@ -1595,7 +1596,7 @@
         "ctopics" :   [],
         "cplatforms" :   [1],
         "cregions" :   [16],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },
 
         {
@@ -1612,7 +1613,7 @@
         "ctopics" :   [4],
         "cplatforms" :   [],
         "cregions" :   [2, 15],	
-        "corgs" :   [6, 25]		
+        "corgs" :   [6, 23]		
         },
 
         {
@@ -1629,7 +1630,7 @@
         "ctopics" :   [4],
         "cplatforms" :   [],
         "cregions" :   [2, 15],	
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -1646,7 +1647,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },
 
         {
@@ -1663,7 +1664,7 @@
         "ctopics" :   [],
         "cplatforms" :   [3, 11],
         "cregions" :   [1, 2, 15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -1680,7 +1681,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [6, 14],
-        "corgs" :   [15, 25]		
+        "corgs" :   [15, 23]		
         },
 
         {
@@ -1697,7 +1698,7 @@
         "ctopics" :   [],
         "cplatforms" :   [5 ],
         "cregions" :   [15],
-        "corgs" :   [20, 25]		
+        "corgs" :   [20, 23]		
         },
 
         {
@@ -1714,7 +1715,7 @@
         "ctopics" :   [5, 6, 11, 17],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [25]		
+        "corgs" :   [23]		
         },
 
         {
@@ -1731,7 +1732,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [16, 25]		
+        "corgs" :   [16, 23]		
         },
 
         {
@@ -1816,7 +1817,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [6],
-        "corgs" :   [14, 25]		
+        "corgs" :   [14, 23]		
         },
 
         {
@@ -1850,7 +1851,7 @@
         "ctopics" :   [5, 13, 14, 17],
         "cplatforms" :   [6, 13],
         "cregions" :   [6, 7, 8, 9, 10, 18, 20],
-        "corgs" :   [12, 25]		
+        "corgs" :   [12, 23]		
         },
 
         {
@@ -1867,7 +1868,7 @@
         "ctopics" :   [5, 14, 15],
         "cplatforms" :   [13],
         "cregions" :   [16],
-        "corgs" :   [17, 25]		
+        "corgs" :   [17, 23]		
         },
 
         {
@@ -1884,7 +1885,7 @@
         "ctopics" :   [],
         "cplatforms" :   [1],
         "cregions" :   [15],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },     
 
         {
@@ -1918,7 +1919,7 @@
         "ctopics" :   [],
         "cplatforms" :   [],
         "cregions" :   [15],
-        "corgs" :   [1, 25]		
+        "corgs" :   [1, 23]		
         },
 
         {
@@ -1935,7 +1936,7 @@
         "ctopics" :   [13, 14],
         "cplatforms" :   [7],
         "cregions" :   [15],
-        "corgs" :   [2, 25]		
+        "corgs" :   [2, 23]		
         },
 
         {
@@ -1964,6 +1965,21 @@
         "cdata" :   [5,14],
         "ctime" :   [1, 2, 3, 5, 6, 7, 8, 9, 10],
         "crange" :   [2, 3, 4, 5, 6],
+        "cvar" :   [],
+        "cproduct" :   [1, 4, 12],
+        "ctopics" :   [1],
+        "cplatforms" :   [1],
+        "cregions" :   [16],
+        "corgs" :   [2]		
+        },
+
+        {
+        "url" : "https://www.nrel.gov/gis/wind-resource-maps.html",
+        "title" : "Wind Resource Maps and Data: NREL",
+        "desc" : "The website provides wind resource map images and geospatial data for North America, the contiguous United States, Canada, Mexico, and Central America.",
+        "thumbnail" : "/data/gridded/images/windnrel.png",
+        "cdata" :   [5, 14],
+        "ctime" :   [1, 2, 3, 5, 6, 7, 8, 9, 10],
         "cvar" :   [],
         "cproduct" :   [1, 4, 12],
         "ctopics" :   [1],
