@@ -1976,16 +1976,91 @@
         {
         "url" : "https://www.nrel.gov/gis/wind-resource-maps.html",
         "title" : "Wind Resource Maps and Data: NREL",
-        "desc" : "The website provides wind resource map images and geospatial data for North America, the contiguous United States, Canada, Mexico, and Central America.",
+        "desc" : "The website provides wind resource map images and geospatial data for North America, the contiguous United States, Canada, Mexico, and Central America. The data is a wind resource data set, wind forecast data set, and wind power production and forecast data set derived from the Weather Research and Forecasting (WRF) numerical weather prediction model. The data span from 2007 top 2013 is designed for use in a variety of next-generation wind integration analyses and wind power planning.",
         "thumbnail" : "/data/gridded/images/windnrel.png",
-        "cdata" :   [5, 14],
-        "ctime" :   [1, 2, 3, 5, 6, 7, 8, 9, 10],
-        "cvar" :   [],
-        "cproduct" :   [1, 4, 12],
-        "ctopics" :   [1],
-        "cplatforms" :   [1],
-        "cregions" :   [16],
-        "corgs" :   [2]		
-        }
+        "cdata" :   [0],
+        "ctime" :   [0,8],
+        "cvar" :   [0],
+        "cproduct" :   [0,10,11,19],
+        "ctopics" :   [0,8,19],
+        "cplatforms" :   [0],
+        "cregions" :   [0,6,12,16,18,20],
+        "corgs" :   [0]		
+        },
+
+        {
+        "url" : "https://marine.copernicus.eu/access-data/ocean-monitoring-indicators",
+        "title" : "Ocean Monitoring Indicators: Copernicus Marine Service",
+        "desc" : "The gateway to essential ocean variables to monitor the health of the ocean. It includes the monitoring of ocean circulation, climate, variability and extremes, and health.",
+        "thumbnail" : "/data/gridded/images/cpnc_monitor.png",
+        "cdata" :   [0],
+        "ctime" :   [0,8],
+        "cvar" :   [0],
+        "cproduct" :   [0,10,11,13,19],
+        "ctopics" :   [0,8,19],
+        "cplatforms" :   [0],
+        "cregions" :   [0,6,12,16,18,20],
+        "corgs" :   [0]		
+        },
+
+        {
+        "url" : "https://climatechange.chicago.gov/climate-indicators/oceans",
+        "title" : "Climate Change Indicators for Oceans: EPA",
+        "desc" : "EPA partners with more than 40 data contributors from various government agencies, academic institutions, and other organizations to compile a key set of ocean indicators related to the causes and effects of climate change. The indicators are published in EPA's report, Climate Change Indicators in the United States, available on this website and in print.",
+        "thumbnail" : "/data/gridded/images/epa_indicator.png",
+        "cdata" :   [0],
+        "ctime" :   [0,8],
+        "cvar" :   [0,1,2,36,40],
+        "cproduct" :   [0,2,13,19],
+        "ctopics" :   [0,5,6,7,15,19],
+        "cplatforms" :   [0],
+        "cregions" :   [0,6,12,18],
+        "corgs" :   [0]		
+        },
+
+        {
+        "url" : "https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators",
+        "title" : "Global Climate Indicators: WMO",
+        "desc" : "The page provide a report of global climate indicator in ocean heat content, acidification, deoxygenation and blue carbon.",
+        "thumbnail" : "/data/gridded/images/wmo_indicator.png",
+        "cdata" :   [0],
+        "ctime" :   [0],
+        "cvar" :   [0],
+        "cproduct" :   [0,2,13,19],
+        "ctopics" :   [0,5,6,7,14,15,19],
+        "cplatforms" :   [0],
+        "cregions" :   [0,15],
+        "corgs" :   [0]		
+        },
+
+        {
+        "url" : "https://www.epa.gov/climate-indicators/climate-change-indicators-marine-species-distribution",
+        "title" : "Climate Change Indicators for Marine Species Distribution: EPA",
+        "desc" : "This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts.",
+        "thumbnail" : "/data/gridded/images/epa_indicator_marine.png",
+        "cdata" :   [0],
+        "ctime" :   [0,8],
+        "cvar" :   [0,42,43],
+        "cproduct" :   [0,2,13,19],
+        "ctopics" :   [0,6,7,19],
+        "cplatforms" :   [0],
+        "cregions" :   [0,6,12,18],
+        "corgs" :   [0]		
+        },
+        
+        {
+        "url" : "https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends",
+        "title" : "Ocean Conditions Indicators Trends: NOAA Fisheries",
+        "desc" : "This page provide a stoplight table provides an overview of ocean indicators over time. The stoplight table presents a number of climate and atmospheric, local physical, and local biological indicators used to characterize the ocean conditions that may affect the growth and survival of juvenile salmon in the northern California Current. ",
+        "thumbnail" : "/data/gridded/images/fisheries_stoplight.png",
+        "cdata" :   [0],
+        "ctime" :   [0,7,8],
+        "cvar" :   [0,1,42,43],
+        "cproduct" :   [0,2,11,13,19],
+        "ctopics" :   [0,1,4,7,19],
+        "cplatforms" :   [0,1],
+        "cregions" :   [0,6,18],
+        "corgs" :   [0,14,23]		
+        }  
     ]
 }
