@@ -75,15 +75,16 @@ body:
     - 3-CMIP5
     - 4-CMIP6
     - 5-NOAA GODAS
-    - 6-TAO Array
-    - 7-AMIPS
-    - 8-ARGO Floats
-    - 9-NOAA ERSST V5
-    - 10-North American Multi-Model Ensemble (NMME)
-    - 11-Alaska Climate Integrated Modeling (ACLIM data)
-    - 12-NOAA OI SST
-    - 13-Coupled Models
-    - 14-GLORYS
+    - 6-CMIP3
+    - 7-TAO Array
+    - 8-AMIPS
+    - 9-ARGO Floats
+    - 10-NOAA ERSST V5
+    - 11-North American Multi-Model Ensemble (NMME)
+    - 12-Alaska Climate Integrated Modeling (ACLIM data)
+    - 13-NOAA OI SST
+    - 14-Coupled Models
+    - 15-GLORYS
   validations:
     required: true
 - type: dropdown
@@ -241,11 +242,11 @@ body:
     - 17-NOAA CPC
     - 18-NOAA Tides and Currents
     - 19-Other
-    - 20-NOAA (Any)
-    - 21-NOAA Integrated Ecosystem Assessment
-    - 22-NOAA Coastwatch
-    - 23-NOAA GFDL
-    - 24-NOAA Exploration
-    - '25-AOOS:  Alaska Ocean Observing System '
+    - 20-NOAA Integrated Ecosystem Assessment
+    - 21-NOAA Coastwatch
+    - 22-NOAA GFDL
+    - 23-NOAA Exploration
+    - 24-NOAA (Any)
+    - '25-AOOS: Alaska Ocean Observing System'
   validations:
     required: true

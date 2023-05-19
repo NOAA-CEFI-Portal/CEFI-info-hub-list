@@ -436,3 +436,27 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Ocean & Atmosphere Reanalysis Information (reanalyses.org): NOAA/PSL](https://reanalyses.org) 
   
 > The reanalyses.org website is a wiki website whose goal is to facilitate comparison between reanalysis and observational datasets. Evaluative content provided by reanalysis developers, observationalists, and users; and links to detailed data descriptions, data access methods, analysis and plotting tools, and dataset references are all available. There is a specific section on ocean reanalyses.
+  
+[Wind Resource Maps and Data: NREL](https://www.nrel.gov/gis/wind-resource-maps.html) 
+  
+> The website provides wind resource map images and geospatial data for North America, the contiguous United States, Canada, Mexico, and Central America. The data is a wind resource data set, wind forecast data set, and wind power production and forecast data set derived from the Weather Research and Forecasting (WRF) numerical weather prediction model. The data span from 2007 top 2013 is designed for use in a variety of next-generation wind integration analyses and wind power planning.
+  
+[Ocean Monitoring Indicators: Copernicus Marine Service](https://marine.copernicus.eu/access-data/ocean-monitoring-indicators) 
+  
+> The gateway to essential ocean variables to monitor the health of the ocean. It includes the monitoring of ocean circulation, climate, variability and extremes, and health.
+  
+[Climate Change Indicators for Oceans: EPA](https://climatechange.chicago.gov/climate-indicators/oceans) 
+  
+> EPA partners with more than 40 data contributors from various government agencies, academic institutions, and other organizations to compile a key set of ocean indicators related to the causes and effects of climate change. The indicators are published in EPA's report, Climate Change Indicators in the United States, available on this website and in print.
+  
+[Global Climate Indicators: WMO](https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators) 
+  
+> The page provide a report of global climate indicator in ocean heat content, acidification, deoxygenation and blue carbon.
+  
+[Climate Change Indicators for Marine Species Distribution: EPA](https://www.epa.gov/climate-indicators/climate-change-indicators-marine-species-distribution) 
+  
+> This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts.
+  
+[Ocean Conditions Indicators Trends: NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends) 
+  
+> This page provide a stoplight table provides an overview of ocean indicators over time. The stoplight table presents a number of climate and atmospheric, local physical, and local biological indicators used to characterize the ocean conditions that may affect the growth and survival of juvenile salmon in the northern California Current. 
