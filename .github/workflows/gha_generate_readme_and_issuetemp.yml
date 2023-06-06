@@ -32,6 +32,7 @@ jobs:
           && python generate_issue_template.py
 
       - name: Check Links
+        shell: bash -l {0}
         run:  python -m pytest --check-links
 
       - name: Commit and push if it changed
