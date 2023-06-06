@@ -1,6 +1,7 @@
 name: Generate README and ISSUE TEMPLATE workflow
 
 on:
+  pull_request:
   push:
      branches:
        - main
@@ -36,6 +37,7 @@ jobs:
         run:  python -m pytest --check-links
 
       - name: Commit and push if it changed
+        if: success() && github.ref == 'refs/heads/main'
         shell: bash -l {0}
         run: >
           git config user.name "GitHub Action"
