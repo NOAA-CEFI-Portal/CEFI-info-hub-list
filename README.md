@@ -345,7 +345,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > Plots ocean profile data from different reanalyses and analyses including vertical profiles, vertical transects, height by time plots, and temperature-salinity plots. Users can plot anomalies and composite products 
   
-[OceanSITES Flux Data Discovery: NOAA/PMEL ](https://data.pmel.noaa.gov/oceansites/airseafluxes/) 
+[OceanSITES Flux Data Discovery: NOAA/PMEL ](https://www.pmel.noaa.gov/tao/drupal/disdel/) 
   
 > Search for and download surface flux data from the Project OceanSITES. Includes buoys from the Tropical Atmosphere Ocean (TAO) array in the tropical Pacific.
   
@@ -425,7 +425,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > Experimental 1-24 month forecasts of numerous tropical fields, including precipitation, outgoing longwave radiation (OLR), sea surface temperature (SST), and sea surface height (SSH). Forecasts are made using model analogs. 
   
-[Upwelling Indices: NOAA/PMEL](https://www.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html) 
+[Upwelling Indices: NOAA/PMEL](https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html) 
   
 > Historical and current upwelling Indices. 
   
