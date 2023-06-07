@@ -34,7 +34,7 @@ jobs:
 
       - name: Check Links
         shell: bash -l {0}
-        run:  python -m pytest --check-links
+        run:  pytest --verbose --check-links README.md
 
       - name: Commit and push if it changed
         if: success() && github.ref == 'refs/heads/main'
