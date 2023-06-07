@@ -1583,7 +1583,7 @@
         }, 
 
         {
-        "url" : "https://data.pmel.noaa.gov/oceansites/airseafluxes/",
+        "url" : "https://www.pmel.noaa.gov/tao/drupal/disdel/",
         "title" : "OceanSITES Flux Data Discovery: NOAA/PMEL ",
         "desc" : "Search for and download surface flux data from the Project OceanSITES. Includes buoys from the Tropical Atmosphere Ocean (TAO) array in the tropical Pacific.",
         "thumbnail" : "/data/gridded/images/os_logo.gif",
@@ -1923,7 +1923,7 @@
         },
 
         {
-        "url" : "https://www.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html",
+        "url" : "https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html",
         "title" : "Upwelling Indices: NOAA/PMEL",
         "desc" : "Historical and current upwelling Indices. ",
         "thumbnail" : "/data/gridded/images/upwelling.png",
