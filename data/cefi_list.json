@@ -971,7 +971,7 @@
         },
 
         {
-        "url" : "https://data.ioos.us/",
+        "url" : "https://ioos.us",
         "title" : "Integrated Ocean Observing System (IOOS) Data Catalog",
         "desc" : " The IOOS Catalog is the master inventory of IOOS datasets and data access services provided by our network of 11 Regional Associations, functional data assembly centers (DACs), and federal partners.",
         "thumbnail" : "/data/gridded/images/ioos.data.jpg",
