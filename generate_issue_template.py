@@ -20,20 +20,22 @@ issue_temp_head['name'] = 'Contribute to the CEFI resource list'
 # loop over all categories (variable is skipped at the moment)
 for cat in cefi_data['categories_definition'].keys():
     if cat != 'cvar':
-        options = [f"{nt}-{text}" for nt,text in enumerate(cefi_data['categories_definition'][cat].values())]
+        options = [f"{nt-1}-{text}" for nt,text in enumerate(cefi_data['categories_definition'][cat].values())]
+    elif cat == 'cvar':
+        options = [f"{nt-1}-{list[0]}" for nt,list in enumerate(cefi_data['categories_definition'][cat].values())]
 
-        issue_temp_head['body'].append({
-            'type': 'dropdown',
-            'id': cat,
-            'attributes': {
-                'label': cefi_data['categories_definition'][cat]['name'],
-                'multiple': True,
-                'options': options[1:]
-            },
-            'validations': {
-                'required': True
-            }
-        })
+    issue_temp_head['body'].append({
+        'type': 'dropdown',
+        'id': cat,
+        'attributes': {
+            'label': cefi_data['categories_definition'][cat]['name'],
+            'multiple': True,
+            'options': options[1:] # skip key name = 'name'
+        },
+        'validations': {
+            'required': True
+        }
+    })
 
 # output yml file
 OUT_FNAME = '.github/ISSUE_TEMPLATE/add_cefi_resource.yml'
