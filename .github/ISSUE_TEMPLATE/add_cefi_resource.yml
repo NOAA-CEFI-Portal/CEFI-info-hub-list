@@ -70,21 +70,21 @@ body:
     label: Dataset
     multiple: true
     options:
-    - 1-Any
-    - 2-ICOADS
-    - 3-CMIP5
-    - 4-CMIP6
-    - 5-NOAA GODAS
-    - 6-CMIP3
-    - 7-TAO Array
-    - 8-AMIPS
-    - 9-ARGO Floats
-    - 10-NOAA ERSST V5
-    - 11-North American Multi-Model Ensemble (NMME)
-    - 12-Alaska Climate Integrated Modeling (ACLIM data)
-    - 13-NOAA OI SST
-    - 14-Coupled Models
-    - 15-GLORYS
+    - 0-Any
+    - 1-ICOADS
+    - 2-CMIP5
+    - 3-CMIP6
+    - 4-NOAA GODAS
+    - 5-CMIP3
+    - 6-TAO Array
+    - 7-AMIPS
+    - 8-ARGO Floats
+    - 9-NOAA ERSST V5
+    - 10-North American Multi-Model Ensemble (NMME)
+    - 11-Alaska Climate Integrated Modeling (ACLIM data)
+    - 12-NOAA OI SST
+    - 13-Coupled Models
+    - 14-GLORYS
   validations:
     required: true
 - type: dropdown
@@ -93,16 +93,69 @@ body:
     label: Time Scale
     multiple: true
     options:
-    - 1-Any
-    - 2-Sub Daily
-    - 3-Daily
-    - 4-Pentad
-    - 5-Weekly
-    - 6-Monthly
-    - 7-Seasonal
-    - 8-Annual
-    - 9-Decadal
-    - 10-Century
+    - 0-Any
+    - 1-Sub Daily
+    - 2-Daily
+    - 3-Pentad
+    - 4-Weekly
+    - 5-Monthly
+    - 6-Seasonal
+    - 7-Annual
+    - 8-Decadal
+    - 9-Century
+  validations:
+    required: true
+- type: dropdown
+  id: cvar
+  attributes:
+    label: Variables
+    multiple: true
+    options:
+    - 0-Any
+    - 1-Sea Surface Temperature (SST)
+    - 2-Sea Level Height
+    - 3-Sea Level Pressure (SLP)
+    - 4-Surface Pressure
+    - 5-Currents
+    - 6-Salinity
+    - 7-Heat Fluxes
+    - 8-Tidal
+    - 9-Chlorphyll
+    - 10-Mixed Layer Depth
+    - 11-Waves
+    - 12-Precipitation
+    - 13-Sea-Ice
+    - 14-Fish
+    - 15-Wind Stress
+    - 16-Evaporation
+    - 17-Potential Temperature
+    - 18-OLR
+    - 19-Upwelling Indices
+    - 20-Surface Temperature
+    - 21-20C Isotherm
+    - 22-Surface Winds
+    - 23-Kelp and Seagrasses
+    - 24-Algal Blooms
+    - 25-Carbon
+    - 26-Bathymetry
+    - 27-Zooplankton
+    - 28-Phytoplankton
+    - 29-Oxygen
+    - 30-Nitrates
+    - 31-Bottom Temperature
+    - 32-Clouds
+    - 33-Heat Content
+    - 34-DNA
+    - 35-Density
+    - 36-Coral
+    - 37-Sea Mammals
+    - 38-Atmosphere Variables
+    - 39-Ocean Surface Variables
+    - 40-Subsurface Ocean Variables
+    - 41-Chemical Variables
+    - 42-Marine Animal Variables
+    - 43-Fish
+    - 44-Marine Plant Variables
   validations:
     required: true
 - type: dropdown
@@ -111,26 +164,26 @@ body:
     label: Product Types
     multiple: true
     options:
-    - 1-Any
-    - '2-Values: Current'
-    - '3-Values: Historic'
-    - 4-Reanalysis
-    - 5-Gridded Analysis
-    - 6-Interactive Plotting Pages
-    - 7-Forecasts
-    - 8-Stations
-    - 9-Animations
-    - 10-In-situ
-    - 11-Remote Sensing
-    - 12-Data Guides/Repositories
-    - 13-Code Repository
-    - 14-Index Time-series
-    - 15-Image/Animation Repository
-    - 16-Educational
-    - 17-International Data Repositories
-    - 18-Analysis Tools
-    - 19-ERDDAP Installations
-    - 20-Reports
+    - 0-Any
+    - '1-Values: Current'
+    - '2-Values: Historic'
+    - 3-Reanalysis
+    - 4-Gridded Analysis
+    - 5-Interactive Plotting Pages
+    - 6-Forecasts
+    - 7-Stations
+    - 8-Animations
+    - 9-In-situ
+    - 10-Remote Sensing
+    - 11-Data Guides/Repositories
+    - 12-Code Repository
+    - 13-Index Time-series
+    - 14-Image/Animation Repository
+    - 15-Educational
+    - 16-International Data Repositories
+    - 17-Analysis Tools
+    - 18-ERDDAP Installations
+    - 19-Reports
   validations:
     required: true
 - type: dropdown
@@ -139,28 +192,28 @@ body:
     label: Topics
     multiple: true
     options:
-    - 1-Any
-    - 2-ENSO
-    - 3-MJO
-    - 4-AMOC
-    - 5-PDO
-    - 6-Sea Level
-    - 7-Climate Change
-    - 8-Climate Indices
-    - 9-Extremes
-    - 10-Marine Heatwaves
-    - 11-Arctic
-    - 12-Hurricanes
-    - 13-Air-Sea Interaction
-    - 14-Upwelling
-    - 15-Coastal Processes
-    - 16-Inundation
-    - 17-Economics
-    - 18-Gulf Stream
-    - 19-Wind Energy
-    - 20-Indicators
-    - 21-Resiliency
-    - 22-Algae Blooms
+    - 0-Any
+    - 1-ENSO
+    - 2-MJO
+    - 3-AMOC
+    - 4-PDO
+    - 5-Sea Level
+    - 6-Climate Change
+    - 7-Climate Indices
+    - 8-Extremes
+    - 9-Marine Heatwaves
+    - 10-Arctic
+    - 11-Hurricanes
+    - 12-Air-Sea Interaction
+    - 13-Upwelling
+    - 14-Coastal Processes
+    - 15-Inundation
+    - 16-Economics
+    - 17-Gulf Stream
+    - 18-Wind Energy
+    - 19-Indicators
+    - 20-Resiliency
+    - 21-Algae Blooms
   validations:
     required: true
 - type: dropdown
@@ -169,22 +222,22 @@ body:
     label: Observing Platforms
     multiple: true
     options:
-    - 1-Any
-    - 2-Buoy
-    - 3-Platform
-    - 4-Ship
-    - 5-Airplane
-    - 6-Satellite
-    - 7-Floats
-    - 8-CTDs
-    - 9-Saildrone
-    - 10-Drones
-    - 11-Gliders
-    - 12-Radar
-    - 13-River Gauge
-    - 14-Stations
-    - 15-Surface Drifters
-    - 16-Wave Gliders
+    - 0-Any
+    - 1-Buoy
+    - 2-Platform
+    - 3-Ship
+    - 4-Airplane
+    - 5-Satellite
+    - 6-Floats
+    - 7-CTDs
+    - 8-Saildrone
+    - 9-Drones
+    - 10-Gliders
+    - 11-Radar
+    - 12-River Gauge
+    - 13-Stations
+    - 14-Surface Drifters
+    - 15-Wave Gliders
   validations:
     required: true
 - type: dropdown
@@ -193,28 +246,28 @@ body:
     label: Regions
     multiple: true
     options:
-    - 1-Any
-    - 2-Atlantic Ocean
-    - 3-Pacific Ocean
-    - 4-Indian Ocean
-    - 5-Arctic Ocean
-    - 6-Bering Sea
-    - '7-US: Coastal'
-    - 8-California
-    - 9-Oregon
-    - 10-Washington
-    - 11-Maine
-    - 12-Florida
-    - '13-US: East Coast'
-    - 14-LMEs
-    - 15-Hawaii
-    - 16-Global
-    - 17-Northern Hemisphere
-    - 18-Alaska
-    - '19-US: West Coast'
-    - 20-Louisiana
-    - '21-US: CONUS'
-    - 22-Pacific Islands
+    - 0-Any
+    - 1-Atlantic Ocean
+    - 2-Pacific Ocean
+    - 3-Indian Ocean
+    - 4-Arctic Ocean
+    - 5-Bering Sea
+    - '6-US: Coastal'
+    - 7-California
+    - 8-Oregon
+    - 9-Washington
+    - 10-Maine
+    - 11-Florida
+    - '12-US: East Coast'
+    - 13-LMEs
+    - 14-Hawaii
+    - 15-Global
+    - 16-Northern Hemisphere
+    - 17-Alaska
+    - '18-US: West Coast'
+    - 19-Louisiana
+    - '20-US: CONUS'
+    - 21-Pacific Islands
   validations:
     required: true
 - type: dropdown
@@ -223,30 +276,30 @@ body:
     label: Organizations
     multiple: true
     options:
-    - 1-Any
-    - 2-NOAA PSL
-    - 3-NOAA PMEL
-    - 4-NOAA AOML
-    - 5-NOAA NOS
-    - 6-NOAA NESDIS
-    - 7-NOAA NCEI
-    - 8-NCAR/UCAR
-    - 9-U Hawaii
-    - '10-UCSD: University of California at San Diego'
-    - 11-NASA
-    - 12-NOAA IRI
-    - '13-NOAA: Center for Operational Oceanographic Products and Services'
-    - 14-NOAA Data
-    - 15-NOAA Fisheries
-    - '16-IOOS: Integrated Ocean Observing System'
-    - 17-NOAA CPC
-    - 18-NOAA Tides and Currents
-    - 19-Other
-    - 20-NOAA Integrated Ecosystem Assessment
-    - 21-NOAA Coastwatch
-    - 22-NOAA GFDL
-    - 23-NOAA Exploration
-    - 24-NOAA (Any)
-    - '25-AOOS: Alaska Ocean Observing System'
+    - 0-Any
+    - 1-NOAA PSL
+    - 2-NOAA PMEL
+    - 3-NOAA AOML
+    - 4-NOAA NOS
+    - 5-NOAA NESDIS
+    - 6-NOAA NCEI
+    - 7-NCAR/UCAR
+    - 8-U Hawaii
+    - '9-UCSD: University of California at San Diego'
+    - 10-NASA
+    - 11-NOAA IRI
+    - '12-NOAA: Center for Operational Oceanographic Products and Services'
+    - 13-NOAA Data
+    - 14-NOAA Fisheries
+    - '15-IOOS: Integrated Ocean Observing System'
+    - 16-NOAA CPC
+    - 17-NOAA Tides and Currents
+    - 18-Other
+    - 19-NOAA Integrated Ecosystem Assessment
+    - 20-NOAA Coastwatch
+    - 21-NOAA GFDL
+    - 22-NOAA Exploration
+    - 23-NOAA (Any)
+    - '24-AOOS: Alaska Ocean Observing System'
   validations:
     required: true
