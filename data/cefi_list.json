@@ -971,7 +971,7 @@
         },
 
         {
-        "url" : "https://data.ioos.us/",
+        "url" : "https://ioos.us",
         "title" : "Integrated Ocean Observing System (IOOS) Data Catalog",
         "desc" : " The IOOS Catalog is the master inventory of IOOS datasets and data access services provided by our network of 11 Regional Associations, functional data assembly centers (DACs), and federal partners.",
         "thumbnail" : "/data/gridded/images/ioos.data.jpg",
@@ -2061,6 +2061,21 @@
         "cplatforms" :   [0,1],
         "cregions" :   [0,6,18],
         "corgs" :   [0,14,23]		
-        }  
+        },
+        
+        {
+        "url" : "https://www.marineregions.org/sources.php",
+        "title" : "A Collection of Marine Boundaries and Shapefiles: Marine Regions",
+        "desc" : "A large collection of marine related boundaries of various types including ecological classifications, fishing zones, Themed, Regional and others. Boundaries include shape files and Geopackages. ",
+        "thumbnail" : "/data/gridded/images/marineregions.png",
+        "cdata" :   [0],
+        "ctime" :   [0],
+        "cvar" :   [0],
+        "cproduct" :   [12],
+        "ctopics" :   [0],
+        "cplatforms" :   [0],
+        "cregions" :   [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],
+        "corgs" :   [0,18]		
+        }
     ]
 }
