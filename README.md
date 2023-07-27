@@ -201,7 +201,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The Indonesian National Oceanographic Data Center was established in 2018 to integrate marine data collected by various institutions in Indonesia.InaNODC provides easy access to Indonesian marine data.
   
-[Integrated Ocean Observing System (IOOS) Data Catalog](https://data.ioos.us/) 
+[Integrated Ocean Observing System (IOOS) Data Catalog](https://ioos.us) 
   
 >  The IOOS Catalog is the master inventory of IOOS datasets and data access services provided by our network of 11 Regional Associations, functional data assembly centers (DACs), and federal partners.
   
@@ -460,3 +460,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Ocean Conditions Indicators Trends: NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends) 
   
 > This page provide a stoplight table provides an overview of ocean indicators over time. The stoplight table presents a number of climate and atmospheric, local physical, and local biological indicators used to characterize the ocean conditions that may affect the growth and survival of juvenile salmon in the northern California Current. 
+  
+[A Collection of Marine Boundaries and Shapefiles: Marine Regions](https://www.marineregions.org/sources.php) 
+  
+> A large collection of marine related boundaries of various types including ecological classifications, fishing zones, Themed, Regional and others. Boundaries include shape files and Geopackages. 
