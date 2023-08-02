@@ -40,6 +40,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update JSON file and images with the new resource"
-          branch: "new-resource"
+          base: main
+          branch: new-resource
           title: "new resource PR by GHA based on issue #${{ github.event.issue.number }}"
           body: "The new resource that is contributed by the user through issue submission trigger a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}"
+          delete-branch: true
