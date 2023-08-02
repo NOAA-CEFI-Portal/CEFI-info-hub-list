@@ -7,3 +7,4 @@ dependencies:
   - pytest-check-links
   - mdutils
   - pyyaml
+  - requests
