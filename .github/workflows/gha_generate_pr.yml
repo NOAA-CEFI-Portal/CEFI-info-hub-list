@@ -16,14 +16,10 @@ jobs:
           environment-file: environment.yml
           init-shell: bash
 
-      - name: Activate MicroMamba Environment
-        run: source activate cefi-info-hub
-
       - name: Parsing issue, download figure, and modify json
         if: contains(github.event.issue.labels.*.name, 'new resource')
         shell: bash -l {0}
-        run: |
-          python generate_pr_from_issue.py
+        run: python generate_pr_from_issue.py
 
       - name: Commit and Push Changes
         if: contains(github.event.issue.labels.*.name, 'new resource')
