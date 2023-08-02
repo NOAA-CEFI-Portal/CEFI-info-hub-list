@@ -36,10 +36,11 @@ jobs:
 
       - name: Create Pull Request
         if: contains(github.event.issue.labels.*.name, 'new resource')
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update JSON file and images with the new resource"
+          branch: new-resource-#${{ github.event.issue.number }}
           base: main
           title: "new resource PR by GHA based on issue #${{ github.event.issue.number }}"
           body: "The new resource that is contributed by the user through issue submission trigger a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}"
