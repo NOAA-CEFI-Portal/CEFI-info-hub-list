@@ -12,7 +12,18 @@ import json
 import requests
 import generate_readme
 
-
+def check_link_availability(test_url):
+    """
+    check url validity
+    """
+    try:
+        resp = requests.get(test_url)
+        if resp.status_code >= 200 and response.status_code < 300:
+            print(f"The link '{test_url}' is available.")
+        else:
+            print(f"The link '{test_url}' returned a status code: {resp.status_code}")
+    except requests.exceptions.RequestException as error_msg:
+        print(f"An error occurred while checking the link '{test_url}': {error_msg}")
 
 def parse_issue(body):
     """
@@ -110,6 +121,7 @@ if __name__ == '__main__' :
             add_dict[ctype] = option_num_list
 
     # add new entry related to title, desc, and url etc.
+    check_link_availability(contents[1])
     new_entry = {
         "url" : contents[1],
         "title" : contents[0],

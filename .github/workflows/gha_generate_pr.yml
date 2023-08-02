@@ -4,7 +4,7 @@ on:
     types: [opened, labeled]
 
 jobs:
-  generate_json_and_pr:
+  generate_json:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
@@ -21,12 +21,20 @@ jobs:
         shell: bash -l {0}
         run: python generate_pr_from_issue.py
 
+      - name: check JSON format
+        shell: bash -l {0}
+        run: python check_json.py
+
+      - name: include new resource in README
+        shell: bash -l {0}
+        run: python generate_readme.py  
+
       - name: Create Pull Request
         if: contains(github.event.issue.labels.*.name, 'new resource')
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Update JSON file and images with the new resource via GitHub Actions"
+          commit-message: "Update JSON file README.md and images with the new resource via GitHub Actions"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           branch: new_resource_#${{ github.event.issue.number }}
