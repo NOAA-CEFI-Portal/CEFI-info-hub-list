@@ -32,7 +32,7 @@ jobs:
           git config user.email "actions@github.com"
           git add -A
           git commit -m "Update JSON and include figure in images folder via GitHub Actions"
-          git push origin new-resource
+          git push origin new-resource-#${{ github.event.issue.number }}
 
       - name: Create Pull Request
         if: contains(github.event.issue.labels.*.name, 'new resource')
@@ -41,7 +41,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update JSON file and images with the new resource"
           base: main
-          branch: new-resource
           title: "new resource PR by GHA based on issue #${{ github.event.issue.number }}"
           body: "The new resource that is contributed by the user through issue submission trigger a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}"
-          delete-branch: true
