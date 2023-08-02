@@ -27,7 +27,7 @@ jobs:
           init-shell: bash
 
       - name: Activate MicroMamba Environment
-        run: source ${{ env.MICROMAMBA_BIN }}/activate
+        run: source activate cefi-info-hub
 
       - name: Generate the README and ISSUE TEMP from JSON source
         shell: bash -l {0}
