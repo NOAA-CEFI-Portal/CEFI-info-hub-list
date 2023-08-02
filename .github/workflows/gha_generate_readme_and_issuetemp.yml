@@ -26,6 +26,9 @@ jobs:
           environment-file: environment.yml
           init-shell: bash
 
+      - name: Activate MicroMamba Environment
+        run: source ${{ env.MICROMAMBA_BIN }}/activate
+
       - name: Generate the README and ISSUE TEMP from JSON source
         shell: bash -l {0}
         run: >
