@@ -1,0 +1,41 @@
+name: Modify JSON and Create Pull Request
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  generate_json_and_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Micromamba ${{ matrix.python-version }}
+        uses: mamba-org/setup-micromamba@v1
+        with:
+          environment-file: environment.yml
+          init-shell: bash
+
+      - name: Parsing issue, download figure, and modify json
+        if: contains(github.event.issue.labels.*.name, 'new resource')
+        run: |
+          python generate_pr_from_issue.py
+
+      - name: Commit and Push Changes
+        if: contains(github.event.issue.labels.*.name, 'new resource')
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Update JSON and include figure in images folder via GitHub Actions"
+          git push origin ${{ github.ref }}
+
+      - name: Create Pull Request
+        if: contains(github.event.issue.labels.*.name, 'new resource')
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update JSON file and images with the new resource"
+          branch: "new-resource"
+          title: "new resource PR by GHA based on issue #${{ github.event.issue.number }}"
+          body: "The new resource that is contributed by the user through issue submission trigger a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}"
