@@ -5545,6 +5545,40 @@
                 0,
                 18
             ]
+        },
+        {
+            "url": "https://maps.coastalresilience.org",
+            "title": "Coastal Resilience Toolkits : The Nature Conservancy",
+            "desc": "Coastal Resilience is a program led by The Nature Conservancy to examine nature\u2019s role in reducing coastal flood risk. The program consists of an approach, a web mapping tool, and a network of practitioners around the world supporting hazard mitigation and climate adaptation planning.",
+            "thumbnail": "/data/gridded/images/coastal_resilience_toolkits_:_the_nature_conservancy.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                15,
+                17,
+                19
+            ],
+            "ctopics": [
+                6,
+                20
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                15
+            ],
+            "corgs": [
+                0
+            ]
         }
     ]
 }
