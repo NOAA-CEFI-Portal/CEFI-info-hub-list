@@ -6,10 +6,12 @@ based on the created issues of adding new resources
 2. modified the cefi_list.json file with the new entry
 
 """
+import os
 import subprocess
 import json
 import requests
 import generate_readme
+
 
 
 def parse_issue(body):
@@ -49,7 +51,14 @@ if __name__ == '__main__' :
     # A token is automatically provided by GitHub Actions
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
     # Using the GitHub api to get the issue info
-    ISSUE_NUM = "${{ github.event.issue.number }}"
+    # Load the contents of the event payload from GITHUB_EVENT_PATH
+    event_path = os.environ['GITHUB_EVENT_PATH']
+    with open(event_path, 'r') as event_file:
+        event_data = json.load(event_file)
+
+    # Access the issue number from the event payload
+    ISSUE_NUM = event_data['issue']['number']
+
     print(f'issue number: {ISSUE_NUM}' )
     # ISSUE_NUM = "47"
     url = f"https://api.github.com/repos/{ORGNAME}/{REPO_NAME}/issues/{ISSUE_NUM}"
