@@ -50,11 +50,14 @@ if __name__ == '__main__' :
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
     # Using the GitHub api to get the issue info
     ISSUE_NUM = "${{ github.event.issue.number }}"
+    print(f'issue number: {ISSUE_NUM}' )
     # ISSUE_NUM = "47"
     url = f"https://api.github.com/repos/{ORGNAME}/{REPO_NAME}/issues/{ISSUE_NUM}"
 
     response = requests.get(url)
+    print(response)
     issue = response.json()
+    print(issue)
 
     # parsing issue
     headings, contents = parse_issue(issue['body'])
