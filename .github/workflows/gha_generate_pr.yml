@@ -27,9 +27,11 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git branch new-resource
+          git chechout new-resource
           git add -A
           git commit -m "Update JSON and include figure in images folder via GitHub Actions"
-          git push origin ${{ github.ref }}
+          git push origin
 
       - name: Create Pull Request
         if: contains(github.event.issue.labels.*.name, 'new resource')
