@@ -16,6 +16,9 @@ jobs:
           environment-file: environment.yml
           init-shell: bash
 
+      - name: Activate MicroMamba Environment
+        run: source ${{ env.MICROMAMBA_BIN }}/activate
+
       - name: Parsing issue, download figure, and modify json
         if: contains(github.event.issue.labels.*.name, 'new resource')
         shell: bash -l {0}

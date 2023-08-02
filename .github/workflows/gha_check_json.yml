@@ -21,6 +21,9 @@ jobs:
           environment-file: environment.yml
           init-shell: bash
 
+      - name: Activate MicroMamba Environment
+        run: source ${{ env.MICROMAMBA_BIN }}/activate
+
       - name: check JSON source
         shell: bash -l {0}
         run: |
