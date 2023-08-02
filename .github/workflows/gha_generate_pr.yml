@@ -17,7 +17,7 @@ jobs:
           init-shell: bash
 
       - name: Activate MicroMamba Environment
-        run: source ${{ env.MICROMAMBA_BIN }}/activate
+        run: source activate cefi-info-hub
 
       - name: Parsing issue, download figure, and modify json
         if: contains(github.event.issue.labels.*.name, 'new resource')
