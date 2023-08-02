@@ -15,16 +15,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Setup Conda
-        uses: s-weigand/setup-conda@v1
+      - name: Setup Micromamba ${{ matrix.python-version }}
+        uses: mamba-org/setup-micromamba@v1
         with:
-          activate-conda: false
-          conda-channels: conda-forge
-
-      - name: Build environment
-        shell: bash -l {0}
-        run: |
-          conda env create -f environment.yml
+          environment-file: environment.yml
+          init-shell: bash
 
       - name: check JSON source
         run: |
