@@ -10,6 +10,9 @@ jobs:
       - name: Check Out Repository
         uses: actions/checkout@v2
 
+      - name: Create New Branch
+        run: git checkout -b new-resource
+
       - name: Setup Micromamba ${{ matrix.python-version }}
         uses: mamba-org/setup-micromamba@v1
         with:
@@ -27,11 +30,9 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git branch new-resource
-          git checkout new-resource
           git add -A
           git commit -m "Update JSON and include figure in images folder via GitHub Actions"
-          git push origin
+          git push origin new-resource
 
       - name: Create Pull Request
         if: contains(github.event.issue.labels.*.name, 'new resource')
