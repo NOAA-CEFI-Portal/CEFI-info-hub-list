@@ -49,8 +49,8 @@ if __name__ == '__main__' :
     # A token is automatically provided by GitHub Actions
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
     # Using the GitHub api to get the issue info
-    # ISSUE_NUM = "${{ github.event.issue.number }}"
-    ISSUE_NUM = "47"
+    ISSUE_NUM = "${{ github.event.issue.number }}"
+    # ISSUE_NUM = "47"
     url = f"https://api.github.com/repos/{ORGNAME}/{REPO_NAME}/issues/{ISSUE_NUM}"
 
     response = requests.get(url)
