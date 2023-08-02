@@ -9,10 +9,7 @@ jobs:
     steps:
       - name: Check Out Repository
         uses: actions/checkout@v3
-
-      - name: Create New Branch
-        run: git checkout -b new_resource_#${{ github.event.issue.number }}
-
+        
       - name: Setup Micromamba ${{ matrix.python-version }}
         uses: mamba-org/setup-micromamba@v1
         with:
@@ -32,7 +29,6 @@ jobs:
           commit-message: "Update JSON file and images with the new resource via GitHub Actions"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          base: main
           branch: new_resource_#${{ github.event.issue.number }}
           title: "new resource PR by GHA based on issue #${{ github.event.issue.number }}"
           body: "The new resource that is contributed by the user through issue submission trigger a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}"
