@@ -23,5 +23,4 @@ jobs:
 
       - name: check JSON source
         run: |
-          source activate cefi-info-hub
           python check_json.py
