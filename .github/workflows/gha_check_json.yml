@@ -21,10 +21,6 @@ jobs:
           environment-file: environment.yml
           init-shell: bash
 
-      - name: Activate MicroMamba Environment
-        run: source activate cefi-info-hub
-
       - name: check JSON source
         shell: bash -l {0}
-        run: |
-          python check_json.py
+        run: python check_json.py
