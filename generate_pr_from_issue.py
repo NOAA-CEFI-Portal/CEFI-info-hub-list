@@ -23,8 +23,10 @@ def check_link_availability(test_url):
             print(f"The link '{test_url}' is available.")
         else:
             print(f"The link '{test_url}' returned a status code: {resp.status_code}")
+            sys.exit('Error : URL need check')
     except requests.exceptions.RequestException as error_msg:
         print(f"An error occurred while checking the link '{test_url}': {error_msg}")
+        sys.exit('Error : URL not valid')
 
 def parse_issue(body):
     """
