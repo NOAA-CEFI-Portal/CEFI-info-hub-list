@@ -45,6 +45,7 @@ jobs:
             1. Edit the data/cefi_list.json file with new resource at the bottom of the 'lists'
             2. Download the image that is uploaded in the issue
             3. Rerun generate_readme.py to produced the newest README.md that include the new resource
+            Merging this PR will close #${{ github.event.issue.number }}.
           delete-branch: true
           labels: new resource
           assignees: chiaweh2
