@@ -39,7 +39,13 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           branch: new_resource_#${{ github.event.issue.number }}
           title: "new resource PR by GHA based on issue #${{ github.event.issue.number }}"
-          body: "The new resource that is contributed by the user through issue submission trigger a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}"
+          body: >
+            "The new resource that is contributed by the user through issue submission 
+            trigger a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}.
+            The PR will include the following changes 
+            1. Edit the data/cefi_list.json file with new resource at the bottom of the 'lists'
+            2. Download the image that is uploaded in the issue
+            3. Rerun generate_readme.py to produced the newest README.md that include the new resource"
           delete-branch: true
           labels: new resource
           assignees: chiaweh2
