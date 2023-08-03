@@ -7,6 +7,7 @@ based on the created issues of adding new resources
 
 """
 import os
+import sys
 import subprocess
 import json
 import requests
@@ -38,7 +39,9 @@ def parse_issue(body):
         cat_list.append(ori_cefi_data['categories_definition'][cat]['name'])
 
     # Split the text by '\n\n' to separate paragraphs
-    paragraphs = body.split('\n\n')
+    paragraphs = body.split('\n\n')   # original post of issue line change
+    if len(paragraphs) == 1 :
+        paragraphs = body.split('\r\n\r\n')  # edited issue line change
 
     # Initialize lists to store the headings and their content
     head_list = []
@@ -58,20 +61,22 @@ if __name__ == '__main__' :
     # cefi list repo location
     ORGNAME = "NOAA-PSL"
     REPO_NAME = "CEFI-info-hub-list"
+    DEBUG = True
 
     # A token is automatically provided by GitHub Actions
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
     # Using the GitHub api to get the issue info
     # Load the contents of the event payload from GITHUB_EVENT_PATH
-    event_path = os.environ['GITHUB_EVENT_PATH']
-    with open(event_path, 'r') as event_file:
-        event_data = json.load(event_file)
-
-    # Access the issue number from the event payload
-    ISSUE_NUM = event_data['issue']['number']
+    if DEBUG :
+        ISSUE_NUM = 59
+    else :
+        event_path = os.environ['GITHUB_EVENT_PATH']
+        with open(event_path, 'r') as event_file:
+            event_data = json.load(event_file)
+        # Access the issue number from the event payload
+        ISSUE_NUM = event_data['issue']['number']
 
     print(f'issue number: {ISSUE_NUM}' )
-    # ISSUE_NUM = "47"
     url = f"https://api.github.com/repos/{ORGNAME}/{REPO_NAME}/issues/{ISSUE_NUM}"
 
     response = requests.get(url)
@@ -83,7 +88,7 @@ if __name__ == '__main__' :
     headings, contents = parse_issue(issue['body'])
 
     if len(headings) != len(contents) :
-        print("Error : there might be mismatching heading and content from issue parsing.")
+        sys.exit('Error : there might be mismatching heading and content from issue parsing.')
 
     # read source json file (data type definition)
     cefi_data = generate_readme.get_cefi_list()
@@ -132,5 +137,6 @@ if __name__ == '__main__' :
     cefi_data['lists'].append(new_entry)
 
     # Save the dictionary as JSON in the file
-    with open('data/cefi_list.json', "w", encoding="utf-8") as output_json:
-        json.dump(cefi_data, output_json, indent=4)
+    if not DEBUG :
+        with open('data/cefi_list.json', "w", encoding="utf-8") as output_json:
+            json.dump(cefi_data, output_json, indent=4)
