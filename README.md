@@ -464,3 +464,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [A Collection of Marine Boundaries and Shapefiles: Marine Regions](https://www.marineregions.org/sources.php) 
   
 > A large collection of marine related boundaries of various types including ecological classifications, fishing zones, Themed, Regional and others. Boundaries include shape files and Geopackages. 
+  
+[Coastal Resilience Toolkits : The Nature Conservancy](https://maps.coastalresilience.org) 
+  
+> Coastal Resilience is a program led by The Nature Conservancy to examine nature’s role in reducing coastal flood risks. The program consists of an approach, a web mapping tool, and a network of practitioners around the world supporting hazard mitigation and climate adaptation planning.
