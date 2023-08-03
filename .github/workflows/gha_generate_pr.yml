@@ -4,7 +4,7 @@ on:
     types: [opened, labeled]
 
 jobs:
-  generate_json:
+  auto_new_resource_add_pr:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
