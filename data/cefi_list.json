@@ -341,7 +341,7 @@
             "url": "https://data.pmel.noaa.gov/aclim/las/UI.html",
             "title": "Alaska Climate Integrated Modeling (ACLIM data) Live Access Server (LAS): NOAA/PMEL",
             "desc": "The Live Access Server is a highly configurable web server designed to provide access to geo-referenced scientific data. It can present distributed datasets as a unified virtual database through the use of OPeNDAP networking.",
-            "thumbnail": "/data/gridded/images/las.gif",
+            "thumbnail": "images/las.gif",
             "ctype": [
                 10
             ],
@@ -408,7 +408,7 @@
             "url": "http://portal.aoos.org/",
             "title": "Alaska Ocean Observing System (AOOS) Data Portal: IOOS",
             "desc": "The portal contains scientific and management information including real-time sensor feeds, operational oceanographic and atmospheric models, satellite observations and GIS datasets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters. Data can be viewed using interactive maps.",
-            "thumbnail": "/data/gridded/images/aoos.webcam.png",
+            "thumbnail": "images/aoos.webcam.png",
             "ctype": [
                 10
             ],
@@ -477,7 +477,7 @@
             "url": "https://portal.atn.ioos.us/",
             "title": "Animal Telemetry Network (ATN) Data Portal: IOOS",
             "desc": " Animal telemetry is the science of gathering information on the movement and behavior of marine organisms using animal-borne sensors, or tags. The data portal provides an aggregation service for animal telemetry data that comes from a wide array of contributors.",
-            "thumbnail": "/data/gridded/images/telemetry.jpg",
+            "thumbnail": "images/telemetry.jpg",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -503,7 +503,7 @@
             "url": "https://portal.aoos.org",
             "title": "Alaska Ocean Observing System (AOOS) Data Explorer",
             "desc": "Alaskan ocean datasets that describe the biological, chemical and physical characteristics of Alaska and its surrounding waters.",
-            "thumbnail": "/data/gridded/images/aoos.jpg",
+            "thumbnail": "images/aoos.jpg",
             "ctype": [
                 10
             ],
@@ -581,7 +581,7 @@
             "url": "https://data.pmel.noaa.gov/alamo/erddap/index.html",
             "title": "Arctic Heat Ocean Science Experiment: NOAA/PMEL ",
             "desc": "A Collection of float data from the Arctic Heat Ocean Science Experiment",
-            "thumbnail": "/data/gridded/images/arcticheat.png",
+            "thumbnail": "images/arcticheat.png",
             "ctype": [
                 10
             ],
@@ -624,7 +624,7 @@
             "url": "https://arcticdata.io ",
             "title": "Arctic Data Center (NSF)",
             "desc": "The Arctic Data Center is the primary data and software repository for the Arctic section of the National Science Foundation\u2019s Office of Polar Programs. Its mission is to help the research community reproducibly preserve and discover all products of NSF-funded science in the Arctic, including data, metadata, software, documents, and provenance that link these in a coherent knowledge model.",
-            "thumbnail": "/data/gridded/images/adc.png",
+            "thumbnail": "images/adc.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -648,7 +648,7 @@
             "url": "https://psl.noaa.gov/forecasts/seaice/",
             "title": "Arctic Sea-Ice Forecast: NOAA/PSL",
             "desc": "Experimental, 0-10 day sea ice forecasts and related atmosphere and surface variables are produced by the NOAA Physical Sciences Laboratory from a fully coupled ice-ocean-atmosphere model called CAFS and is initialized with the NOAA Global Forecast System (GFS) analyses and the Advanced Microwave Scanning Radiometer 2 (AMSR2) sea ice concentrations. ",
-            "thumbnail": "/data/gridded/images/snowdepth.gif",
+            "thumbnail": "images/snowdepth.gif",
             "ctype": [
                 8,
                 16
@@ -695,7 +695,7 @@
             "url": "https://argo.ucsd.edu/data/data-visualizations/",
             "title": "ARGO Floats Data Visualizations: UCSD",
             "desc": "A set of websites that accesses and plots ARGO floats.",
-            "thumbnail": "/data/gridded/images/argo.png",
+            "thumbnail": "images/argo.png",
             "ctype": [
                 1
             ],
@@ -734,7 +734,7 @@
             "url": "https://psl.noaa.gov/atomic/",
             "title": "Atlantic Tradewind Ocean\u2013Atmosphere Mesoscale Interaction Campaign (ATOMIC).",
             "desc": "A field study conducted during <add dates XXXX> in the tropical North Atlantic east of Barbados and investigated cloud and air-sea interaction processes. Includes a link to the data collected.",
-            "thumbnail": "/data/gridded/images/atomic.jpg",
+            "thumbnail": "images/atomic.jpg",
             "ctype": [
                 1,
                 2,
@@ -790,7 +790,7 @@
             "url": "https://psl.noaa.gov/map/time_plot/",
             "title": "Atmospheric Hovmoller Diagram Web Portal: NOAA/PSL",
             "desc": "Plots time-section (time/latitude or time/longitude) also known as Hovmoller diagram of daily data including the Operational model output, NCEP reanalysis, and 20th Century Reanalysis.",
-            "thumbnail": "/data/gridded/images/timesection.sm.gif",
+            "thumbnail": "images/timesection.sm.gif",
             "ctype": [
                 3,
                 8,
@@ -837,7 +837,7 @@
             "url": "https://portal.aodn.org.au",
             "title": "Australian Ocean Data Network Portal",
             "desc": "The AODN Portal provides access to all available Australian marine and climate science data and is the primary access to Integrated Marine Observing System (IMOS) data including access to the IMOS metadata.",
-            "thumbnail": "/data/gridded/images/aodn.png",
+            "thumbnail": "images/aodn.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -860,7 +860,7 @@
             "url": "https://www.bco-dmo.org",
             "title": "Biological and Chemical Oceanography Data Portal: BCO-DMO",
             "desc": "Serves data and related information online from research projects funded by the Biological and Chemical Oceanography Sections, and the Office of Polar Programs at the U.S. National Science Foundation.",
-            "thumbnail": "/data/gridded/images/BCODMO.png",
+            "thumbnail": "images/BCODMO.png",
             "ctype": [
                 8
             ],
@@ -950,7 +950,7 @@
             "url": " https://www.bodc.ac.uk ",
             "title": "British Oceanographic Data Center",
             "desc": "Marine data sharing and preservation, managed & operated by the National Oceanography Centre",
-            "thumbnail": "/data/gridded/images/bodc.png",
+            "thumbnail": "images/bodc.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -973,7 +973,7 @@
             "url": "https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker",
             "title": "California Current Marine Heatwave Tracker - Blobtracker: NOAA Integrated Ecosystem Assessment",
             "desc": " California Current marine heatwave MHW Tracker is a program designed to understand, describe, and provide a historical context for MHWs including the very strong one that occurred during 2014-16 (termed the \"blob\"). It also tracks current sea surface temperatures (SSTs) and produces a range of indices that could help predict future MHWs expected to impact the California coast. ",
-            "thumbnail": "/data/gridded/images/blob.png",
+            "thumbnail": "images/blob.png",
             "ctype": [
                 2,
                 8,
@@ -1017,7 +1017,7 @@
             "url": "https://calcofi.org/",
             "title": "California Cooperative Oceanic Fisheries Investigation: ",
             "desc": "The California Cooperative Oceanic Fisheries Investigations (CalCOFI) is an oceanographic and marine ecosystem research program off the coast of southern California that holistically studies the physics, biogeochemistry, and biology of the marine environment to inform the sustainable management of marine resources in the context of climate change. Maintains collections of ocean and marine ecosystem data ",
-            "thumbnail": "/data/gridded/images/calcofi.jpg",
+            "thumbnail": "images/calcofi.jpg",
             "ctype": [
                 1,
                 2,
@@ -1059,7 +1059,7 @@
             "url": "https://oceanview.pfeg.noaa.gov/products/mhw/latest",
             "title": "California Current Marine Heatwave Tracker: NOAA/PMEL",
             "desc": "An experimental tool for tracking marine heatwaves",
-            "thumbnail": "/data/gridded/images/CCMHT.png",
+            "thumbnail": "images/CCMHT.png",
             "ctype": [
                 2,
                 8,
@@ -1102,7 +1102,7 @@
             "url": "https://psl.noaa.gov/ipcc/",
             "title": "Climate Change Web Portal: NOAA/PSL",
             "desc": "Plot maps and time series of selected variables from the CMIP5 and CMIP6 archives. There are specific web applications for ocean and marine ecosystems, land and rivers, and northwest Atlantic and US west coast dynamical downscaling simulations.",
-            "thumbnail": "/data/gridded/images/cmip5.ts.sm.png",
+            "thumbnail": "images/cmip5.ts.sm.png",
             "ctype": [
                 1,
                 2,
@@ -1155,7 +1155,7 @@
             "url": "http://iridl.ldeo.columbia.edu/",
             "title": "Climate Data Library and Plotter: NOAA/IRI",
             "desc": "The IRI Data Library is a freely accessible online data repository and analysis tool that allows a user to view, analyze, and download hundreds of terabytes of climate-related data through standard web browsers.",
-            "thumbnail": "/data/gridded/images/oceanchem.gif",
+            "thumbnail": "images/oceanchem.gif",
             "ctype": [
                 1,
                 2,
@@ -1206,7 +1206,7 @@
             "url": "https://climatereanalyzer.org/",
             "title": "Climate Reanalyzer: Climate Change Institute",
             "desc": "Climate Reanalyzer is a platform for visualizing climate and weather datasets.",
-            "thumbnail": "/data/gridded/images/reanalyzer.png",
+            "thumbnail": "images/reanalyzer.png",
             "ctype": [
                 1,
                 2,
@@ -1275,7 +1275,7 @@
             "url": "https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/",
             "title": "Climate Indices: Web Portal (data since 1856)",
             "desc": "Plot and compare monthly climate index time series such as the PDO, the NPI, ENSO, and others.",
-            "thumbnail": "/data/gridded/images/PDO.1900.sm.png",
+            "thumbnail": "images/PDO.1900.sm.png",
             "ctype": [
                 11,
                 21
@@ -1327,7 +1327,7 @@
             "url": "https://tidesandcurrents.noaa.gov/inundationdb/",
             "title": "Coastal Inundation Dashboard: NOAA Center for Operational Oceanographic Products and Services.",
             "desc": "The Coastal Inundation Dashboard provides real-time and historic coastal flooding information at a majority of coastal water level stations operated by the US National Ocean Service (NOS) Center for Operational Oceanographic Products & Services (CO-OPS). The product features both a map based view where users can view coastal flooding information geospatially and a more detailed station view where real-time and historical data for a specific location are highlighted.",
-            "thumbnail": "/data/gridded/images/inundation.png",
+            "thumbnail": "images/inundation.png",
             "ctype": [
                 8,
                 11
@@ -1385,7 +1385,7 @@
             "url": "https://psl.noaa.gov/data/composites/",
             "title": "Climate Composite Analysis Web Portal: NOAA/PSL",
             "desc": "Plots monthly and seasonal composites of variables (mean, anomalies and long-term means). Lat/Lon plots for any desired region. Height cross sections are also available",
-            "thumbnail": "/data/gridded/images/globe.compos.sm.gif",
+            "thumbnail": "images/globe.compos.sm.gif",
             "ctype": [
                 2,
                 3,
@@ -1431,7 +1431,7 @@
             "url": "https://marine.copernicus.eu",
             "title": "Copernicus Marine Service",
             "desc": "Provides free and open marine data and services to enable marine policy, implementation, support Blue growth and scientific innovation.",
-            "thumbnail": "/data/gridded/images/copernicus.gif",
+            "thumbnail": "images/copernicus.gif",
             "ctype": [],
             "cdata": [],
             "ctime": [
@@ -1509,7 +1509,7 @@
             "url": "https://psl.noaa.gov/data/correlation/",
             "title": "Correlations: Monthly/Seasonal Maps and Vertical Cross-Sections: NOAA/PSL",
             "desc": "Plots monthly and seasonal correlations of gridded variables with ocean/atmosphere index time-series like the PNA or ENSO. User can specify their own time-series",
-            "thumbnail": "/data/gridded/images/corr.sm.gif",
+            "thumbnail": "images/corr.sm.gif",
             "ctype": [
                 6,
                 7,
@@ -1554,7 +1554,7 @@
             "url": "https://apps-st.fisheries.noaa.gov/dismap/index.html",
             "title": "Distribution Mapping and Analysis Portal : NOAA Fisheries",
             "desc": "The Distribution Mapping and Analysis Portal (DisMAP) is a user friendly and interactive website designed to provide visualization and analysis tools to better track, understand, and respond to shifting distributions of marine species. It allows users to examine changes in species distributions over time by looking at both location maps as well as graphs of key indicators of a species distribution. (previous hosted at <a href='https://oceanadapt.rutgers.edu'>OceanAdapt</a>)",
-            "thumbnail": "/data/gridded/images/dismap.png",
+            "thumbnail": "images/dismap.png",
             "ctype": [
                 11,
                 21
@@ -1597,7 +1597,7 @@
             "url": "https://www.pmel.noaa.gov/elnino/",
             "title": "El Ni&ntilde;o Theme Page: NOAA/PMEL",
             "desc": "News, research, current status, description, and other information  about ENSO.",
-            "thumbnail": "/data/gridded/images/enso.pmel.gif",
+            "thumbnail": "images/enso.pmel.gif",
             "ctype": [
                 7,
                 8
@@ -1633,7 +1633,7 @@
             "url": "https://psl.noaa.gov/repository/model/compare?frequency=Monthly&event_group=ENSO+Events",
             "title": "ENSO Events Climate Model Comparison From FACTS tools: NOAA/PSL",
             "desc": "FACTS provides the science community with analysis tools; multimodel, multi-forcing climate model ensembles; and observational/reanalysis datasets for addressing a wide class of problems on weather and climate variability and its causes.",
-            "thumbnail": "/data/gridded/images/facts.enso.comp.sm.gif",
+            "thumbnail": "images/facts.enso.comp.sm.gif",
             "ctype": [
                 1,
                 2,
@@ -1692,7 +1692,7 @@
             "url": "https://psl.noaa.gov/enso/",
             "title": "ENSO Status, Research, and Interactive Webtools: NOAA/PSL",
             "desc": "The NOAA Physical Sciences Laboratory studies multiple aspects of ENSO including its precursors, prediction, diversity, and climate and ecosystem impacts. In particular, we supply a set of web tools that allow users to examine historical impacts of ENSO on climate including a <a href='https://psl.noaa.gov/enso/enso.composite.html'> that displays El Ni&ntilde;o and La Ni&ntilde;a averages of different climate variables for winter and summer</a> and <a href='https://psl.noaa.gov/enso/climaterisks/'>ENSO Climate risks</a> for the US, ",
-            "thumbnail": "/data/gridded/images/globe.enso.sm.gif",
+            "thumbnail": "images/globe.enso.sm.gif",
             "ctype": [
                 7,
                 8
@@ -1726,7 +1726,7 @@
             "url": "https://psl.noaa.gov/enso/dashboard.html",
             "title": "ENSO Dashboard: NOAA/PSL",
             "desc": "Time-series plots and current status of various indices that examine ENSO.",
-            "thumbnail": "/data/gridded/images/nino34panel.la.png",
+            "thumbnail": "images/nino34panel.la.png",
             "ctype": [
                 7,
                 8
@@ -1767,7 +1767,7 @@
             "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
             "title": "ENSO Forecasts: NOAA/IRI",
             "desc": "A monthly summary of the status of El Ni\u00f1o, La Ni\u00f1a, and the Southern Oscillation, or ENSO, based on the NINO3.4 index (120-170W, 5S-5N).",
-            "thumbnail": "/data/gridded/images/elnino.iri.png",
+            "thumbnail": "images/elnino.iri.png",
             "ctype": [
                 1,
                 2,
@@ -1814,7 +1814,7 @@
             "url": "https://oceanexplorer.noaa.gov/technology/edna/edna.html",
             "title": "Environmental DNA (eDNA) : NOAA Exploration",
             "desc": "Environmental DNA (eDNA) is the genetic material shed by organisms in the water column. By collecting samples of mucus, feces, or tissue particles, scientists can process eDNA to make new discoveries about marine life. A description of the science, how DNA is gathered, and access to the data and related publications is available. ",
-            "thumbnail": "/data/gridded/images/dna.jpg",
+            "thumbnail": "images/dna.jpg",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -1837,7 +1837,7 @@
             "url": "https://www.ncei.noaa.gov/erddap/information.html",
             "title": "ERDDAP: Easier Access to Scientific Data",
             "desc": "ERDDAP is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps. There are many <a href='https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html#organizations'>ERDDAP installations available</a>, a <a href='https://coastwatch.pfeg.noaa.gov/erddap/search/advanced.html?page=1&itemsPerPage=1000'>general dataset search page</a> and <a href='https://coastwatch.pfeg.noaa.gov/projects/erddap/catalog.html'>help pages</a>",
-            "thumbnail": "/data/gridded/images/erddap.png",
+            "thumbnail": "images/erddap.png",
             "ctype": [
                 8,
                 10,
@@ -1967,7 +1967,7 @@
             "url": "https://psl.noaa.gov/data/animation/",
             "title": "Gridded Climate Data Animator: NOAA/PSL",
             "desc": "Create custom animations from gridded datasets.",
-            "thumbnail": "/data/gridded/images/frame00002.sm.png",
+            "thumbnail": "images/frame00002.sm.png",
             "ctype": [
                 19
             ],
@@ -2017,7 +2017,7 @@
             "url": "https://psl.noaa.gov/repository/facts/",
             "title": "Facility for Climate Assessments (FACTS): NOAA/PSL",
             "desc": "Examine and compare climate model data.",
-            "thumbnail": "/data/gridded/images/facts.corr.sm.gif",
+            "thumbnail": "images/facts.corr.sm.gif",
             "ctype": [
                 4,
                 5,
@@ -2066,7 +2066,7 @@
             "url": "https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states",
             "title": "Fisheries Economics of the United States: NOAA Fisheries",
             "desc": "Published each fall, Fisheries Economics of the United States takes a detailed look at the economic performance of commercial and recreational fisheries and other marine-related sectors on a state, regional, and national basis. It also describes how U.S. commercial and recreational fishing affects the economy, in terms of employment, sales, and value-added impacts. For each region, management highlights give a summary of stock status, updates on catch share programs, and other selected management issues. Economic performance indicators for catch share programs are also reported ",
-            "thumbnail": "/data/gridded/images/economics.png",
+            "thumbnail": "images/economics.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -2087,7 +2087,7 @@
             "url": "https://github.com/AquaAuma/FishGlob_data",
             "title": "FishGlob Database",
             "desc": "A global integrated database of fish biodiversity sampled with scientific bottom trawl surveys. Includes the methods to load, clean, and process public bottom trawl surveys.",
-            "thumbnail": "/data/gridded/images/fishglob_logo.png",
+            "thumbnail": "images/fishglob_logo.png",
             "ctype": [
                 4,
                 5,
@@ -2129,7 +2129,7 @@
             "url": "https://data1.gfdl.noaa.gov",
             "title": "GFDL's Data portal: NOAA/GFDL",
             "desc": "The portal includes access to output from many GFDL model simulations including the CM.4 (from CMIP6). Data can be accessed via OPeNDAP and FTP. ",
-            "thumbnail": "/data/gridded/images/gfdl.png",
+            "thumbnail": "images/gfdl.png",
             "ctype": [],
             "cdata": [
                 3,
@@ -2160,7 +2160,7 @@
             "url": "https://www.gfdl.noaa.gov/visualization/visualizations-oceans/",
             "title": "GFDL's Ocean Visualizations Collection: NOAA/GFDL",
             "desc": "These animations are offered as examples of scientific research results, to convey complex information in graphic form. ",
-            "thumbnail": "/data/gridded/images/gfdl.visual.png",
+            "thumbnail": "images/gfdl.visual.png",
             "ctype": [
                 8,
                 19
@@ -2202,7 +2202,7 @@
             "url": "https://gliders.ioos.us/data/",
             "title": "Glider Distributed Archive Center (DAC) : IOOS",
             "desc": "Glider Radar DAC is a centralized collection of glider data submitted by researchers. The data can be visualized on the site and access is available through <a href='https://gliders.ioos.us/erddap/info/index.html?page=1&itemsPerPage=1000'>ERDDAP</a>.  ",
-            "thumbnail": "/data/gridded/images/glider.jpg",
+            "thumbnail": "images/glider.jpg",
             "ctype": [
                 8,
                 19
@@ -2242,7 +2242,7 @@
             "url": "https://www.cpc.ncep.noaa.gov/products/GODAS/",
             "title": "Global Ocean Data Assimilation System (GODAS) Monitoring Products: NOAA/CPC",
             "desc": "GODAS is an ocean analysis system, conducted by NOAA/National Center for Environmental Prediction, which combines observations with an ocean model to deliver routine ocean monitoring products. Animations, maps, cross sections as a function of depth and latitude or longitude, and time-longitude diagrams are among the many pre-generated plots that are available. Monthly state of the ocean briefings are also available.",
-            "thumbnail": "/data/gridded/images/godas.gif",
+            "thumbnail": "images/godas.gif",
             "ctype": [
                 2,
                 3,
@@ -2301,7 +2301,7 @@
             "url": "https://psl.noaa.gov/data/gridded/",
             "title": "Gridded Climate Datasets: NOAA/PSL",
             "desc": "Search by variable or dataset from the Physical Sciences Laboratory archive.",
-            "thumbnail": "/data/gridded/images/ersst.psl.png",
+            "thumbnail": "images/ersst.psl.png",
             "ctype": [
                 3,
                 8,
@@ -2374,7 +2374,7 @@
             "url": "https://hfradar.ioos.us/",
             "title": "High Frequency (HF) Radar Distributed Archive Center (DAC): IOOS ",
             "desc": "High Frequency (HF) Radar ",
-            "thumbnail": "/data/gridded/images/hf-radar.jpg",
+            "thumbnail": "images/hf-radar.jpg",
             "ctype": [],
             "cdata": [
                 34
@@ -2402,7 +2402,7 @@
             "url": "http://hfrnet.ucsd.edu/thredds/catalog.html",
             "title": "High Frequency (HF) Radar Distributed Archive Center (DAC) THREDDS: UCSD Scripps Institution of Oceanography",
             "desc": "High Frequency (HF) Radar DAC THREDDS access",
-            "thumbnail": "/data/gridded/images/SIO_logo.png",
+            "thumbnail": "images/SIO_logo.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -2428,7 +2428,7 @@
             "url": "https://www.aoml.noaa.gov/hurricane-research-division/",
             "title": "Hurricane Research: NOAA/AOML",
             "desc": "The Hurricane Research Division improves forecasts and helps create a weather-ready nation by collecting observations, assimilating data, and streamlining modeling and prediction science. Their products include historic hurricane data and field program data collections.",
-            "thumbnail": "/data/gridded/images/hurr.aoml.png",
+            "thumbnail": "images/hurr.aoml.png",
             "ctype": [
                 7,
                 8
@@ -2462,7 +2462,7 @@
             "url": "https://nodc.id/oceanography",
             "title": "Indonesian National Oceanographic Data Center (NODC)",
             "desc": "The Indonesian National Oceanographic Data Center was established in 2018 to integrate marine data collected by various institutions in Indonesia.InaNODC provides easy access to Indonesian marine data.",
-            "thumbnail": "/data/gridded/images/nodc.id.png",
+            "thumbnail": "images/nodc.id.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -2485,7 +2485,7 @@
             "url": "https://ioos.us",
             "title": "Integrated Ocean Observing System (IOOS) Data Catalog",
             "desc": " The IOOS Catalog is the master inventory of IOOS datasets and data access services provided by our network of 11 Regional Associations, functional data assembly centers (DACs), and federal partners.",
-            "thumbnail": "/data/gridded/images/ioos.data.jpg",
+            "thumbnail": "images/ioos.data.jpg",
             "ctype": [
                 10
             ],
@@ -2534,7 +2534,7 @@
             "url": "http://www.caricoos.org/drupal/",
             "title": "Integrated Ocean Observing System (IOOS) Caribbean (CariCOOS) Data Portal",
             "desc": "Caribbean Data",
-            "thumbnail": "/data/gridded/images/facts.enso.comp.sm.gif",
+            "thumbnail": "images/facts.enso.comp.sm.gif",
             "ctype": [
                 10
             ],
@@ -2564,7 +2564,7 @@
             "url": "http://data.cencoos.org/",
             "title": "Integrated Ocean Observing System (IOOS) Central and Northern California (CeNCOOS) Data Portal",
             "desc": "The CalOOS Data Portal is a data exploration tool with a customized public web interface that allows scientists, managers, and the general public to discover and access public data.",
-            "thumbnail": "/data/gridded/images/coos.dash.png",
+            "thumbnail": "images/coos.dash.png",
             "ctype": [
                 10
             ],
@@ -2618,7 +2618,7 @@
             "url": "http://data.gcoos.org/",
             "title": "Integrated Ocean Observing System (IOOS) Gulf of Mexico (GCOOS) Data Portal",
             "desc": "The Data Portal provides timely information about the environment of the United States portion of the Gulf of Mexico and its estuaries for use by decision-makers, including researchers, government managers, industry, the military, educators, emergency responders, and the general public.",
-            "thumbnail": "/data/gridded/images/gulf.png",
+            "thumbnail": "images/gulf.png",
             "ctype": [
                 10
             ],
@@ -2689,7 +2689,7 @@
             "url": "http://portal.glos.us/",
             "title": "Integrated Ocean Observing System (IOOS) Great Lakes (GLOS) Data Portal",
             "desc": "A collection of data related to the Great Lakes region. Portal includes links to the source, a viewer, an openDAP access, a map access page, and metadata for the data.",
-            "thumbnail": "/data/gridded/images/greatlakes.png",
+            "thumbnail": "images/greatlakes.png",
             "ctype": [
                 10
             ],
@@ -2756,7 +2756,7 @@
             "url": "https://maracoos.org/",
             "title": "Integrated Ocean Observing System (IOOS) Mid-Atlantic (MARACOOS) Data Portal",
             "desc": "MARACOOS powers understanding and prediction of ocean and coastal systems, enabling better decisions through better data.",
-            "thumbnail": "/data/gridded/images/maracoos.jpg",
+            "thumbnail": "images/maracoos.jpg",
             "ctype": [
                 10
             ],
@@ -2823,7 +2823,7 @@
             "url": "http://nvs.nanoos.org/",
             "title": "Integrated Ocean Observing System (IOOS) Pacific Northwest (NANOOS) Visualization System (NVS)",
             "desc": "NVS provides easy access to observations, forecasts, data, and visualizations.",
-            "thumbnail": "/data/gridded/images/Explorer.png",
+            "thumbnail": "images/Explorer.png",
             "ctype": [
                 10
             ],
@@ -2889,7 +2889,7 @@
             "url": "http://neracoos.org",
             "title": "Integrated Ocean Observing System (IOOS) Northeast Atlantic (NERACOOS) Data Portal",
             "desc": "Producing, integrating, and communicating information about our region\u2019s coasts and oceans.",
-            "thumbnail": "/data/gridded/images/facts.enso.comp.sm.gif",
+            "thumbnail": "images/facts.enso.comp.sm.gif",
             "ctype": [
                 10
             ],
@@ -2952,7 +2952,7 @@
             "url": "http://oos.soest.hawaii.edu/pacioos/voyager/",
             "title": "Integrated Ocean Observing System (IOOS) Pacific Islands (PacIOOS) Data Portal",
             "desc": "An interactive map interface for visualizing and downloading oceanographic observations, forecasts, and other geospatial data and information related to the marine environment and beyond.",
-            "thumbnail": "/data/gridded/images/pacioos.png",
+            "thumbnail": "images/pacioos.png",
             "ctype": [
                 10
             ],
@@ -3016,7 +3016,7 @@
             "url": "https://sccoos.org/overview/",
             "title": "Integrated Ocean Observing System (IOOS) Southern California (SCCOOS) Data Portal",
             "desc": "The Southern California Coastal Ocean Observing System (SCCOOS) contributes to the national U.S. Integrated Ocean Observing System (IOOS\u00ae). The principal goal of CeNCOOS and SCCOOS is to provide observations and products to a diverse stakeholder community of managers and planners, operational decision makers, scientists, and the general public.  ",
-            "thumbnail": "/data/gridded/images/sccoos.png",
+            "thumbnail": "images/sccoos.png",
             "ctype": [
                 10
             ],
@@ -3055,7 +3055,7 @@
             "url": "http://portal.secoora.org/",
             "title": "Integrated Ocean Observing System (IOOS) Southeast Atlantic (SECOORA) Data Portal",
             "desc": "The SECOORA Data Portal allows users to search for and download station data.",
-            "thumbnail": "/data/gridded/images/secoora.png",
+            "thumbnail": "images/secoora.png",
             "ctype": [
                 10
             ],
@@ -3095,7 +3095,7 @@
             "url": "https://ioos.github.io/ioos_code_lab/content/intro.html",
             "title": "Integrated Ocean Observing System (IOOS) Code Lab",
             "desc": "The IOOS CodeLab is a collection of tutorials and examples of how to access and utilize the many IOOS technologies and data sources available. This site is geared towards scientists and environmental managers interested in \u201cdiving deep\u201d into the numbers and creating original plots and data analysis. Most notebook examples are written in Python, however, we also have a growing number of notebooks written in Matlab, and R.",
-            "thumbnail": "/data/gridded/images/ioos_CodeLab.png",
+            "thumbnail": "images/ioos_CodeLab.png",
             "ctype": [
                 10
             ],
@@ -3119,7 +3119,7 @@
             "url": "https://github.com/ioos",
             "title": "Integrated Ocean Observing System (IOOS) GitHub",
             "desc": "The IOOS Data Management and Cyberinfrastructure (DMAC) program maintains a collection of open source software packages, documentation, and utilities to facilitate data distribution and cyberinfrastructure implementation within our community of practice. These resources are all contained within the IOOS GitHub organization.",
-            "thumbnail": "/data/gridded/images/ioos.github.jpeg",
+            "thumbnail": "images/ioos.github.jpeg",
             "ctype": [
                 10
             ],
@@ -3166,7 +3166,7 @@
             "url": "https://ioos.us/compliance-checker",
             "title": "Integrated Ocean Observing System (IOOS) Metadata Compliance Checker",
             "desc": "The IOOS Compliance Checker is a Python-based tool for data providers to check for completeness and community standard compliance of local or remote netCDF files against CF and ACDD file standards.",
-            "thumbnail": "/data/gridded/images/compliance.png",
+            "thumbnail": "images/compliance.png",
             "ctype": [
                 10
             ],
@@ -3202,7 +3202,7 @@
             "url": "https://icoads.noaa.gov/",
             "title": "International Comprehensive Ocean-Atmosphere Data Set  (ICOADS): NOAA/NCEI",
             "desc": "The International Comprehensive Ocean-Atmosphere Data Set (ICOADS) offers surface marine data spanning 1662-present, and gridded monthly summary products for 2\u00b0 latitude x 2\u00b0 longitude boxes back to 1800",
-            "thumbnail": "/data/gridded/images/icoadsLogo.png",
+            "thumbnail": "images/icoadsLogo.png",
             "ctype": [
                 10
             ],
@@ -3263,7 +3263,7 @@
             "url": "https://www.jodc.go.jp/jodcweb/ ",
             "title": "Japan Oceanographic Data Center",
             "desc": "The Japan Oceanographic Data Center (JODC) collects and manages the oceanographic data observed by various organizations in Japan, which include the governmental organizations, universities and the other marine research institutes.",
-            "thumbnail": "/data/gridded/images/JODC.png",
+            "thumbnail": "images/JODC.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -3286,7 +3286,7 @@
             "url": "https://archive.iwlearn.net/lme.edc.uri.edu/lme.edc.uri.edu/lme.edc.uri.edu/index.html",
             "title": "Large Marine Ecosystems of the World",
             "desc": "Introduction to the LME Portal: The Large Marine Ecosystem Approach to the Assessment and Management of Coastal Ocean Waters.",
-            "thumbnail": "/data/gridded/images/productivity.jpg",
+            "thumbnail": "images/productivity.jpg",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -3317,7 +3317,7 @@
             "url": "https://github.com/NOAA-PMEL/las9",
             "title": "Live Action Server (LAS) Code Repository: NOAA/PMEL",
             "desc": "The latest LAS code in NOAA's Github site",
-            "thumbnail": "/data/gridded/images/arcticheat.png",
+            "thumbnail": "images/arcticheat.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -3340,7 +3340,7 @@
             "url": "https://mbon.ioos.us/",
             "title": "Marine Biodiversity Observation Network (MBON) Portal: IOOS",
             "desc": "The Marine Biodiversity Observation Network (MBON) Portal can be used to search and download real-time, delayed-mode, and historical data for in situ and remotely-sensed physical, chemical, and biological observations, compare datasets across regions and disciplines, generate and share custom data views, link to information about protocols, methods and best practices for biological observing, and access a full suite of tools developed with a broad range of IOOS and MBON partners.",
-            "thumbnail": "/data/gridded/images/rockfish-map-view.png",
+            "thumbnail": "images/rockfish-map-view.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -3366,7 +3366,7 @@
             "url": "https://psl.noaa.gov/map/",
             "title": "Current Climate Condition Web Portal: NOAA/PSL",
             "desc": "A collection of products including current outgoing longwave radiation (OLR) and SST maps and Hovm\u00f6ller (time-latitude or longitude) diagrams. Also includes plots and animations of current conditions from the NCEP/NCAR Reanalysis and Global Forecast System (GFS) at different time scales. Plots include both means and anomalies.",
-            "thumbnail": "/data/gridded/images/map.psl.gif",
+            "thumbnail": "images/map.psl.gif",
             "ctype": [
                 1,
                 2,
@@ -3415,7 +3415,7 @@
             "url": "https://psl.noaa.gov/marine-heatwaves/",
             "title": "Marine Heatwaves: NOAA/PSL",
             "desc": "Access current ocean maps, forecasts of heatwaves, and interactive tools for users to explore ocean heatwaves themselves.",
-            "thumbnail": "/data/gridded/images/mhw.sm.png",
+            "thumbnail": "images/mhw.sm.png",
             "ctype": [
                 2,
                 3,
@@ -3461,7 +3461,7 @@
             "url": "https://psl.noaa.gov/mjo/",
             "title": "MJO Research: NOAA/PSL",
             "desc": "The Madden and Julian Oscillation (MJO) is a mode of sub-seasonal atmospheric variability (propagates around the global topics with a period of approximately 30-60 days) that influences the location and strength of tropical precipitation. PSL is studying the MJO and how it impacts climate processes including the ENSO, the Indian Monsoon, and precipitation in mid-latitudes.",
-            "thumbnail": "/data/gridded/images/mjo.png",
+            "thumbnail": "images/mjo.png",
             "ctype": [
                 7,
                 8
@@ -3498,7 +3498,7 @@
             "url": "https://www.mbari.org/our-work/data-repositories/",
             "title": "Monterey Bay Aquarium Research Insitute (MBARI)",
             "desc": "MBARI creates and globally scales the visionary technologies required to explore, map, and understand our changing ocean.",
-            "thumbnail": "/data/gridded/images/mbari.png",
+            "thumbnail": "images/mbari.png",
             "ctype": [
                 1,
                 2,
@@ -3540,7 +3540,7 @@
             "url": "https://data.noaa.gov/onestop/",
             "title": "NOAA One Stop Data Search Platform: NOAA",
             "desc": "A NOAA Data Search Platform for  geophysical, oceans, coastal, weather and climate data.",
-            "thumbnail": "/data/gridded/images/noaa.onestop.png",
+            "thumbnail": "images/noaa.onestop.png",
             "ctype": [
                 10
             ],
@@ -3642,7 +3642,7 @@
             "url": "https://oceanadapt.rutgers.edu/",
             "title": "Ocean Adapt Marine Species Distribution: Rutgers University",
             "desc": "OceanAdapt is a collaboration between the Pinsky Lab of Rutgers University, the National Marine Fisheries Service (NMFS), and Fisheries and Oceans Canada (DFO) to provide information about the impacts of changing climate and other factors on the distribution of marine life to the National Climate Assessment, fisheries communities, policymakers, and to others. This website hosts an annually updated database of scientific surveys in the United States and Canada, providing tools for exploring changes in marine fish and invertebrate distributions. ",
-            "thumbnail": "/data/gridded/images/adept.png",
+            "thumbnail": "images/adept.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -3668,7 +3668,7 @@
             "url": "https://obis.org",
             "title": "Ocean Biodiversity Information System (OBIS)",
             "desc": "OBIS is a global open-access data and information clearing-house on marine biodiversity for science, conservation and sustainable development. ",
-            "thumbnail": "/data/gridded/images/obis.png",
+            "thumbnail": "images/obis.png",
             "ctype": [
                 1,
                 2,
@@ -3723,7 +3723,7 @@
             "url": "https://www.oceannetworks.ca",
             "title": "Ocean Networks Canada",
             "desc": "Ocean Networks Canada's world-leading ocean observatories bring data to the surface, accelerating scientific discovery and delivering solutions that support ocean-and-planet sustainability for future generations.",
-            "thumbnail": "/data/gridded/images/oceancan.png",
+            "thumbnail": "images/oceancan.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -3746,7 +3746,7 @@
             "url": "https://ooinet.oceanobservatories.org/",
             "title": "Ocean Observatories Initiative",
             "desc": "The page provides access to ocean array datasets including moorings and profilers in different locations. They also have <a href='https://oceanobservatories.org/community-tools/'>compiled tools</a> that their community members have built to access, analyze, and visualize the OOI datasets.",
-            "thumbnail": "/data/gridded/images/ooi.png",
+            "thumbnail": "images/ooi.png",
             "ctype": [
                 1,
                 2,
@@ -3788,7 +3788,7 @@
             "url": "https://eos.unh.edu/ocean-process-analysis-laboratory/data",
             "title": "Ocean Process Analysis Laboratory: UNH",
             "desc": "Hydrographic and biochemical data collection in the coastal Gulf of Maine region has been central to much of OPAL's work through the years. This has included shipboard and moored sampling programs. Several teams within OPAL are active in maintaining ocean observing stations that support both regional and global applications. Data and supporting information for a range of platforms supported by the lab is accessible.",
-            "thumbnail": "/data/gridded/images/unh.png",
+            "thumbnail": "images/unh.png",
             "ctype": [
                 1,
                 2,
@@ -3834,7 +3834,7 @@
             "url": "https://climatedataguide.ucar.edu/climate-data/ocean",
             "title": "Ocean Data Guide: NCAR/UCAR",
             "desc": "Search for ocean variables and datasets. Detailed information about the datasets, including their strengths and limitations are provided by experts in the field.",
-            "thumbnail": "/data/gridded/images/ncar.climate.png",
+            "thumbnail": "images/ncar.climate.png",
             "ctype": [
                 1,
                 2,
@@ -3879,7 +3879,7 @@
             "url": "https://oceancolor.gsfc.nasa.gov",
             "title": "Oceancolor Web: NASA",
             "desc": "NASA's OceanColor Web services include the collection, processing, calibration, validation, archive and distribution of ocean-related products from a large number of operational, satellite-based remote-sensing missions providing ocean color, sea surface temperature and sea surface salinity data to the international research community.",
-            "thumbnail": "/data/gridded/images/oceancolor.png",
+            "thumbnail": "images/oceancolor.png",
             "ctype": [
                 10
             ],
@@ -3917,7 +3917,7 @@
             "url": "https://marine.copernicus.eu/access-data/ocean-visualisation-tools",
             "title": "Ocean Learning: Copernicus",
             "desc": "A variety of ocean visualization tools are available that allow visitors with different knowledge levels (beginner, intermediate and advanced) to explore the ocean digitally.",
-            "thumbnail": "/data/gridded/images/myocean.png",
+            "thumbnail": "images/myocean.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -3938,7 +3938,7 @@
             "url": "https://psl.noaa.gov/data/oceanwrit/map/",
             "title": "Ocean Reanalysis Intercomparison Tools (WRIT): Monthly Mapping and Composites: NOAA/PSL",
             "desc": "Plot and compare monthly/seasonal composite maps and depth corss-sections from different ocean reanalyses and observational datasets",
-            "thumbnail": "/data/gridded/images/writ.map.sm.gif",
+            "thumbnail": "images/writ.map.sm.gif",
             "ctype": [
                 1,
                 2,
@@ -3999,7 +3999,7 @@
             "url": "https://psl.noaa.gov/data/oceanwrit/timeseries/",
             "title": "Ocean Reanalysis Intercomparison Tools (WRIT): Monthly Timeseries Plotting and Comparisons: NOAA/PSL",
             "desc": "Plot and compare monthly timeseries from different ocean reanalyses and observational datasets",
-            "thumbnail": "/data/gridded/images/writ.time.sm.gif",
+            "thumbnail": "images/writ.time.sm.gif",
             "ctype": [
                 1,
                 2,
@@ -4065,7 +4065,7 @@
             "url": "https://psl.noaa.gov/data/oceanwrit/corr/",
             "title": "Ocean Reanalysis Intercomparison Tools (WRIT): Monthly Correlations: NOAA/PSL",
             "desc": "Create maps and cross-sections of the correlations between time-series and variables from ocean reanalyses and observational datasets. Time-series available includes ENSO, Hurricane, PDO, SOI, PNA, and more.",
-            "thumbnail": "/data/gridded/images/writ.map.sm.gif",
+            "thumbnail": "images/writ.map.sm.gif",
             "ctype": [
                 6,
                 12
@@ -4131,7 +4131,7 @@
             "url": "https://psl.noaa.gov/data/oceanwrit/profile/",
             "title": "Ocean Reanalysis Intercomparison Tools (WRIT): Ocean Profiles: NOAA/PSL",
             "desc": "Plots ocean profile data from different reanalyses and analyses including vertical profiles, vertical transects, height by time plots, and temperature-salinity plots. Users can plot anomalies and composite products ",
-            "thumbnail": "/data/gridded/images/profile.png",
+            "thumbnail": "images/profile.png",
             "ctype": [
                 2,
                 3,
@@ -4180,7 +4180,7 @@
             "url": "https://www.pmel.noaa.gov/tao/drupal/disdel/",
             "title": "OceanSITES Flux Data Discovery: NOAA/PMEL ",
             "desc": "Search for and download surface flux data from the Project OceanSITES. Includes buoys from the Tropical Atmosphere Ocean (TAO) array in the tropical Pacific.",
-            "thumbnail": "/data/gridded/images/os_logo.gif",
+            "thumbnail": "images/os_logo.gif",
             "ctype": [
                 10
             ],
@@ -4227,7 +4227,7 @@
             "url": "https://www.ncei.noaa.gov/access/monitoring/pdo/",
             "title": "Pacific Decadal Oscillation (PDO): NOAA/NCEI",
             "desc": "Describes the PDO which is the leading pattern of SST variability in the North Pacific Ocean and provides the time series of the amplitude and phase of the PDO.  (the page is similar to the original created by Nate Mantua).",
-            "thumbnail": "/data/gridded/images/pdo.ncei.png",
+            "thumbnail": "images/pdo.ncei.png",
             "ctype": [
                 8,
                 9
@@ -4268,7 +4268,7 @@
             "url": "https://psl.noaa.gov/pdo/",
             "title": "Pacific Decadal Oscillation (PDO): NOAA/PSL",
             "desc": "Illustrates the PDO pattern from different datasets and provides a PDO time-series based on an ensemble of SST datasets.",
-            "thumbnail": "/data/gridded/images/pdo.psl.png",
+            "thumbnail": "images/pdo.psl.png",
             "ctype": [
                 8,
                 9
@@ -4309,7 +4309,7 @@
             "url": "https://data.pmel.noaa.gov/pmel/erddap/info/index.html?page=1&itemsPerPage=1000",
             "title": "PMEL ERDDAP Datasets: NOAA/PMEL",
             "desc": "A Catalog of PMEL's data collection that can be accessed using ERDDAP. ",
-            "thumbnail": "/data/gridded/images/erddap.pmel.png",
+            "thumbnail": "images/erddap.pmel.png",
             "ctype": [
                 1,
                 2,
@@ -4358,7 +4358,7 @@
             "url": "https://psl.noaa.gov/data/cruises/",
             "title": "Research Cruise Data: NOAA/PSL",
             "desc": "A collection of PSLs Research Cruises with links to data and products.",
-            "thumbnail": "/data/gridded/images/cruises.png",
+            "thumbnail": "images/cruises.png",
             "ctype": [
                 8
             ],
@@ -4403,7 +4403,7 @@
             "url": "https://sanctsound.ioos.us/",
             "title": "Sanctuary Soundscapes: IOOS",
             "desc": "NOAA and the U.S. Navy are working to better understand underwater sound within the National Marine Sanctuary System. For the next few years, these agencies will work with numerous scientific partners to study sound within seven national marine sanctuaries and one marine national monument, which includes waters off Hawai\u2019i and the east and west coasts. Standardized measurements will assess sounds produced by marine animals, physical processes (e.g., wind and waves), and human activities. Collectively, this information will help NOAA and the Navy measure sound levels and baseline acoustic conditions in sanctuaries.",
-            "thumbnail": "/data/gridded/images/soundscape.png",
+            "thumbnail": "images/soundscape.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -4425,7 +4425,7 @@
             "url": "https://coastwatch.noaa.gov/cwn/products.html",
             "title": "Satellite Data Products & Services To Support Ocean, Coastal, and Fresh Water Applications: NOAA Coastwatch",
             "desc": "NOAA CoastWatch exists to help people access and use global and regional satellite data for ocean and coastal applications.  The satellite data products and services can support research, resource management, and decision-making on topics such as understanding, managing and protecting ocean and coastal resources and for assessing impacts of environmental change in ecosystems, weather, and climate.",
-            "thumbnail": "/data/gridded/images/NOAAcoastwatch.png",
+            "thumbnail": "images/NOAAcoastwatch.png",
             "ctype": [
                 10
             ],
@@ -4495,7 +4495,7 @@
             "url": "https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ",
             "title": "Science on a Sphere (SOS) Ocean Dataset Videos",
             "desc": "Researchers at NOAA developed Science On a Sphere\u00ae as an educational tool to help illustrate Earth System science to people of all ages. Animated images of atmospheric storms, climate change, and ocean temperature can be shown on the sphere, which is used to explain what are sometimes complex environmental processes. Videos can also be downloaded for viewing from the web.",
-            "thumbnail": "/data/gridded/images/sos.png",
+            "thumbnail": "images/sos.png",
             "ctype": [
                 19
             ],
@@ -4578,7 +4578,7 @@
             "url": "https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml",
             "title": "Seasonal Forecasts from the North American Multi-Model Ensemble (NMME): NOAA/CPC",
             "desc": "The webpage for the regionalized North American Multi-Model Ensemble (NMME) forecasts has been implemented to enable National Meteorological Services (NMSs) around the globe and the public to quickly access operational seasonal model forecasts.",
-            "thumbnail": "/data/gridded/images/nmme.png",
+            "thumbnail": "images/nmme.png",
             "ctype": [
                 13
             ],
@@ -4615,7 +4615,7 @@
             "url": "https://shorestations.ucsd.edu/about/",
             "title": "Shore Stations Program: UCSD Scripps Institution of Oceanography",
             "desc": "The Shore Stations Program collects and provides access to current and historical daily sea surface temperature (SST) and salinity (SSS) measurements observed at shoreline locations along the west coast of the United States. Currently, there are 10 active stations located along the California coast, ranging from La Jolla to Trinidad.",
-            "thumbnail": "/data/gridded/images/shore.png",
+            "thumbnail": "images/shore.png",
             "ctype": [
                 1,
                 2,
@@ -4658,7 +4658,7 @@
             "url": "https://ocean.floridamarine.org/safmc_dashboard/marine-traffic.html",
             "title": "South Atlantic Fishery Management Council's (SAFMC) Digital Dashboard: Marine Traffic",
             "desc": "Their map provides information about current geographical positions of ships as well as other related information, such as ships\u2019 details, their destination, estimated time of arrival, or photographs.",
-            "thumbnail": "/data/gridded/images/marinetraffic.png",
+            "thumbnail": "images/marinetraffic.png",
             "ctype": [
                 21
             ],
@@ -4687,7 +4687,7 @@
             "url": "https://spraydata.ucsd.edu/projects/",
             "title": "Spray Operations: UCSD",
             "desc": "Spray is an autonomous underwater glider that changes buoyancy in order to profile vertically and glides horizontally on wings. Spray is often piloted to repeat survey patterns or to make many crossings of currents. Spray operations are project driven, usually focusing on regions.  ",
-            "thumbnail": "/data/gridded/images/spray.png",
+            "thumbnail": "images/spray.png",
             "ctype": [
                 1,
                 2,
@@ -4731,7 +4731,7 @@
             "url": "https://spraydata.ucsd.edu/GulfStream/",
             "title": "Spray Operations Gulf stream Mean and Eddy Kinetic Energy: UCSD",
             "desc": "Gulf stream Mean and Eddy Kinetic Energy. Uses Spray, an autonomous underwater glider that changes buoyancy in order to profile vertically and glides horizontally on wings.",
-            "thumbnail": "/data/gridded/images/KE.png",
+            "thumbnail": "images/KE.png",
             "ctype": [
                 1,
                 2,
@@ -4776,7 +4776,7 @@
             "url": "https://www.fisheries.noaa.gov/science-and-data",
             "title": "Stock Assessment: NOAA Fisheries",
             "desc": "NOAA Fisheries create research surveys of fisheries, marine mammals, endangered species, and their habitats. These provide data critical to the stewardship of our nation's ocean resources and their habitat.",
-            "thumbnail": "/data/gridded/images/whales.jpg",
+            "thumbnail": "images/whales.jpg",
             "ctype": [
                 1,
                 2,
@@ -4821,7 +4821,7 @@
             "url": "https://www.socat.info/",
             "title": "Surface Ocean Carbon (SOCAT) Atlas: Bjerknes Climate Data Centre",
             "desc": "A Collection of Surface Ocean Carbon Dioxide Observations Quality Controlled by the Science Community. It includes access to the LAS viewer.",
-            "thumbnail": "/data/gridded/images/socat.png",
+            "thumbnail": "images/socat.png",
             "ctype": [
                 10
             ],
@@ -4859,7 +4859,7 @@
             "url": "https://tidesandcurrents.noaa.gov",
             "title": "Tides and Currents: NOAA Center for Operational Oceanographic Products and Services",
             "desc": "NOAA's CO-OPS Collects observations for tidal current predictions and provides access to local water levels, tide and current predictions, and other oceanographic and meteorological conditions.",
-            "thumbnail": "/data/gridded/images/tides.png",
+            "thumbnail": "images/tides.png",
             "ctype": [
                 8
             ],
@@ -4918,7 +4918,7 @@
             "url": "https://tidesandcurrents.noaa.gov/map/",
             "title": "Tide and Current Map: NOAA Tides and Currents",
             "desc": "Interactively access meteorological data, water levels, and other coastal water related station information from a GIS enabled map for the US.",
-            "thumbnail": "/data/gridded/images/tidesandcurrents.png",
+            "thumbnail": "images/tidesandcurrents.png",
             "ctype": [
                 11,
                 21
@@ -4974,7 +4974,7 @@
             "url": "https://www.pmel.noaa.gov/tao/drupal/disdel/",
             "title": "TOGA-TAO Data : NOAA/PMEL",
             "desc": "Display and access data from global tropical buoy arrays including TOGA-TAO in the Pacific, PIRATA in the Atlantic and RAMA in the Indian Ocean.  Includes profiles, time series and more.",
-            "thumbnail": "/data/gridded/images/togatao.png",
+            "thumbnail": "images/togatao.png",
             "ctype": [
                 8,
                 10,
@@ -5029,7 +5029,7 @@
             "url": "https://www.maine.gov/dmr/fisheries/sea-run-fisheries/programs-and-projects/trap-count-statistics",
             "title": "Trap Count Statistics: Maine Department of Marine Resources",
             "desc": "These data are compiled by the Department of Marine Resources (DMR) in Maine using fishway counts provided by agencies, power companies, and a harvester. NC indicates a species is not counted at that location. Fish returns should be considered as provisional.",
-            "thumbnail": "/data/gridded/images/arcticheat.png",
+            "thumbnail": "images/arcticheat.png",
             "ctype": [],
             "cdata": [],
             "ctime": [],
@@ -5057,7 +5057,7 @@
             "url": "https://psl.noaa.gov/forecasts/seasonal/",
             "title": "Tropical Forecasts from Model Analogs: NOAA/PSL",
             "desc": "Experimental 1-24 month forecasts of numerous tropical fields, including precipitation, outgoing longwave radiation (OLR), sea surface temperature (SST), and sea surface height (SSH). Forecasts are made using model analogs. ",
-            "thumbnail": "/data/gridded/images/analog.tropics.png",
+            "thumbnail": "images/analog.tropics.png",
             "ctype": [
                 1,
                 2,
@@ -5100,7 +5100,7 @@
             "url": "https://upwell.pfeg.noaa.gov/products/PFEL/modeled/indices/upwelling/upwelling.html",
             "title": "Upwelling Indices: NOAA/PMEL",
             "desc": "Historical and current upwelling Indices. ",
-            "thumbnail": "/data/gridded/images/upwelling.png",
+            "thumbnail": "images/upwelling.png",
             "ctype": [
                 8
             ],
@@ -5142,7 +5142,7 @@
             "url": "https://webodv-egi-ace.cloud.ba.infn.it/login",
             "title": "EGI-ACE webODV: Alfred Wegener Institute (AWI)",
             "desc": "The EGI-ACE webODV service provides access to large collections of marine temperature and salinity profile data covering the global ocean. These datasets come from two main sources: (1) the distributed, pan-European marine data network SeaDataNet and (2) the international Argo program that is collecting data from thousands of autonomous, free drifting floats. ",
-            "thumbnail": "/data/gridded/images/webODV.png",
+            "thumbnail": "images/webODV.png",
             "ctype": [
                 8
             ],
@@ -5190,7 +5190,7 @@
             "url": "https://reanalyses.org",
             "title": "Ocean & Atmosphere Reanalysis Information (reanalyses.org): NOAA/PSL",
             "desc": "The reanalyses.org website is a wiki website whose goal is to facilitate comparison between reanalysis and observational datasets. Evaluative content provided by reanalysis developers, observationalists, and users; and links to detailed data descriptions, data access methods, analysis and plotting tools, and dataset references are all available. There is a specific section on ocean reanalyses.",
-            "thumbnail": "/data/gridded/images/reanalysesorg.png",
+            "thumbnail": "images/reanalysesorg.png",
             "ctype": [
                 1
             ],
@@ -5239,7 +5239,7 @@
             "url": "https://www.nrel.gov/gis/wind-resource-maps.html",
             "title": "Wind Resource Maps and Data: NREL",
             "desc": "The website provides wind resource map images and geospatial data for North America, the contiguous United States, Canada, Mexico, and Central America. The data is a wind resource data set, wind forecast data set, and wind power production and forecast data set derived from the Weather Research and Forecasting (WRF) numerical weather prediction model. The data span from 2007 top 2013 is designed for use in a variety of next-generation wind integration analyses and wind power planning.",
-            "thumbnail": "/data/gridded/images/windnrel.png",
+            "thumbnail": "images/windnrel.png",
             "cdata": [
                 0
             ],
@@ -5280,7 +5280,7 @@
             "url": "https://marine.copernicus.eu/access-data/ocean-monitoring-indicators",
             "title": "Ocean Monitoring Indicators: Copernicus Marine Service",
             "desc": "The gateway to essential ocean variables to monitor the health of the ocean. It includes the monitoring of ocean circulation, climate, variability and extremes, and health.",
-            "thumbnail": "/data/gridded/images/cpnc_monitor.png",
+            "thumbnail": "images/cpnc_monitor.png",
             "cdata": [
                 0
             ],
@@ -5322,7 +5322,7 @@
             "url": "https://climatechange.chicago.gov/climate-indicators/oceans",
             "title": "Climate Change Indicators for Oceans: EPA",
             "desc": "EPA partners with more than 40 data contributors from various government agencies, academic institutions, and other organizations to compile a key set of ocean indicators related to the causes and effects of climate change. The indicators are published in EPA's report, Climate Change Indicators in the United States, available on this website and in print.",
-            "thumbnail": "/data/gridded/images/epa_indicator.png",
+            "thumbnail": "images/epa_indicator.png",
             "cdata": [
                 0
             ],
@@ -5368,7 +5368,7 @@
             "url": "https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators",
             "title": "Global Climate Indicators: WMO",
             "desc": "The page provide a report of global climate indicator in ocean heat content, acidification, deoxygenation and blue carbon.",
-            "thumbnail": "/data/gridded/images/wmo_indicator.png",
+            "thumbnail": "images/wmo_indicator.png",
             "cdata": [
                 0
             ],
@@ -5408,7 +5408,7 @@
             "url": "https://www.epa.gov/climate-indicators/climate-change-indicators-marine-species-distribution",
             "title": "Climate Change Indicators for Marine Species Distribution: EPA",
             "desc": "This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts.",
-            "thumbnail": "/data/gridded/images/epa_indicator_marine.png",
+            "thumbnail": "images/epa_indicator_marine.png",
             "cdata": [
                 0
             ],
@@ -5450,7 +5450,7 @@
             "url": "https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends",
             "title": "Ocean Conditions Indicators Trends: NOAA Fisheries",
             "desc": "This page provide a stoplight table provides an overview of ocean indicators over time. The stoplight table presents a number of climate and atmospheric, local physical, and local biological indicators used to characterize the ocean conditions that may affect the growth and survival of juvenile salmon in the northern California Current. ",
-            "thumbnail": "/data/gridded/images/fisheries_stoplight.png",
+            "thumbnail": "images/fisheries_stoplight.png",
             "cdata": [
                 0
             ],
@@ -5498,7 +5498,7 @@
             "url": "https://www.marineregions.org/sources.php",
             "title": "A Collection of Marine Boundaries and Shapefiles: Marine Regions",
             "desc": "A large collection of marine related boundaries of various types including ecological classifications, fishing zones, Themed, Regional and others. Boundaries include shape files and Geopackages. ",
-            "thumbnail": "/data/gridded/images/marineregions.png",
+            "thumbnail": "images/marineregions.png",
             "cdata": [
                 0
             ],
@@ -5550,7 +5550,7 @@
             "url": "https://maps.coastalresilience.org",
             "title": "Coastal Resilience Toolkits : The Nature Conservancy",
             "desc": "Coastal Resilience is a program led by The Nature Conservancy to examine nature\u2019s role in reducing coastal flood risks. The program consists of an approach, a web mapping tool, and a network of practitioners around the world supporting hazard mitigation and climate adaptation planning.",
-            "thumbnail": "/data/gridded/images/coastal_resilience_toolkits_:_the_nature_conservancy.png",
+            "thumbnail": "images/coastal_resilience_toolkits_:_the_nature_conservancy.png",
             "cdata": [
                 0
             ],
