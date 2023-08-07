@@ -5614,6 +5614,47 @@
             "corgs": [
                 0
             ]
+        },
+        {
+            "url": "https://habsos.noaa.gov",
+            "title": "Harmful Algal BloomS Observing System : NOAA/NCEI",
+            "desc": "The [Harmful Algal BloomS Observing System (HABSOS)](http://habsos.noaa.gov/) is a data collection and distribution system designed to provide environmental managers, scientists, and the public with a tool for tracking and observing current and historical harmful algal bloom (HAB) events in the Gulf of Mexico. The HABSOS interactive map combines Karenia brevis cell counts and associated environmental information into a single product, using the latest sample data available to create an accurate picture of HAB location and quantity.",
+            "thumbnail": "/data/gridded/images/harmful_algal_blooms_observing_system_:_noaa/ncei.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0,
+                24,
+                44
+            ],
+            "cproduct": [
+                0,
+                5,
+                11,
+                19
+            ],
+            "ctopics": [
+                0,
+                14,
+                21
+            ],
+            "cplatforms": [
+                0,
+                1,
+                13
+            ],
+            "cregions": [
+                0
+            ],
+            "corgs": [
+                0,
+                6,
+                13
+            ]
         }
     ]
 }
