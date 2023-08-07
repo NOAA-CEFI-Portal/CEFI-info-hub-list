@@ -5584,7 +5584,7 @@
             "url": "https://www.coastalwiki.org/wiki/Main_Page",
             "title": "Coastal Wiki",
             "desc": "The Coastal Wiki is a public information site containing a large number of articles dealing with scientific, technological and management aspects of coastal zones. Its purpose is to share basic knowledge and information within the communities of coastal and marine scientists and practitioners (e.g. [algal bloom dynamics](http://www.coastalwiki.org/wiki/Algal_bloom_dynamics).",
-            "thumbnail": "/data/gridded/images/coastal_wiki.png",
+            "thumbnail": "images/coastal_wiki.png",
             "cdata": [
                 0
             ],
@@ -5619,7 +5619,7 @@
             "url": "https://habsos.noaa.gov",
             "title": "Harmful Algal BloomS Observing System : NOAA/NCEI",
             "desc": "The [Harmful Algal BloomS Observing System (HABSOS)](http://habsos.noaa.gov/) is a data collection and distribution system designed to provide environmental managers, scientists, and the public with a tool for tracking and observing current and historical harmful algal bloom (HAB) events in the Gulf of Mexico. The HABSOS interactive map combines Karenia brevis cell counts and associated environmental information into a single product, using the latest sample data available to create an accurate picture of HAB location and quantity.",
-            "thumbnail": "/data/gridded/images/harmful_algal_blooms_observing_system_:_noaa/ncei.png",
+            "thumbnail": "images/harmful_algal_blooms_observing_system.png",
             "cdata": [
                 0
             ],
@@ -5660,7 +5660,7 @@
             "url": "https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/",
             "title": "Gulf of Mexico Harmful Algal Bloom Forecast : NOAA/NOS/NCCOS",
             "desc": "In the Gulf of Mexico, some harmful algal blooms are caused by the microscopic algae species Karenia brevis, commonly called red tide. Karenia brevis blooms can cause respiratory illness and eye irritation in humans. It can also kill marine life, and lead to shellfish closures. Blooms are often patchy, so impacts vary by beach and throughout the day. NCCOS monitors conditions daily and issues regular forecasts for red tide blooms in the Gulf of Mexico and East Coast of Florida. You can find the forecasts and up-to-date conditions on the site.",
-            "thumbnail": "/data/gridded/images/gulf_of_mexico_harmful_algal_bloom_forecast_:_noaa/nos/nccos.png",
+            "thumbnail": "images/gulf_of_mexico_harmful_algal_bloom_forecast.png",
             "cdata": [
                 0
             ],
