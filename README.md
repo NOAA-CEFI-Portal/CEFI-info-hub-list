@@ -468,3 +468,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Coastal Resilience Toolkits : The Nature Conservancy](https://maps.coastalresilience.org) 
   
 > Coastal Resilience is a program led by The Nature Conservancy to examine nature’s role in reducing coastal flood risks. The program consists of an approach, a web mapping tool, and a network of practitioners around the world supporting hazard mitigation and climate adaptation planning.
+  
+[Coastal Wiki](https://www.coastalwiki.org/wiki/Main_Page) 
+  
+> The Coastal Wiki is a public information site containing a large number of articles dealing with scientific, technological and management aspects of coastal zones. Its purpose is to share basic knowledge and information within the communities of coastal and marine scientists and practitioners (e.g. [algal bloom dynamics](http://www.coastalwiki.org/wiki/Algal_bloom_dynamics).
