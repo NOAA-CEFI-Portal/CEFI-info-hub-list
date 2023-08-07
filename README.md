@@ -476,3 +476,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Harmful Algal BloomS Observing System : NOAA/NCEI](https://habsos.noaa.gov) 
   
 > The [Harmful Algal BloomS Observing System (HABSOS)](http://habsos.noaa.gov/) is a data collection and distribution system designed to provide environmental managers, scientists, and the public with a tool for tracking and observing current and historical harmful algal bloom (HAB) events in the Gulf of Mexico. The HABSOS interactive map combines Karenia brevis cell counts and associated environmental information into a single product, using the latest sample data available to create an accurate picture of HAB location and quantity.
+  
+[Gulf of Mexico Harmful Algal Bloom Forecast : NOAA/NOS/NCCOS](https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/gulf-of-mexico/) 
+  
+> In the Gulf of Mexico, some harmful algal blooms are caused by the microscopic algae species Karenia brevis, commonly called red tide. Karenia brevis blooms can cause respiratory illness and eye irritation in humans. It can also kill marine life, and lead to shellfish closures. Blooms are often patchy, so impacts vary by beach and throughout the day. NCCOS monitors conditions daily and issues regular forecasts for red tide blooms in the Gulf of Mexico and East Coast of Florida. You can find the forecasts and up-to-date conditions on the site.
