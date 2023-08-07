@@ -70,7 +70,8 @@ if __name__ == '__main__' :
     # Using the GitHub api to get the issue info
     # Load the contents of the event payload from GITHUB_EVENT_PATH
     if DEBUG :
-        ISSUE_NUM = 59
+        ISSUE_NUM = 66
+        # ISSUE_NUM = 59
     else :
         event_path = os.environ['GITHUB_EVENT_PATH']
         with open(event_path, 'r') as event_file:
@@ -97,24 +98,31 @@ if __name__ == '__main__' :
     type_list = list(cefi_data['categories_definition'].keys())
 
     # download the image file and include in the directory
-    img_url = contents[4].split('(')[1][:-1]
+    try:
+        img_url = contents[4].split('(')[1][:-1]
+    except IndexError:
+        print('Image name included')
+        src_link = list(filter(lambda item: "src=" in item, contents[4].split()))
+        src_link_string = src_link[0].split('"')[-2]
+
 
     img_filename = ""
     for string in contents[0].lower().split():
         img_filename += string + "_"
     img_filename = img_filename[:-1]
 
-    wget = subprocess.call(
-        f'wget -O {img_filename}.png {img_url}',
-        shell=True,
-        executable="/usr/bin/bash"
-    )
+    if not DEBUG :
+        wget = subprocess.call(
+            f'wget -O {img_filename}.png {img_url}',
+            shell=True,
+            executable="/usr/bin/bash"
+        )
 
-    mv = subprocess.call(
-        f'mv {img_filename}.png images/{img_filename}.png',
-        shell=True,
-        executable="/usr/bin/bash"
-    )
+        mv = subprocess.call(
+            f'mv {img_filename}.png images/{img_filename}.png',
+            shell=True,
+            executable="/usr/bin/bash"
+        )
 
     # add new entry related to category type
     add_dict = {}
