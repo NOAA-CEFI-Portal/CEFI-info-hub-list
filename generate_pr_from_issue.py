@@ -63,7 +63,7 @@ if __name__ == '__main__' :
     # cefi list repo location
     ORGNAME = "NOAA-PSL"
     REPO_NAME = "CEFI-info-hub-list"
-    DEBUG = False
+    DEBUG = True
 
     # A token is automatically provided by GitHub Actions
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
@@ -124,7 +124,7 @@ if __name__ == '__main__' :
             executable="/usr/bin/bash"
         )
 
-    # add new entry related to category type
+    # add category type of new entry
     add_dict = {}
     headings = [heading.strip() for heading in headings]
     for nt, ctype in enumerate(type_list):
@@ -134,8 +134,9 @@ if __name__ == '__main__' :
             option_list = contents[heading_ind].split(',')
             option_num_list = [int(option.split('-')[0]) for option in option_list]
             add_dict[ctype] = option_num_list
+        # always adding 0-Any to all category if not specify by user
         if 0 not in add_dict[ctype]:
-            add_dict[ctype].append(0)
+            add_dict[ctype] = [0]+add_dict[ctype]
 
     # add new entry related to title, desc, and url etc.
     check_link_availability(contents[1])
