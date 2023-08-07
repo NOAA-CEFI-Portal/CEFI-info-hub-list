@@ -5579,6 +5579,41 @@
             "corgs": [
                 0
             ]
+        },
+        {
+            "url": "https://www.coastalwiki.org/wiki/Main_Page",
+            "title": "Coastal Wiki",
+            "desc": "The Coastal Wiki is a public information site containing a large number of articles dealing with scientific, technological and management aspects of coastal zones. Its purpose is to share basic knowledge and information within the communities of coastal and marine scientists and practitioners (e.g. [algal bloom dynamics](http://www.coastalwiki.org/wiki/Algal_bloom_dynamics).",
+            "thumbnail": "/data/gridded/images/coastal_wiki.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                15
+            ],
+            "ctopics": [
+                0,
+                14,
+                15,
+                16,
+                21
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0
+            ],
+            "corgs": [
+                0
+            ]
         }
     ]
 }
