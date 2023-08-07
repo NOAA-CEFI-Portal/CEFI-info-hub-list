@@ -134,6 +134,8 @@ if __name__ == '__main__' :
             option_list = contents[heading_ind].split(',')
             option_num_list = [int(option.split('-')[0]) for option in option_list]
             add_dict[ctype] = option_num_list
+        if 0 not in add_dict[ctype]:
+            add_dict[ctype].append(0)
 
     # add new entry related to title, desc, and url etc.
     check_link_availability(contents[1])
