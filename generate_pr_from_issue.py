@@ -63,14 +63,14 @@ if __name__ == '__main__' :
     # cefi list repo location
     ORGNAME = "NOAA-PSL"
     REPO_NAME = "CEFI-info-hub-list"
-    DEBUG = False
+    DEBUG = True
 
     # A token is automatically provided by GitHub Actions
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
     # Using the GitHub api to get the issue info
     # Load the contents of the event payload from GITHUB_EVENT_PATH
     if DEBUG :
-        ISSUE_NUM = 66
+        ISSUE_NUM = 71
         # ISSUE_NUM = 59
     else :
         event_path = os.environ['GITHUB_EVENT_PATH']
