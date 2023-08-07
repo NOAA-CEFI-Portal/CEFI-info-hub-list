@@ -472,3 +472,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Coastal Wiki](https://www.coastalwiki.org/wiki/Main_Page) 
   
 > The Coastal Wiki is a public information site containing a large number of articles dealing with scientific, technological and management aspects of coastal zones. Its purpose is to share basic knowledge and information within the communities of coastal and marine scientists and practitioners (e.g. [algal bloom dynamics](http://www.coastalwiki.org/wiki/Algal_bloom_dynamics).
+  
+[Harmful Algal BloomS Observing System : NOAA/NCEI](https://habsos.noaa.gov) 
+  
+> The [Harmful Algal BloomS Observing System (HABSOS)](http://habsos.noaa.gov/) is a data collection and distribution system designed to provide environmental managers, scientists, and the public with a tool for tracking and observing current and historical harmful algal bloom (HAB) events in the Gulf of Mexico. The HABSOS interactive map combines Karenia brevis cell counts and associated environmental information into a single product, using the latest sample data available to create an accurate picture of HAB location and quantity.
