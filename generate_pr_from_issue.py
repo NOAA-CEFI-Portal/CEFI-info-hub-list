@@ -70,7 +70,7 @@ if __name__ == '__main__' :
     # Using the GitHub api to get the issue info
     # Load the contents of the event payload from GITHUB_EVENT_PATH
     if DEBUG :
-        ISSUE_NUM = 66
+        ISSUE_NUM = 69
         # ISSUE_NUM = 59
     else :
         event_path = os.environ['GITHUB_EVENT_PATH']
@@ -107,9 +107,13 @@ if __name__ == '__main__' :
 
 
     img_filename = ""
-    for string in contents[0].lower().split():
+    for string in issue['title'].split(']:')[1].strip().lower().split():
         img_filename += string + "_"
     img_filename = img_filename[:-1]
+    
+    if img_filename == '':
+        img_filename = f'issue_number_{issue["number"]}'
+
 
     if not DEBUG :
         wget = subprocess.call(
@@ -144,7 +148,7 @@ if __name__ == '__main__' :
         "url" : contents[1],
         "title" : contents[0],
         "desc" : contents[3],
-        "thumbnail" : f"/data/gridded/images/{img_filename}.png",	
+        "thumbnail" : f"images/{img_filename}.png",	
     }
     new_entry = {**new_entry, **add_dict}
     cefi_data['lists'].append(new_entry)
