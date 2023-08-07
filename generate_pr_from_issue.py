@@ -103,7 +103,7 @@ if __name__ == '__main__' :
     except IndexError:
         print('Image name included')
         src_link = list(filter(lambda item: "src=" in item, contents[4].split()))
-        src_link_string = src_link[0].split('"')[-2]
+        img_url = src_link[0].split('"')[-2]
 
 
     img_filename = ""
