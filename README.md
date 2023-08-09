@@ -488,3 +488,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Wind Integration National Dataset Toolkit : NREL](https://www.nrel.gov/grid/wind-toolkit.html) 
   
 > The WIND Toolkit includes instantaneous meteorological conditions from computer model output and calculated turbine power for more than 126,000 sites in the continental United States for the years 2007–2013.
+  
+[National Ocean Economics Program](https://www.oceaneconomics.org/index.html) 
+  
+> The National Ocean Economics Program (NOEP) provides a full range of the most current policy-relevant economic and demographic information available on changes and trends along the U.S. coast, Great Lakes, and coastal waters.
