@@ -61,7 +61,8 @@ body:
     value: Below are multiple dropdowns with multiple choices available in each dropdown.
 - type: markdown
   attributes:
-    value: Please select all options that the CEFI data/resource provides.
+    value: Please select all options that the CEFI data/resource provides (if nothing
+      fits, please select "Any").
 - type: dropdown
   id: cdata
   attributes:
