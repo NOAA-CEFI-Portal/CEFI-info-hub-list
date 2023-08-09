@@ -484,3 +484,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Coastal Ocean Monitoring and Prediction : University of South Florida](http://ocgweb.marine.usf.edu/index.html) 
   
 > The website provides observation (radar, moorings, and station data), coastal ocean model forecast (West Florida and Tampa Bay) on red tide, and large scale circulation with trajectory tracking based on satellite altimetry and global HYCOM. A suite of data analysis tools is also provided on the website. The associated [near real-time Integrated Red Tide Information System (IRIS)](https://optics.marine.usf.edu/projects/IRIS.html) also provide Harmful Algal Bloom (HAB) information. The [Coastal Ocean Monitoring and Prediction System (COMPS)](http://comps.marine.usf.edu:81/?health=Off&quality=Off&units=Metric&duration=3%20days&maps=storm_tracks&legend=Off&forecast=Point&hti=&nhc=undefined&nhcWinds=undefined&sst=&current=&datum=MLLW&windPrediction=wind%20speed%20prediction&region=&bbox=&iframe=null&mode=home&basemap=Streets&basemap_overlays=Bathymetry&layer_opacity=100) provides station and radar measurement.
+  
+[Wind Integration National Dataset Toolkit : NREL](https://www.nrel.gov/grid/wind-toolkit.html) 
+  
+> The WIND Toolkit includes instantaneous meteorological conditions from computer model output and calculated turbine power for more than 126,000 sites in the continental United States for the years 2007–2013.
