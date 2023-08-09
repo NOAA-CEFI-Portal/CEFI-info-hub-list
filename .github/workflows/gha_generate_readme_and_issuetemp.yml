@@ -7,6 +7,7 @@ on:
        - main
      paths:
        - 'generate_issue_template.py' 
+       - '.github/ISSUE_TEMPLATE/header_file/add_cefi_resource_head.yml'
        - 'generate_readme.py'
        - 'data/cefi_list.json'
 #  schedule:
