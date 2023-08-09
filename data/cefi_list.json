@@ -5789,6 +5789,57 @@
                 0,
                 18
             ]
+        },
+        {
+            "url": "https://www.nrel.gov/grid/wind-toolkit.html",
+            "title": "Wind Integration National Dataset Toolkit : NREL",
+            "desc": "The WIND Toolkit includes instantaneous meteorological conditions from computer model output and calculated turbine power for more than 126,000 sites in the continental United States for the years 2007\u20132013.",
+            "thumbnail": "images/wind_integration_national_dataset_toolkit.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                1,
+                2,
+                7,
+                8
+            ],
+            "cvar": [
+                0,
+                22,
+                38
+            ],
+            "cproduct": [
+                0,
+                2,
+                6,
+                7,
+                9,
+                11,
+                17,
+                19
+            ],
+            "ctopics": [
+                0,
+                18
+            ],
+            "cplatforms": [
+                0,
+                13
+            ],
+            "cregions": [
+                0,
+                6,
+                12,
+                16,
+                18,
+                20
+            ],
+            "corgs": [
+                0,
+                18
+            ]
         }
     ]
 }
