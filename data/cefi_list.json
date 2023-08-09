@@ -5712,6 +5712,83 @@
                 18,
                 23
             ]
+        },
+        {
+            "url": "http://ocgweb.marine.usf.edu/index.html",
+            "title": "Coastal Ocean Monitoring and Prediction : University of South Florida",
+            "desc": "The website provides observation (radar, moorings, and station data), coastal ocean model forecast (West Florida and Tampa Bay) on red tide, and large scale circulation with trajectory tracking based on satellite altimetry and global HYCOM. A suite of data analysis tools is also provided on the website. The associated [near real-time Integrated Red Tide Information System (IRIS)](https://optics.marine.usf.edu/projects/IRIS.html) also provide Harmful Algal Bloom (HAB) information. The [Coastal Ocean Monitoring and Prediction System (COMPS)](http://comps.marine.usf.edu:81/?health=Off&quality=Off&units=Metric&duration=3%20days&maps=storm_tracks&legend=Off&forecast=Point&hti=&nhc=undefined&nhcWinds=undefined&sst=&current=&datum=MLLW&windPrediction=wind%20speed%20prediction&region=&bbox=&iframe=null&mode=home&basemap=Streets&basemap_overlays=Bathymetry&layer_opacity=100) provides station and radar measurement.",
+            "thumbnail": "images/coastal_ocean_monitoring_and_prediction_system.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "cvar": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                7,
+                8,
+                15,
+                20,
+                22,
+                24,
+                38,
+                39,
+                44
+            ],
+            "cproduct": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                13,
+                17
+            ],
+            "ctopics": [
+                0,
+                5,
+                14,
+                15,
+                21
+            ],
+            "cplatforms": [
+                0,
+                1,
+                5,
+                10,
+                11,
+                13
+            ],
+            "cregions": [
+                0,
+                6,
+                11,
+                12,
+                13,
+                16,
+                20
+            ],
+            "corgs": [
+                0,
+                18
+            ]
         }
     ]
 }
