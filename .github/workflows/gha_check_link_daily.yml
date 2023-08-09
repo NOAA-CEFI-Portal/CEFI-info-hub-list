@@ -1,4 +1,4 @@
-name: Run Pytest Daily on Main
+name: linkcheck
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron: '0 12 * * *'
 
 jobs:
-  pytest:
+  link-check:
     runs-on: ubuntu-latest
 
     steps:
