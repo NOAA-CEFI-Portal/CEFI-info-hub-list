@@ -1,4 +1,4 @@
-name: linkcheck
+name: Daily-linkcheck
 
 on:
   workflow_dispatch:
