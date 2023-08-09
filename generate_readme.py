@@ -34,13 +34,6 @@ if __name__ == '__main__':
 
     # start markdown structure
     mdFile.new_header(level=1, title='CEFI related resource list')
-    mdFile.new_line(
-        mdFile.new_inline_link(
-            link="https://github.com/NOAA-PSL/CEFI-info-hub-list/actions/workflows/gha_check_link_daily.yml/badge.svg",
-            text="Resource Link Checked"
-        )+' \n'
-    )
-    
 
     mdFile.new_paragraph(
         "This is a curated list for the 'CEFI related resource'"+
