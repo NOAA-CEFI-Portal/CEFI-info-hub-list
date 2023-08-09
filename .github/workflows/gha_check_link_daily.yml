@@ -3,7 +3,7 @@ name: Daily-linkcheck
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 16 * * *'
+    - cron: '17 16 * * *'
 
 jobs:
   link-check:
