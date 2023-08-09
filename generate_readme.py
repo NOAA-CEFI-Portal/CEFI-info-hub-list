@@ -83,3 +83,18 @@ if __name__ == '__main__':
 
     # finalize the markdown file and output
     mdFile.create_md_file()
+
+    ###### adding link check badge
+    # Read the existing content of readme.md
+    with open('README.md', 'r', encoding='utf-8') as file:
+        existing_content = file.read()
+
+    # New line of text to add at the top
+    badge = "![Resource Link Checked](https://github.com/NOAA-PSL/CEFI-info-hub-list/actions/workflows/gha_check_link_daily.yml/badge.svg)\n"
+
+    # Combine the new line and existing content
+    updated_content = badge + existing_content
+
+    # Write the updated content back to readme.md
+    with open('README.md', 'w', encoding='utf-8') as file:
+        file.write(updated_content)
