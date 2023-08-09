@@ -5840,6 +5840,51 @@
                 0,
                 18
             ]
+        },
+        {
+            "url": "https://www.oceaneconomics.org/index.html",
+            "title": "National Ocean Economics Program",
+            "desc": "The National Ocean Economics Program (NOEP) provides a full range of the most current policy-relevant economic and demographic information available on changes and trends along the U.S. coast, Great Lakes, and coastal waters.",
+            "thumbnail": "images/national_ocean_economics_program.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                7,
+                8
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                2,
+                5,
+                11,
+                17,
+                19
+            ],
+            "ctopics": [
+                0,
+                6,
+                16,
+                20
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                6,
+                12,
+                16,
+                18,
+                20
+            ],
+            "corgs": [
+                0
+            ]
         }
     ]
 }
