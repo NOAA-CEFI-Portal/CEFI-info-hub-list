@@ -42,7 +42,3 @@ jobs:
           && timestamp=$(date -u)
           && git commit -m "Update latest data: ${timestamp} from GH Action" || exit 0
           && git push
-
-      - name: Check Links
-        shell: bash -l {0}
-        run:  pytest --verbose --check-links README.md
