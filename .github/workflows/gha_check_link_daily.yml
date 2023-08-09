@@ -1,6 +1,7 @@
 name: Run Pytest Daily on Main
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'
 
