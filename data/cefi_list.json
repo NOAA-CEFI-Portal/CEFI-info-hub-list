@@ -5885,6 +5885,47 @@
             "corgs": [
                 0
             ]
+        },
+        {
+            "url": "https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans",
+            "title": "Climate Science Strategy Regional Action Plans : NOAA/Fisheries",
+            "desc": "Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. \r\n\r\nThe plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA\u2019s effort to build a [climate ready nation](https://www.noaa.gov/sites/default/files/2022-06/NOAA_FY2226_Strategic_Plan_ExecutiveSummary.pdf).",
+            "thumbnail": "images/climate_science_strategy_regional_action_plans.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                7
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                19
+            ],
+            "ctopics": [
+                0,
+                6,
+                8,
+                16,
+                20
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                6,
+                12,
+                18,
+                20
+            ],
+            "corgs": [
+                0,
+                14
+            ]
         }
     ]
 }
