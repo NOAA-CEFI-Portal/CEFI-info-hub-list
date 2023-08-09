@@ -1,10 +1,12 @@
 name: Modify JSON and Create Pull Request
 on:
   issues:
-    types: [opened, labeled]
+    types: 
+      - labeled
 
 jobs:
   auto_new_resource_add_pr:
+    if: contains(github.event.issue.labels.*.name, 'new resource')
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
@@ -17,7 +19,6 @@ jobs:
           init-shell: bash
 
       - name: Parsing issue, download figure, and modify json
-        if: contains(github.event.issue.labels.*.name, 'new resource')
         shell: bash -l {0}
         run: python generate_pr_from_issue.py
 
@@ -27,10 +28,9 @@ jobs:
 
       - name: include new resource in README
         shell: bash -l {0}
-        run: python generate_readme.py  
+        run: python generate_readme.py
 
       - name: Create Pull Request
-        if: contains(github.event.issue.labels.*.name, 'new resource')
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
