@@ -9,6 +9,8 @@ Contents
 	* [Mirroring list](#mirroring-list)
 
 # CEFI related resource list
+  
+[Resource Link Checked](https://github.com/NOAA-PSL/CEFI-info-hub-list/actions/workflows/gha_check_link_daily.yml/badge.svg) 
 
 
 This is a curated list for the 'CEFI related resource'on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet)). The goal of the information hub is 
