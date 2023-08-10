@@ -3785,7 +3785,7 @@
             ]
         },
         {
-            "url": "https://eos.unh.edu/ocean-process-analysis-laboratory/data",
+            "url": "https://eos.unh.edu/ocean-process-analysis-laboratory/data/",
             "title": "Ocean Process Analysis Laboratory: UNH",
             "desc": "Hydrographic and biochemical data collection in the coastal Gulf of Maine region has been central to much of OPAL's work through the years. This has included shipboard and moored sampling programs. Several teams within OPAL are active in maintaining ocean observing stations that support both regional and global applications. Data and supporting information for a range of platforms supported by the lab is accessible.",
             "thumbnail": "images/unh.png",
@@ -5887,9 +5887,9 @@
             ]
         },
         {
-            "url": "https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans",
+            "url": "https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/",
             "title": "Climate Science Strategy Regional Action Plans : NOAA/Fisheries",
-            "desc": "Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. \r\n\r\nThe plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA\u2019s effort to build a [climate ready nation](https://www.noaa.gov/sites/default/files/2022-06/NOAA_FY2226_Strategic_Plan_ExecutiveSummary.pdf).",
+            "desc": "Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. \r\n\r\nThe plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA\u2019s effort to build a climate ready nation.",
             "thumbnail": "images/climate_science_strategy_regional_action_plans.png",
             "cdata": [
                 0
