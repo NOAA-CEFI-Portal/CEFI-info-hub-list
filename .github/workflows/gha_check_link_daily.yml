@@ -2,8 +2,8 @@ name: Daily-linkcheck
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
-    - cron: '3 17 * * *'
+    - cron: '18 */6 * * *'
+    - cron: '11 5 * * *'
 
 jobs:
   link-check:
