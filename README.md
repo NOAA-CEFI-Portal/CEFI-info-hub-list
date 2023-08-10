@@ -314,7 +314,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The page provides access to ocean array datasets including moorings and profilers in different locations. They also have <a href='https://oceanobservatories.org/community-tools/'>compiled tools</a> that their community members have built to access, analyze, and visualize the OOI datasets.
   
-[Ocean Process Analysis Laboratory: UNH](https://eos.unh.edu/ocean-process-analysis-laboratory/data) 
+[Ocean Process Analysis Laboratory: UNH](https://eos.unh.edu/ocean-process-analysis-laboratory/data/) 
   
 > Hydrographic and biochemical data collection in the coastal Gulf of Maine region has been central to much of OPAL's work through the years. This has included shipboard and moored sampling programs. Several teams within OPAL are active in maintaining ocean observing stations that support both regional and global applications. Data and supporting information for a range of platforms supported by the lab is accessible.
   
@@ -494,8 +494,8 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The National Ocean Economics Program (NOEP) provides a full range of the most current policy-relevant economic and demographic information available on changes and trends along the U.S. coast, Great Lakes, and coastal waters.
   
-[Climate Science Strategy Regional Action Plans : NOAA/Fisheries](https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans) 
+[Climate Science Strategy Regional Action Plans : NOAA/Fisheries](https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/) 
   
 > Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. 
 
-The plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA’s effort to build a [climate ready nation](https://www.noaa.gov/sites/default/files/2022-06/NOAA_FY2226_Strategic_Plan_ExecutiveSummary.pdf).
+The plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA’s effort to build a climate ready nation.
