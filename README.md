@@ -314,7 +314,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The page provides access to ocean array datasets including moorings and profilers in different locations. They also have <a href='https://oceanobservatories.org/community-tools/'>compiled tools</a> that their community members have built to access, analyze, and visualize the OOI datasets.
   
-[Ocean Process Analysis Laboratory: UNH](https://eos.unh.edu/ocean-process-analysis-laboratory/data/) 
+[Ocean Process Analysis Laboratory: UNH](https://eos.unh.edu/ocean-process-analysis-laboratory/) 
   
 > Hydrographic and biochemical data collection in the coastal Gulf of Maine region has been central to much of OPAL's work through the years. This has included shipboard and moored sampling programs. Several teams within OPAL are active in maintaining ocean observing stations that support both regional and global applications. Data and supporting information for a range of platforms supported by the lab is accessible.
   
