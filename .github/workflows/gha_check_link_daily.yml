@@ -1,6 +1,7 @@
 name: Daily-linkcheck
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '18 */6 * * *'
     - cron: '11 5 * * *'
