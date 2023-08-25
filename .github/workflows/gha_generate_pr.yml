@@ -6,7 +6,7 @@ on:
 
 jobs:
   auto_new_resource_add_pr:
-    if: contains(github.event.issue.labels.*.name, 'new resource')
+    if: contains(github.event.issue.labels.*.name, 'auto pr')
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
