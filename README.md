@@ -454,9 +454,9 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The page provide a report of global climate indicator in ocean heat content, acidification, deoxygenation and blue carbon.
   
-[Climate Change Indicators for Marine Species Distribution: EPA](https://www.epa.gov/climate-indicators/climate-change-indicators-marine-species-distribution) 
+[Climate Change Indicators for Marine Species Distribution: EPA](https://www.epa.gov/climate-indicators/) 
   
-> This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts.
+> This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts
   
 [Ocean Conditions Indicators Trends: NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends) 
   
