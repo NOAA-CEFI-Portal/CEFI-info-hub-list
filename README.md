@@ -509,3 +509,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [California Marine Protected Area (MPA) Dashboard : NOAA/IOOS](https://mpa-dashboard.caloos.org) 
   
 > visualization tool allows users to plot (and download) time series, correlations, etc. of a selected variable from a chosen west coast MPA
+  
+[LiveOcean : University of Washington](https://faculty.washington.edu/pmacc/LO/LiveOcean.html) 
+  
+> Display of regional model simulates ocean water properties, makes 3-day forecasts of currents, temperature, salinity and many biogeochemical fields, including harmful algal blooms
