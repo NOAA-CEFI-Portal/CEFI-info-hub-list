@@ -525,3 +525,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Sanctuary Watch : NOAA/IOOS](https://sanctuarywatch.ioos.us) 
   
 > Interactive ecosystem for US National Marine Sanctuaries to access status and trend data, images, web stories and other supporting content.
+  
+[Advanced ecosystem research for marine ecosystems: Farallon Institute for Advanced Ecosystem Research](http://www.faralloninstitute.org) 
+  
+> Provide different marine species (i.e. Krill, seabird, Rockfish, etc.) and California Multivariate Ocean Climate Indicators (MOCI) with regularly updated, an operational regional indicator for California’s continental shelf system, synthesizing local and regional ocean and atmospheric conditions, and can be leveraged for nowcasting a variety of biological responses across trophic levels.
