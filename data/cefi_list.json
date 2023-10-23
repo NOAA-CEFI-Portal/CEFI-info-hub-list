@@ -5996,6 +5996,51 @@
                 0,
                 10
             ]
+        },
+        {
+            "url": "https://mpa-dashboard.caloos.org",
+            "title": "California Marine Protected Area (MPA) Dashboard : NOAA/IOOS",
+            "desc": "visualization tool allows users to plot (and download) time series, correlations, etc. of a selected variable from a chosen west coast MPA",
+            "thumbnail": "images/california_marine_protected_area_(mpa)_dashboard.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0,
+                41,
+                44
+            ],
+            "cproduct": [
+                0,
+                5,
+                6,
+                9,
+                11,
+                13,
+                14
+            ],
+            "ctopics": [
+                0
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                6,
+                7,
+                13,
+                18,
+                20
+            ],
+            "corgs": [
+                0,
+                15,
+                23
+            ]
         }
     ]
 }

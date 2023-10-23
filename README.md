@@ -505,3 +505,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Giovanni: NASA](https://giovanni.gsfc.nasa.gov/giovanni/) 
   
 > An application allows you to quickly visualize selected geophysical parameters from various remote sensing platforms (user can create free login to have unlimited access)
+  
+[California Marine Protected Area (MPA) Dashboard : NOAA/IOOS](https://mpa-dashboard.caloos.org) 
+  
+> visualization tool allows users to plot (and download) time series, correlations, etc. of a selected variable from a chosen west coast MPA
