@@ -6093,6 +6093,65 @@
                 0,
                 18
             ]
+        },
+        {
+            "url": "https://www.nanoos.org/products/j-scope/home.php",
+            "title": "JISAO Seasonal Coastal Ocean Prediction of the Ecosystem (J-SCOPE): University of Washington/JISAO",
+            "desc": "This is a forecast system for Washington and Oregon coastal waters, including chlorophyll, SST, oxygen, pH, upwelling, etc. The J-SCOPE forecasts are developed to support the [California Current Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/regions/california-current). Integrated Ecosystem Assessments (IEAs) are a framework for informing ecosystem-based management, which aims to take into account interactions among ecosystem components and managed sectors, as well as cumulative impacts of a wide spectrum of ocean-use sector.",
+            "thumbnail": "images/j-scope_forecasts.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                6,
+                7
+            ],
+            "cvar": [
+                0,
+                1,
+                5,
+                6,
+                9,
+                29,
+                30,
+                39,
+                40,
+                41
+            ],
+            "cproduct": [
+                0,
+                5,
+                6
+            ],
+            "ctopics": [
+                0,
+                13,
+                14,
+                15,
+                19,
+                21
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                8,
+                9,
+                13,
+                18,
+                20
+            ],
+            "corgs": [
+                0,
+                2,
+                14,
+                15,
+                18,
+                19,
+                23
+            ]
         }
     ]
 }

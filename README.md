@@ -513,3 +513,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [LiveOcean : University of Washington](https://faculty.washington.edu/pmacc/LO/LiveOcean.html) 
   
 > Display of regional model simulates ocean water properties, makes 3-day forecasts of currents, temperature, salinity and many biogeochemical fields, including harmful algal blooms
+  
+[JISAO Seasonal Coastal Ocean Prediction of the Ecosystem (J-SCOPE): University of Washington/JISAO](https://www.nanoos.org/products/j-scope/home.php) 
+  
+> This is a forecast system for Washington and Oregon coastal waters, including chlorophyll, SST, oxygen, pH, upwelling, etc. The J-SCOPE forecasts are developed to support the [California Current Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/regions/california-current). Integrated Ecosystem Assessments (IEAs) are a framework for informing ecosystem-based management, which aims to take into account interactions among ecosystem components and managed sectors, as well as cumulative impacts of a wide spectrum of ocean-use sector.
