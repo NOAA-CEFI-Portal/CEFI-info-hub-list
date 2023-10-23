@@ -5405,9 +5405,9 @@
             ]
         },
         {
-            "url": "https://www.epa.gov/climate-indicators/climate-change-indicators-marine-species-distribution",
+            "url": "https://www.epa.gov/climate-indicators/",
             "title": "Climate Change Indicators for Marine Species Distribution: EPA",
-            "desc": "This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts.",
+            "desc": "This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts",
             "thumbnail": "images/epa_indicator_marine.png",
             "cdata": [
                 0
