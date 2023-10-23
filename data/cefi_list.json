@@ -5959,6 +5959,43 @@
                 0,
                 2
             ]
+        },
+        {
+            "url": "https://giovanni.gsfc.nasa.gov/giovanni/",
+            "title": "Giovanni: NASA",
+            "desc": "An application allows you to quickly visualize selected geophysical parameters from various remote sensing platforms (user can create free login to have unlimited access)",
+            "thumbnail": "images/giovanni.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                5,
+                8,
+                9,
+                10,
+                11,
+                14
+            ],
+            "ctopics": [
+                0
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0
+            ],
+            "corgs": [
+                0,
+                10
+            ]
         }
     ]
 }
