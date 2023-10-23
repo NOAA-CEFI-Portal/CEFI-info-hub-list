@@ -6237,6 +6237,56 @@
                 15,
                 23
             ]
+        },
+        {
+            "url": "http://www.faralloninstitute.org",
+            "title": "Advanced ecosystem research for marine ecosystems: Farallon Institute for Advanced Ecosystem Research",
+            "desc": "Provide different marine species (i.e. Krill, seabird, Rockfish, etc.) and California Multivariate Ocean Climate Indicators (MOCI) with regularly updated, an operational regional indicator for California\u2019s continental shelf system, synthesizing local and regional ocean and atmospheric conditions, and can be leveraged for nowcasting a variety of biological responses across trophic levels.",
+            "thumbnail": "images/farallon_institute.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                5,
+                6,
+                7,
+                8
+            ],
+            "cvar": [
+                0,
+                37,
+                42,
+                43,
+                44
+            ],
+            "cproduct": [
+                0,
+                1,
+                2,
+                11,
+                13,
+                19
+            ],
+            "ctopics": [
+                0,
+                7
+            ],
+            "cplatforms": [
+                0,
+                3
+            ],
+            "cregions": [
+                0,
+                2,
+                6,
+                7,
+                18
+            ],
+            "corgs": [
+                0,
+                18
+            ]
         }
     ]
 }
