@@ -6152,6 +6152,47 @@
                 19,
                 23
             ]
+        },
+        {
+            "url": "https://sanctuarywatch.ioos.us",
+            "title": "Sanctuary Watch : NOAA/IOOS",
+            "desc": "Interactive ecosystem for US National Marine Sanctuaries to access status and trend data, images, web stories and other supporting content.",
+            "thumbnail": "images/sanctuary_watch.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                7,
+                8
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                2,
+                13,
+                19
+            ],
+            "ctopics": [
+                0,
+                14,
+                16,
+                19
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                20
+            ],
+            "corgs": [
+                0,
+                15,
+                23
+            ]
         }
     ]
 }
