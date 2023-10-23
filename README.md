@@ -497,3 +497,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Climate Science Strategy Regional Action Plans : NOAA/Fisheries](https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/) 
   
 > Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. The plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA’s effort to build a climate ready nation.
+  
+[Giovanni: NASA](https://giovanni.gsfc.nasa.gov/giovanni/) 
+  
+> An application allows you to quickly visualize selected geophysical parameters from various remote sensing platforms (user can create free login to have unlimited access)
