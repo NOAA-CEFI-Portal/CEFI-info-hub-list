@@ -517,3 +517,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [JISAO Seasonal Coastal Ocean Prediction of the Ecosystem (J-SCOPE): University of Washington/JISAO](https://www.nanoos.org/products/j-scope/home.php) 
   
 > This is a forecast system for Washington and Oregon coastal waters, including chlorophyll, SST, oxygen, pH, upwelling, etc. The J-SCOPE forecasts are developed to support the [California Current Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/regions/california-current). Integrated Ecosystem Assessments (IEAs) are a framework for informing ecosystem-based management, which aims to take into account interactions among ecosystem components and managed sectors, as well as cumulative impacts of a wide spectrum of ocean-use sector.
+  
+[Applied California Current Ecosystem Studies (ACCESS) mapping tool: NOAA/National Marine Santuaries](https://www.accessoceans.org/?page_id=219) 
+  
+> The map tool provided by Applied California Current Ecosystem Studies (ACCESS) provides quick visualizations of distribution and abundance of various species from coastal cruises.
