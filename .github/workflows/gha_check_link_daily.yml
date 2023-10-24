@@ -22,4 +22,4 @@ jobs:
 
       - name: link check
         shell: bash -l {0}
-        run: pytest --verbose --check-links README.md
+        run: python daily_linkcheck.py
