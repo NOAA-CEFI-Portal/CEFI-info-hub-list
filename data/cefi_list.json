@@ -621,7 +621,7 @@
             ]
         },
         {
-            "url": "https://arcticdata.io ",
+            "url": "https://arcticdata.io",
             "title": "Arctic Data Center (NSF)",
             "desc": "The Arctic Data Center is the primary data and software repository for the Arctic section of the National Science Foundation\u2019s Office of Polar Programs. Its mission is to help the research community reproducibly preserve and discover all products of NSF-funded science in the Arctic, including data, metadata, software, documents, and provenance that link these in a coherent knowledge model.",
             "thumbnail": "images/adc.png",
@@ -947,7 +947,7 @@
             ]
         },
         {
-            "url": " https://www.bodc.ac.uk ",
+            "url": "https://www.bodc.ac.uk",
             "title": "British Oceanographic Data Center",
             "desc": "Marine data sharing and preservation, managed & operated by the National Oceanography Centre",
             "thumbnail": "images/bodc.png",
