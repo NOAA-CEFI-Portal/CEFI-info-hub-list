@@ -42,7 +42,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > A Collection of float data from the Arctic Heat Ocean Science Experiment
   
-[Arctic Data Center (NSF)](https://arcticdata.io ) 
+[Arctic Data Center (NSF)](https://arcticdata.io) 
   
 > The Arctic Data Center is the primary data and software repository for the Arctic section of the National Science Foundation’s Office of Polar Programs. Its mission is to help the research community reproducibly preserve and discover all products of NSF-funded science in the Arctic, including data, metadata, software, documents, and provenance that link these in a coherent knowledge model.
   
@@ -70,7 +70,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > Serves data and related information online from research projects funded by the Biological and Chemical Oceanography Sections, and the Office of Polar Programs at the U.S. National Science Foundation.
   
-[British Oceanographic Data Center]( https://www.bodc.ac.uk ) 
+[British Oceanographic Data Center](https://www.bodc.ac.uk) 
   
 > Marine data sharing and preservation, managed & operated by the National Oceanography Centre
   
