@@ -49,8 +49,8 @@ class URLNotValidError(Exception):
 if __name__=="__main__":
     # exception list of bad url (wrong reponse with ok website access)
     ex_list = [
-        "https://www.epa.gov/climate-indicators",
-        "https://climatereanalyzer.org/",
+        # "https://www.epa.gov/climate-indicators",
+        # "https://climatereanalyzer.org/",
         "https://nodc.id/oceanography"
     ]
 
