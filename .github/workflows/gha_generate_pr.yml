@@ -6,11 +6,11 @@ on:
 
 jobs:
   auto_new_resource_add_pr:
-    if: contains(github.event.issue.labels.*.name, 'new resource')
+    if: contains(github.event.issue.labels.*.name, 'auto pr')
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         
       - name: Setup Micromamba ${{ matrix.python-version }}
         uses: mamba-org/setup-micromamba@v1

@@ -621,7 +621,7 @@
             ]
         },
         {
-            "url": "https://arcticdata.io ",
+            "url": "https://arcticdata.io",
             "title": "Arctic Data Center (NSF)",
             "desc": "The Arctic Data Center is the primary data and software repository for the Arctic section of the National Science Foundation\u2019s Office of Polar Programs. Its mission is to help the research community reproducibly preserve and discover all products of NSF-funded science in the Arctic, including data, metadata, software, documents, and provenance that link these in a coherent knowledge model.",
             "thumbnail": "images/adc.png",
@@ -947,7 +947,7 @@
             ]
         },
         {
-            "url": " https://www.bodc.ac.uk ",
+            "url": "https://www.bodc.ac.uk",
             "title": "British Oceanographic Data Center",
             "desc": "Marine data sharing and preservation, managed & operated by the National Oceanography Centre",
             "thumbnail": "images/bodc.png",
@@ -3785,7 +3785,7 @@
             ]
         },
         {
-            "url": "https://eos.unh.edu/ocean-process-analysis-laboratory/data/",
+            "url": "https://eos.unh.edu/ocean-process-analysis-laboratory/",
             "title": "Ocean Process Analysis Laboratory: UNH",
             "desc": "Hydrographic and biochemical data collection in the coastal Gulf of Maine region has been central to much of OPAL's work through the years. This has included shipboard and moored sampling programs. Several teams within OPAL are active in maintaining ocean observing stations that support both regional and global applications. Data and supporting information for a range of platforms supported by the lab is accessible.",
             "thumbnail": "images/unh.png",
@@ -5405,9 +5405,9 @@
             ]
         },
         {
-            "url": "https://www.epa.gov/climate-indicators/climate-change-indicators-marine-species-distribution",
+            "url": "https://www.epa.gov/climate-indicators/",
             "title": "Climate Change Indicators for Marine Species Distribution: EPA",
-            "desc": "This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts.",
+            "desc": "This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts",
             "thumbnail": "images/epa_indicator_marine.png",
             "cdata": [
                 0
@@ -5889,7 +5889,7 @@
         {
             "url": "https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/",
             "title": "Climate Science Strategy Regional Action Plans : NOAA/Fisheries",
-            "desc": "Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. \r\n\r\nThe plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA\u2019s effort to build a climate ready nation.",
+            "desc": "Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. The plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA\u2019s effort to build a climate ready nation.",
             "thumbnail": "images/climate_science_strategy_regional_action_plans.png",
             "cdata": [
                 0
@@ -5925,6 +5925,367 @@
             "corgs": [
                 0,
                 14
+            ]
+        },
+        {
+            "url": "https://github.com/NOAA-PMEL/OneArgo-Mat",
+            "title": "OneArgo-Mat : NOAA/PMEL",
+            "desc": "A MATLAB toolbox for accessing and visualizing Argo data, including Core, Deep, and Biogeochemical Argo.",
+            "thumbnail": "images/oneargo-mat.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                12
+            ],
+            "ctopics": [
+                0
+            ],
+            "cplatforms": [
+                0,
+                6
+            ],
+            "cregions": [
+                0
+            ],
+            "corgs": [
+                0,
+                2
+            ]
+        },
+        {
+            "url": "https://giovanni.gsfc.nasa.gov/giovanni/",
+            "title": "Giovanni: NASA",
+            "desc": "An application allows you to quickly visualize selected geophysical parameters from various remote sensing platforms (user can create free login to have unlimited access)",
+            "thumbnail": "images/giovanni.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                5,
+                8,
+                9,
+                10,
+                11,
+                14
+            ],
+            "ctopics": [
+                0
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0
+            ],
+            "corgs": [
+                0,
+                10
+            ]
+        },
+        {
+            "url": "https://mpa-dashboard.caloos.org",
+            "title": "California Marine Protected Area (MPA) Dashboard : NOAA/IOOS",
+            "desc": "visualization tool allows users to plot (and download) time series, correlations, etc. of a selected variable from a chosen west coast MPA",
+            "thumbnail": "images/california_marine_protected_area_(mpa)_dashboard.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0,
+                41,
+                44
+            ],
+            "cproduct": [
+                0,
+                5,
+                6,
+                9,
+                11,
+                13,
+                14
+            ],
+            "ctopics": [
+                0
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                6,
+                7,
+                13,
+                18,
+                20
+            ],
+            "corgs": [
+                0,
+                15,
+                23
+            ]
+        },
+        {
+            "url": "https://faculty.washington.edu/pmacc/LO/LiveOcean.html",
+            "title": "LiveOcean : University of Washington",
+            "desc": "Display of regional model simulates ocean water properties, makes 3-day forecasts of currents, temperature, salinity and many biogeochemical fields, including harmful algal blooms",
+            "thumbnail": "images/live_ocean.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                2
+            ],
+            "cvar": [
+                0,
+                1,
+                6,
+                9,
+                24,
+                26,
+                29,
+                30,
+                39,
+                40,
+                41,
+                44
+            ],
+            "cproduct": [
+                0,
+                6,
+                8
+            ],
+            "ctopics": [
+                0,
+                14,
+                21
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                2,
+                6,
+                9,
+                18,
+                20
+            ],
+            "corgs": [
+                0,
+                18
+            ]
+        },
+        {
+            "url": "https://www.nanoos.org/products/j-scope/home.php",
+            "title": "JISAO Seasonal Coastal Ocean Prediction of the Ecosystem (J-SCOPE): University of Washington/JISAO",
+            "desc": "This is a forecast system for Washington and Oregon coastal waters, including chlorophyll, SST, oxygen, pH, upwelling, etc. The J-SCOPE forecasts are developed to support the [California Current Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/regions/california-current). Integrated Ecosystem Assessments (IEAs) are a framework for informing ecosystem-based management, which aims to take into account interactions among ecosystem components and managed sectors, as well as cumulative impacts of a wide spectrum of ocean-use sector.",
+            "thumbnail": "images/j-scope_forecasts.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                6,
+                7
+            ],
+            "cvar": [
+                0,
+                1,
+                5,
+                6,
+                9,
+                29,
+                30,
+                39,
+                40,
+                41
+            ],
+            "cproduct": [
+                0,
+                5,
+                6
+            ],
+            "ctopics": [
+                0,
+                13,
+                14,
+                15,
+                19,
+                21
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                8,
+                9,
+                13,
+                18,
+                20
+            ],
+            "corgs": [
+                0,
+                2,
+                14,
+                15,
+                18,
+                19,
+                23
+            ]
+        },
+        {
+            "url": "https://www.accessoceans.org/?page_id=219",
+            "title": "Applied California Current Ecosystem Studies (ACCESS) mapping tool: NOAA/National Marine Santuaries",
+            "desc": "The map tool provided by Applied California Current Ecosystem Studies (ACCESS) provides quick visualizations of distribution and abundance of various species from coastal cruises.",
+            "thumbnail": "images/applied_california_current_ecosystem_studies_(access)_mapping_tool.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                5,
+                7,
+                8
+            ],
+            "cvar": [
+                0,
+                37,
+                42,
+                43
+            ],
+            "cproduct": [
+                0,
+                2,
+                9
+            ],
+            "ctopics": [
+                0
+            ],
+            "cplatforms": [
+                0,
+                3
+            ],
+            "cregions": [
+                0,
+                6,
+                7,
+                18
+            ],
+            "corgs": [
+                0,
+                18,
+                23
+            ]
+        },
+        {
+            "url": "https://sanctuarywatch.ioos.us",
+            "title": "Sanctuary Watch : NOAA/IOOS",
+            "desc": "Interactive ecosystem for US National Marine Sanctuaries to access status and trend data, images, web stories and other supporting content.",
+            "thumbnail": "images/sanctuary_watch.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                7,
+                8
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                2,
+                13,
+                19
+            ],
+            "ctopics": [
+                0,
+                14,
+                16,
+                19
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                20
+            ],
+            "corgs": [
+                0,
+                15,
+                23
+            ]
+        },
+        {
+            "url": "http://www.faralloninstitute.org",
+            "title": "Advanced ecosystem research for marine ecosystems: Farallon Institute for Advanced Ecosystem Research",
+            "desc": "Provide different marine species (i.e. Krill, seabird, Rockfish, etc.) and California Multivariate Ocean Climate Indicators (MOCI) with regularly updated, an operational regional indicator for California\u2019s continental shelf system, synthesizing local and regional ocean and atmospheric conditions, and can be leveraged for nowcasting a variety of biological responses across trophic levels.",
+            "thumbnail": "images/farallon_institute.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                5,
+                6,
+                7,
+                8
+            ],
+            "cvar": [
+                0,
+                37,
+                42,
+                43,
+                44
+            ],
+            "cproduct": [
+                0,
+                1,
+                2,
+                11,
+                13,
+                19
+            ],
+            "ctopics": [
+                0,
+                7
+            ],
+            "cplatforms": [
+                0,
+                3
+            ],
+            "cregions": [
+                0,
+                2,
+                6,
+                7,
+                18
+            ],
+            "corgs": [
+                0,
+                18
             ]
         }
     ]
