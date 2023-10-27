@@ -42,7 +42,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > A Collection of float data from the Arctic Heat Ocean Science Experiment
   
-[Arctic Data Center (NSF)](https://arcticdata.io ) 
+[Arctic Data Center (NSF)](https://arcticdata.io) 
   
 > The Arctic Data Center is the primary data and software repository for the Arctic section of the National Science Foundation’s Office of Polar Programs. Its mission is to help the research community reproducibly preserve and discover all products of NSF-funded science in the Arctic, including data, metadata, software, documents, and provenance that link these in a coherent knowledge model.
   
@@ -70,7 +70,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > Serves data and related information online from research projects funded by the Biological and Chemical Oceanography Sections, and the Office of Polar Programs at the U.S. National Science Foundation.
   
-[British Oceanographic Data Center]( https://www.bodc.ac.uk ) 
+[British Oceanographic Data Center](https://www.bodc.ac.uk) 
   
 > Marine data sharing and preservation, managed & operated by the National Oceanography Centre
   
@@ -314,7 +314,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The page provides access to ocean array datasets including moorings and profilers in different locations. They also have <a href='https://oceanobservatories.org/community-tools/'>compiled tools</a> that their community members have built to access, analyze, and visualize the OOI datasets.
   
-[Ocean Process Analysis Laboratory: UNH](https://eos.unh.edu/ocean-process-analysis-laboratory/data) 
+[Ocean Process Analysis Laboratory: UNH](https://eos.unh.edu/ocean-process-analysis-laboratory/) 
   
 > Hydrographic and biochemical data collection in the coastal Gulf of Maine region has been central to much of OPAL's work through the years. This has included shipboard and moored sampling programs. Several teams within OPAL are active in maintaining ocean observing stations that support both regional and global applications. Data and supporting information for a range of platforms supported by the lab is accessible.
   
@@ -454,9 +454,9 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The page provide a report of global climate indicator in ocean heat content, acidification, deoxygenation and blue carbon.
   
-[Climate Change Indicators for Marine Species Distribution: EPA](https://www.epa.gov/climate-indicators/climate-change-indicators-marine-species-distribution) 
+[Climate Change Indicators for Marine Species Distribution: EPA](https://www.epa.gov/climate-indicators/) 
   
-> This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts.
+> This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts
   
 [Ocean Conditions Indicators Trends: NOAA Fisheries](https://www.fisheries.noaa.gov/west-coast/science-data/ocean-conditions-indicators-trends) 
   
@@ -494,8 +494,38 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The National Ocean Economics Program (NOEP) provides a full range of the most current policy-relevant economic and demographic information available on changes and trends along the U.S. coast, Great Lakes, and coastal waters.
   
-[Climate Science Strategy Regional Action Plans : NOAA/Fisheries](https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans) 
+[Climate Science Strategy Regional Action Plans : NOAA/Fisheries](https://www.fisheries.noaa.gov/national/climate/climate-science-strategy-regional-action-plans/) 
   
-> Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. 
-
-The plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA’s effort to build a [climate ready nation](https://www.noaa.gov/sites/default/files/2022-06/NOAA_FY2226_Strategic_Plan_ExecutiveSummary.pdf).
+> Climate Science Regional Action Plans guide the implementation of the [NOAA Fisheries Climate Science Strategy](https://www.fisheries.noaa.gov/national/climate/noaa-fisheries-climate-science-strategy) in each region. The plans identify regional climate-related needs and highlight actions to develop the tools and information to fulfill those needs over the near-term (within a few years). The actions are part of NOAA’s effort to build a climate ready nation.
+  
+[OneArgo-Mat : NOAA/PMEL](https://github.com/NOAA-PMEL/OneArgo-Mat) 
+  
+> A MATLAB toolbox for accessing and visualizing Argo data, including Core, Deep, and Biogeochemical Argo.
+  
+[Giovanni: NASA](https://giovanni.gsfc.nasa.gov/giovanni/) 
+  
+> An application allows you to quickly visualize selected geophysical parameters from various remote sensing platforms (user can create free login to have unlimited access)
+  
+[California Marine Protected Area (MPA) Dashboard : NOAA/IOOS](https://mpa-dashboard.caloos.org) 
+  
+> visualization tool allows users to plot (and download) time series, correlations, etc. of a selected variable from a chosen west coast MPA
+  
+[LiveOcean : University of Washington](https://faculty.washington.edu/pmacc/LO/LiveOcean.html) 
+  
+> Display of regional model simulates ocean water properties, makes 3-day forecasts of currents, temperature, salinity and many biogeochemical fields, including harmful algal blooms
+  
+[JISAO Seasonal Coastal Ocean Prediction of the Ecosystem (J-SCOPE): University of Washington/JISAO](https://www.nanoos.org/products/j-scope/home.php) 
+  
+> This is a forecast system for Washington and Oregon coastal waters, including chlorophyll, SST, oxygen, pH, upwelling, etc. The J-SCOPE forecasts are developed to support the [California Current Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/regions/california-current). Integrated Ecosystem Assessments (IEAs) are a framework for informing ecosystem-based management, which aims to take into account interactions among ecosystem components and managed sectors, as well as cumulative impacts of a wide spectrum of ocean-use sector.
+  
+[Applied California Current Ecosystem Studies (ACCESS) mapping tool: NOAA/National Marine Santuaries](https://www.accessoceans.org/?page_id=219) 
+  
+> The map tool provided by Applied California Current Ecosystem Studies (ACCESS) provides quick visualizations of distribution and abundance of various species from coastal cruises.
+  
+[Sanctuary Watch : NOAA/IOOS](https://sanctuarywatch.ioos.us) 
+  
+> Interactive ecosystem for US National Marine Sanctuaries to access status and trend data, images, web stories and other supporting content.
+  
+[Advanced ecosystem research for marine ecosystems: Farallon Institute for Advanced Ecosystem Research](http://www.faralloninstitute.org) 
+  
+> Provide different marine species (i.e. Krill, seabird, Rockfish, etc.) and California Multivariate Ocean Climate Indicators (MOCI) with regularly updated, an operational regional indicator for California’s continental shelf system, synthesizing local and regional ocean and atmospheric conditions, and can be leveraged for nowcasting a variety of biological responses across trophic levels.
