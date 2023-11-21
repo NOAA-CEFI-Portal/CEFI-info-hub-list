@@ -6287,6 +6287,39 @@
                 0,
                 18
             ]
+        },
+        {
+            "url": "https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox",
+            "title": "NOAA Fisheries Integrated Toolbox",
+            "desc": "The NOAA Fisheries Integrated Toolbox (NOAA FIT, http://noaa-fisheries-integrated-toolbox.github.io/ ) is a software portal designed to make modeling and analysis tools more readily available to NOAA Fisheries staff. The goal of the NOAA FIT is to ensure that the best available science is used to support the management of living marine resources. The NOAA FIT offers open-source tools that NOAA Fisheries staff use and develop to support open science workflows for research and operations. The portal also includes resources to help NOAA Fisheries scientists and developers create reliable and shareable software.",
+            "thumbnail": "images/noaa_fisheries_integrated_toolbox.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                12,
+                17
+            ],
+            "ctopics": [
+                0
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0
+            ],
+            "corgs": [
+                0,
+                14
+            ]
         }
     ]
 }
