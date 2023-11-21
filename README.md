@@ -529,3 +529,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Advanced ecosystem research for marine ecosystems: Farallon Institute for Advanced Ecosystem Research](http://www.faralloninstitute.org) 
   
 > Provide different marine species (i.e. Krill, seabird, Rockfish, etc.) and California Multivariate Ocean Climate Indicators (MOCI) with regularly updated, an operational regional indicator for California’s continental shelf system, synthesizing local and regional ocean and atmospheric conditions, and can be leveraged for nowcasting a variety of biological responses across trophic levels.
+  
+[NOAA Fisheries Integrated Toolbox](https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox) 
+  
+> The NOAA Fisheries Integrated Toolbox (NOAA FIT, http://noaa-fisheries-integrated-toolbox.github.io/ ) is a software portal designed to make modeling and analysis tools more readily available to NOAA Fisheries staff. The goal of the NOAA FIT is to ensure that the best available science is used to support the management of living marine resources. The NOAA FIT offers open-source tools that NOAA Fisheries staff use and develop to support open science workflows for research and operations. The portal also includes resources to help NOAA Fisheries scientists and developers create reliable and shareable software.
