@@ -11,309 +11,200 @@
     gtag('config',"{{org_config.google_analytics_code}}" );
   </script>
     <title>{{org_config.main_title}}</title>
-    <link rel="icon" type="image/png" href="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/favicon.ico">
+    <link rel="icon" type="image/png" href="../website_images/favicon.ico">
    <link type="text/css" rel="stylesheet" href="./static/main.css" />
 
 </head>
+
 <body>
   <main role="main" class="container">
         <div class="mywrap_head">
-            <img src="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/logo-navbar.png" alt="NOAA IOOS Logo" height="75">&nbsp;&nbsp;&nbsp;
-            <h1 class ="header_title">CEFI Resources</h1>
-            <p>Source information from <a href="https://github.com/chiaweh2/CEFI-info-hub-list/blob/main/data/cefi_list.json">https://github.com/chiaweh2/CEFI-info-hub-list/blob/main/data/cefi_list.json</a></p>
+            <img src="../website_images/NOAA_logo.png" alt="NOAA Logo" height="150">&nbsp;&nbsp;&nbsp;
+            <h1 class ="header_title">CEFI Information Hub</h1>
+            <p>Source information from <a href="https://github.com/NOAA-PSL/CEFI-info-hub-list/blob/main/data/cefi_list.json">CEFI information hub GitHub Repository</a></p>
         </div>
+
         <div class = "divider"></div>
-          <div class ="mywrap_head">
-            <button class="header_button" onclick="location.href='./index.html';" value="CEFI homepage" >CEFI Homepage</button>
-            <button class="header_button" onclick="location.href='./resources.html';" value="Explore Resources" >Explore Resources</button>
-            <button class="header_button" onclick="location.href='https://github.com/chiaweh2/CEFI-info-hub-list/issues'" value="Contact CEFI" >Contact CEFI</button>
-          </div>
+        
+        <div class ="mywrap_head">
+          <button class="header_button" onclick="location.href='https://psl.noaa.gov/cefi_portal/';" value="CEFI homepage" >CEFI Portal</button>
+          <button class="header_button" onclick="location.href='./index.html';" value="Back to Summary" >CEFI Summary</button>
+          <button class="header_button" onclick="location.href='https://github.com/NOAA-PSL/CEFI-info-hub-list/issues';" value="Contact CEFI" >Contact CEFI</button>
+        </div>
+
         <div class = "divider"></div>
+        
         <div class ="mywrap">
           <h2 class ="title">{{org_config.general_title}}</h2>
         </div>
+
         <div class="mywrap">
 
-          <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="Search for tools" title="Type in a name">
+          <input class = "boxInput" type="text" id="myInput" onkeyup="simpleSearch()" placeholder="   Search keyword" title="Type in search word">
 
-          <input type="button" class="dropbtn" value="See all tools" onclick="resetSearch()">
+          <input type="button" class="dropbtn" value="Show all" onclick="resetSearch()">
 
-            <!-- create the dropdown filters-->
+        </div>
+
+
+        <div class="mywrap">
+          <!-- create the dropdown filters-->
           {% for kwd in cat_defs %}
           <div class="dropdown">
-            <button class="dropbtn">Filter tools by {{ kwd }} </button>
+            <button class="dropbtn">Filter by {{ cat_defs[kwd]['name'] }} </button>
             <div class="dropdown-content">
-
-                {% for key, term in cat_defs[kwd].items()%}
-
+              {% for key, term in cat_defs[kwd].items()%}
                 {% if not key in ['name','0'] %}
-
-                {% if kwd == 'cvar' %}
-                <input type="button" value="{{term[0]}}" onclick="simpleSearch(this.value)">
-                {% else %}
-
-                <input type="button" value="{{term}}" onclick="simpleSearch(this.value)">
+                  {% if kwd == 'cvar' %}
+                    <input type="button" value="{{term[0]}}" onclick="simpleSearch(this.value)">
+                  {% else %}
+                    <input type="button" value="{{term}}" onclick="simpleSearch(this.value)">
+                  {% endif %}
                 {% endif %}
-
-                {% endif %}
-
-                {% endfor %}
-
+              {% endfor %}
             </div>
           </div>
-            {% endfor %}
-
-        </div>
-        <div class="divider_thin"></div>
-        <div class="mywrap">
-          <div class="mywrap">
-            <nav class ="sidenav" role="navigation">
-              <button class="menu-toggle" id=”menu-toggle” onclick="menuClick(this)"  aria-label=”toggle the menu” aria-expanded="false" aria-controls="menu"></button>
-              <div class="menulabel">
-                  <div class="bar1" aria-hidden=”true”></div>
-                  <div class="bar2" aria-hidden=”true”></div>
-                  <div class="bar3" aria-hidden=”true”></div>
-              </div>
-
-            <div id = "menu" tabindex="-1">
-              <div class = "box2">
-                    <div class ="row"><img class="icon_small online"><h2> Web App</h2></div>
-                    Tool is available as a web-based application.
-                </div>
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small down" ><h2> Executable</h2></div>
-
-                      Tool is packaged as an executable available for download.
-                </div>
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small github"><h2> Code Repository</h2></div>
-
-                      Code repository associated with the tool is available for developers or users to access. Interested developers can make pull requests on the code base.
-                </div>
-                <!-- <div class = "box2">
-                  <div class ="row"><img class="icon_small cert" > <h2>Validation</h2></div>
-                      Tools and code go through a validation process and are assigned different levels of validation.
-
-                </div> -->
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small checkmarkN"> <h2>NOAA Support</h2></div>
-                      Authored and currently maintained by NOAA staff.
-                </div>
-                <div class = "box2">
-                  <div class ="row"><img class="icon_small checkmarkE"> <h2>External Tool</h2></div>
-                      Authored by developers external to NOAA.
-                </div>
-                <!-- <div class = "box2">
-                  <div class ="row"><img class="icon_small legacy">
-                    <input type="button" value="Legacy Tool" onclick="simpleSearch(this.value)">
-                  </div>
-                      A tool that is no longer maintained. It is recommended to update to a replacement tool.
-                </div> -->
-                </div>
-          </nav>
-
-
-
-        <div class ="boxcontainer">
-
-          {% for key, value in configs.items() %}
-          <div class = "box">
-              {% set my_string = value['tool_abbreviation']  %}
-              <a class = "shortTitle" href= {{value['url']}} target=”_blank”> {{value['title']}} </a>
-              <div class = "longTitle">{{value['desc']}}</div>
-              {% for filter in cat_defs %}
-              {% if filter != 'name' or filter != '0' %}
-              {% if value[filter] is defined and value[filter]|length %}
-              <div>
-                  <h3>{{filter}}:</h3>
-                  {% if filter == 'cvar' %}
-                  {% for intmap in value[filter] %}
-                  <a class = "keywords">{{ cat_defs[filter][intmap.__str__()] }}</a> <!-- should be able to add [0] but Broken because defs are wrong-->
-                  {% endfor %}
-                  {% else %}
-                  <!--<p>{{ value[filter] }}</p>-->
-                  {% for intmap in value[filter] %}
-                  <a class = "keywords">{{ cat_defs[filter][intmap.__str__()] }}</a>
-                  {% endfor %}
-                  {% endif %}
-              </div>
-              {% endif %}
-              {% endif %}
-              {% endfor %}
-              <!-- <div class = "modelType">{{value['tool_type']}}</div>
-              <div class = "modelType">{{value['model_type']}}</div> -->
-              <!-- {% if value['release_badge'] is defined and value['release_badge'] %}
-              {% set release = "https://img.shields.io/github/v/release/"   ~ value['release_badge']  ~ "?color=%230093D0&include_prereleases" %}
-              <div class = "release"><img alt="GitHub release (latest by date)" src= "{{release}}"></div>
-              {% endif %} -->
-
-              <div class = "language"></div>
-              <!-- web app button -->
-              <div class = "iconrow">
-                {% if value['url'] is defined and value['url']|length %}
-                 <button class = "icon_small online" onclick="location.href= '{{value.url}}';" value="Go to online app" ></button>
-                {% else %}
-                 <button class = "icon_small online" disabled></button>
-                {% endif %}
-                <!-- executable button -->
-                {% if value['executable_link'] is defined and value['executable_link']|length %}
-                 <button class = "icon_small down" onclick="location.href='{{value.executable_link}}';" value="download app" ></button>
-                {% else %}
-                  <button class = "icon_small down" disabled></button>
-                {% endif %}
-                <!-- code repository button -->
-                {% if value['source_code_link'] is defined and value['source_code_link']|length %}
-                 <button class = "icon_small github" onclick="location.href='{{value.source_code_link}}';" value="Go to online app" ></button>
-                {% else %}
-                  <button class = "icon_small github" disabled></button>
-                {% endif %}
-
-               <!--  {% if value['online_app_link']|length %}
-                 <button class = "icon_small"  id ="" onclick="location.href=""{{value['online_app_link']}};" value="Go to online app" ></button>
-                 -->
-                  <!-- {% else %} -->
-                  <!-- {% if badge_level %}
-                <button class = "icon_small {{badge_level}}"></button> -->
-                <!-- {% else %}
-                <button class = "icon_small cert" disabled></button> -->
-                <!-- {% endif %} -->
-
-                  <!-- <button class = "icon_small cert" disabled></button> -->
-                <!-- {% endif %} -->
-                <!-- NOAA support button -->
-                {% if value['noaa_internal'] is defined and value['active_development'] is defined and value['noaa_internal'] == true and value['active_development'] == true%}
-                  <button class = "icon_small internal_active" ></button>
-                {% else %}
-                  <button class = "icon_small internal_active" disabled></button>
-                {% endif %}
-                <!-- External Tool Icon -->
-                {% if value['noaa_internal'] is defined and value['active_development'] is defined and value['noaa_internal'] == false and value['active_development'] == true%}
-                  <button class = "icon_small external_active" ></button>
-                {% else %}
-                  <button class = "icon_small external_active" disabled></button>
-                {% endif %}
-                <!-- Legacy Tool Icon -->
-                <!-- May want to use noaa_internal and active_development in the future to determine if this button should be added -->
-                <!-- {% if value['keywords'] is defined and 'Legacy Tool' in value['keywords'] %}
-                  <button class = "icon_small legacy" ></button>
-                {% else %}
-                  <button class = "icon_small legacy" disabled></button>
-                {% endif %} -->
-
-              </div>
-
-
-          </div>
           {% endfor %}
-        </div>
-
 
         </div>
-      </div>
 
+        <div class="divider_thin"></div>
 
+        <div class="mywrap">
+          <div class ="boxcontainer">
 
+            {% for key, value in configs.items() %}
+            <div class = "box">
+                <a class = "shortTitle" href= {{value['url']}}> {{value['title']}} </a>
+                <div class = "longTitle">{{value['desc']}}</div>
+                {% for filter in cat_defs %}
+                    {% if value[filter] is defined and value[filter]|length %}
+                      <div>
+                          <h3>{{cat_defs[filter]['name']}}:</h3>
+                          {% if filter == 'cvar' %}
+                            {% for intmap in value[filter] %}
+                              <a class = "keywords">{{ cat_defs[filter][intmap|string][0] }}</a>
+                            {% endfor %}
+                          {% else %}
+                            {% for intmap in value[filter] %}
+                              <a class = "keywords">{{ cat_defs[filter][intmap|string] }}</a>
+                            {% endfor %}
+                          {% endif %}
+                      </div>
+                    {% endif %}
+                {% endfor %}
+
+                <div class = "language"></div>
+                <!-- web app button -->
+                <div class = "iconrow">
+                  {% if value['url'] is defined and value['url']|length %}
+                  <button class = "icon_small" onclick="location.href= '{{value.url}}';" value="link to resource" >&#128640;</button>
+                  {% else %}
+                  <button class = "icon_small" disabled></button>
+                  {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
 
       <div class = "divider"></div>
 
-        <footer >
-             <img src="https://github.com/ioos/documentation-theme-jekyll/raw/main/images/logo-navbar.png" alt="NOAA IOOS Logo" height="75">
-         <div class="mywrap_center">
-             <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
-             <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
-             <a class ="mylink line" href="https://www.ioos.noaa.gov/">NOAA IOOS</a>
-             <a class ="mylink" href="https://github.com/chiaweh2/CEFI-info-hub-list">GitHub Repository</a>
-         </div>
-        </footer>
-        <div class ="attribution">Icons by icons8 https://icons8.com/</div>
-      </main>
-      <script>
-        var sidenav = document.getElementsByClassName("sidenav");
-        var menu = document.getElementById("menu");
-        var menulabel = document.getElementsByClassName("menulabel");
+      <footer >
+            <img src="../website_images/NOAA_logo.png" alt="NOAA Logo" height="75">
+        <div class="mywrap_center">
+            <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+            <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+            <a class ="mylink line" href="https://psl.noaa.gov/">NOAA PSL</a>
+            <a class ="mylink" href="https://github.com/NOAA-PSL/CEFI-info-hub-list">GitHub Repository</a>
+        </div>
+      </footer>
+
+  </main>
+
+  <script>
+    var sidenav = document.getElementsByClassName("sidenav");
+    var menu = document.getElementById("menu");
+    var menulabel = document.getElementsByClassName("menulabel");
 
 
-            // sidenav[0].style.display="none";
-
-        function simpleSearch(val) {
-            var input, filter, ul, box, box_each, box_each_abbrev, box_each_keywords, box_each_drawer, i, txtValue;
-            if(val === undefined){
-              input = document.getElementById("myInput");
-              filter = input.value.toUpperCase();
+    function simpleSearch(val) {
+        var input, filter, ul, box, box_each, box_each_abbrev, box_each_keywords, box_each_drawer, i, txtValue;
+        if(val === undefined){
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+        }
+        else {
+          filter = val.toUpperCase();
+        }
+        box = document.getElementsByClassName("box");
+        for (i = 0; i < box.length; i++) {
+            box_each = box[i].getElementsByClassName("longTitle")[0];
+            box_each_abbrev = box[i].getElementsByClassName("shortTitle")[0];
+            var keywords = box[i].getElementsByClassName("keywords")
+            for (j = 0; j < keywords.length; j++) {
+              box_each_keywords += keywords[j].innerText+" "
             }
-            else {
-              filter = val.toUpperCase();
-            }
-            box = document.getElementsByClassName("box");
-            for (i = 0; i < box.length; i++) {
-                box_each = box[i].getElementsByClassName("longTitle")[0];
-                box_each_abbrev = box[i].getElementsByClassName("shortTitle")[0];
-                box_each_keywords = box[i].getElementsByClassName("keywords")[0];
-                box_each_drawer = box[i].getElementsByClassName("toolbox_drawers")[0];
-                //console.log(box_each_keywords); // For Debugging
-                txtValue = box_each.textContent + " " + box_each_abbrev.innerText + " " + box_each_keywords.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    box[i].style.display = "";
-                } else {
-                    box[i].style.display = "none";
-                }
+            box_each_drawer = box[i].getElementsByClassName("toolbox_drawers")[0];
+            txtValue = box_each.textContent + " " + box_each_abbrev.innerText + " " + box_each_keywords;
+            console.log(box_each_keywords)
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                box[i].style.display = "";
+            } else {
+                box[i].style.display = "none";
             }
         }
+    }
 
-        function drawerSearch(val) {
-            var input, filter, ul, box, box_each, i, txtValue;
-            if(val === undefined){
-              input = document.getElementById("myInput");
-              filter = input.value.toUpperCase();
-            }
-            else {
-              filter = val.toUpperCase();
-            }
-            box = document.getElementsByClassName("box");
-            for (i = 0; i < box.length; i++) {
-                box_each = box[i].getElementsByClassName("toolbox_drawers")[0];
-                txtValue = box_each.textContent;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    box[i].style.display = "";
-                } else {
-                    box[i].style.display = "none";
-                }
+    function drawerSearch(val) {
+        var input, filter, ul, box, box_each, i, txtValue;
+        if(val === undefined){
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+        }
+        else {
+          filter = val.toUpperCase();
+        }
+        box = document.getElementsByClassName("box");
+        for (i = 0; i < box.length; i++) {
+            box_each = box[i].getElementsByClassName("toolbox_drawers")[0];
+            txtValue = box_each.textContent;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                box[i].style.display = "";
+            } else {
+                box[i].style.display = "none";
             }
         }
+    }
 
-        function resetSearch() {
-            var box, i;
-            box = document.getElementsByClassName("box");
-            for (i = 0; i < box.length; i++) {
-              box[i].style.display = "";
-            }
+    function resetSearch() {
+        var box, i;
+        box = document.getElementsByClassName("box");
+        for (i = 0; i < box.length; i++) {
+          box[i].style.display = "";
         }
+    }
 
-        function menuClick(x) {
-          // x.classList.toggle("change");
-          menulabel[0].classList.toggle("change");
-          sidenav[0].classList.toggle("open");
-          menu.classList.toggle("is_active");
-          let y =x.getAttribute("aria-expanded");
-          let t;
-          if (y == "true"){
-            y = "false"
-            t="-1";
-          }
-          else {
-            y = "true";
-            t="0";
-          }
-          x.setAttribute("aria-expanded", x);
+    function menuClick(x) {
+      // x.classList.toggle("change");
+      menulabel[0].classList.toggle("change");
+      sidenav[0].classList.toggle("open");
+      menu.classList.toggle("is_active");
+      let y =x.getAttribute("aria-expanded");
+      let t;
+      if (y == "true"){
+        y = "false"
+        t="-1";
+      }
+      else {
+        y = "true";
+        t="0";
+      }
+      x.setAttribute("aria-expanded", x);
 
-           }
-          // boxcontainer
+        }
+      // boxcontainer
 
-
-
-
-
-
-      </script>
-   </body>
+  </script>
+</body>
 </html>
