@@ -5550,7 +5550,7 @@
             "url": "https://maps.coastalresilience.org",
             "title": "Coastal Resilience Toolkits : The Nature Conservancy",
             "desc": "Coastal Resilience is a program led by The Nature Conservancy to examine nature\u2019s role in reducing coastal flood risks. The program consists of an approach, a web mapping tool, and a network of practitioners around the world supporting hazard mitigation and climate adaptation planning.",
-            "thumbnail": "images/coastal_resilience_toolkits_:_the_nature_conservancy.png",
+            "thumbnail": "images/coastal_resilience_toolkits_the_nature_conservancy.png",
             "cdata": [
                 0
             ],
@@ -6001,7 +6001,7 @@
             "url": "https://mpa-dashboard.caloos.org",
             "title": "California Marine Protected Area (MPA) Dashboard : NOAA/IOOS",
             "desc": "visualization tool allows users to plot (and download) time series, correlations, etc. of a selected variable from a chosen west coast MPA",
-            "thumbnail": "images/california_marine_protected_area_(mpa)_dashboard.png",
+            "thumbnail": "images/california_marine_protected_area_mpa_dashboard.png",
             "cdata": [
                 0
             ],
@@ -6157,7 +6157,7 @@
             "url": "https://www.accessoceans.org/?page_id=219",
             "title": "Applied California Current Ecosystem Studies (ACCESS) mapping tool: NOAA/National Marine Santuaries",
             "desc": "The map tool provided by Applied California Current Ecosystem Studies (ACCESS) provides quick visualizations of distribution and abundance of various species from coastal cruises.",
-            "thumbnail": "images/applied_california_current_ecosystem_studies_(access)_mapping_tool.png",
+            "thumbnail": "images/applied_california_current_ecosystem_studies_access_mapping_tool.png",
             "cdata": [
                 0
             ],
