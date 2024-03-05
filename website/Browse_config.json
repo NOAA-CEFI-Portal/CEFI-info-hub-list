@@ -1,10 +1,9 @@
 {
   "general_info_text": "Browse all the CEFI Resources in one place.",
   "general_title": "Browse all CEFI Resources",
-  "githubpage": "https://mathewbiddle.github.io/browse",
+  "githubpage": "https://noaa-psl.github.io/CEFI-info-hub-list/browse",
   "google_analytics": "https://tag_url.google.co",
   "google_analytics_code": "some-code",
   "source_file": "../data/cefi_list.json",
-  "location_of_model_list": "./model_list_dir",
   "main_title": "CEFI Resources"
 }

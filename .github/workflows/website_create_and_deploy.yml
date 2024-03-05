@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.9
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.9
     - name: Install dependencies
@@ -33,5 +33,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: website/deploy # The folder the action should deploy.
-        repository-name: chiaweh2/CEFI-info-hub-list
+        repository-name: NOAA-PSL/CEFI-info-hub-list
   #      token: ${{ secrets.API_TOKEN_GITHUB }}
