@@ -52,7 +52,7 @@ if __name__=="__main__":
         # "https://www.epa.gov/climate-indicators",
         # "https://climatereanalyzer.org/",
         "https://nodc.id/oceanography",
-        "https://oceanadapt.rutgers.edu",
+        "https://oceanadapt.rutgers.edu/",
     ]
 
     # Provide the path to your text file
