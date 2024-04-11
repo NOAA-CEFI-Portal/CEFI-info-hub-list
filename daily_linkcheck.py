@@ -51,7 +51,8 @@ if __name__=="__main__":
     ex_list = [
         # "https://www.epa.gov/climate-indicators",
         # "https://climatereanalyzer.org/",
-        "https://nodc.id/oceanography"
+        "https://nodc.id/oceanography",
+        "https://oceanadapt.rutgers.edu",
     ]
 
     # Provide the path to your text file
