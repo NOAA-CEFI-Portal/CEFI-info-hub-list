@@ -74,7 +74,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > Marine data sharing and preservation, managed & operated by the National Oceanography Centre
   
-[California Current Marine Heatwave Tracker - Blobtracker: NOAA Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/regions/california-current/california-current-marine-heatwave-tracker-blobtracker) 
+[California Current Marine Heatwave Tracker - Blobtracker: NOAA Integrated Ecosystem Assessment](https://www.integratedecosystemassessment.noaa.gov/california-current-marine-heatwave-tracker-blobtracker) 
   
 >  California Current marine heatwave MHW Tracker is a program designed to understand, describe, and provide a historical context for MHWs including the very strong one that occurred during 2014-16 (termed the "blob"). It also tracks current sea surface temperatures (SSTs) and produces a range of indices that could help predict future MHWs expected to impact the California coast. 
   
