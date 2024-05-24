@@ -6321,6 +6321,77 @@
                 0,
                 14
             ]
+        },
+        {
+            "url": "https://www.ncei.noaa.gov/products/world-ocean-atlas",
+            "title": "World Ocean Atlas - WOA",
+            "desc": "The World Ocean Atlas (WOA) is a collection of objectively analyzed, quality controlled temperature, salinity, oxygen, phosphate, silicate, and nitrate means based on profile data from the World Ocean Database (WOD). It can be used to create boundary and/or initial conditions for a variety of ocean models, verify numerical simulations of the ocean, and corroborate satellite data.",
+            "thumbnail": "images/world_ocean_atlas.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "cvar": [
+                0,
+                5,
+                6,
+                9,
+                10,
+                17,
+                20,
+                21,
+                25,
+                29,
+                30,
+                31,
+                33,
+                35,
+                39,
+                41
+            ],
+            "cproduct": [
+                0,
+                1,
+                2,
+                9
+            ],
+            "ctopics": [
+                0,
+                6,
+                10,
+                14
+            ],
+            "cplatforms": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                13,
+                14,
+                15
+            ],
+            "cregions": [
+                0
+            ],
+            "corgs": [
+                0,
+                6
+            ]
         }
     ]
 }

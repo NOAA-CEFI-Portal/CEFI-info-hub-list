@@ -533,3 +533,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [NOAA Fisheries Integrated Toolbox](https://www.fisheries.noaa.gov/resource/tool-app/noaa-fisheries-integrated-toolbox) 
   
 > The NOAA Fisheries Integrated Toolbox (NOAA FIT, http://noaa-fisheries-integrated-toolbox.github.io/ ) is a software portal designed to make modeling and analysis tools more readily available to NOAA Fisheries staff. The goal of the NOAA FIT is to ensure that the best available science is used to support the management of living marine resources. The NOAA FIT offers open-source tools that NOAA Fisheries staff use and develop to support open science workflows for research and operations. The portal also includes resources to help NOAA Fisheries scientists and developers create reliable and shareable software.
+  
+[World Ocean Atlas - WOA](https://www.ncei.noaa.gov/products/world-ocean-atlas) 
+  
+> The World Ocean Atlas (WOA) is a collection of objectively analyzed, quality controlled temperature, salinity, oxygen, phosphate, silicate, and nitrate means based on profile data from the World Ocean Database (WOD). It can be used to create boundary and/or initial conditions for a variety of ocean models, verify numerical simulations of the ocean, and corroborate satellite data.
