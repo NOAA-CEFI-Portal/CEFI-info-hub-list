@@ -61,7 +61,7 @@ def parse_issue(body):
 
 if __name__ == '__main__' :
     # cefi list repo location
-    ORGNAME = "NOAA-PSL"
+    ORGNAME = "NOAA-CEFI-Portal"
     REPO_NAME = "CEFI-info-hub-list"
     DEBUG = False
 

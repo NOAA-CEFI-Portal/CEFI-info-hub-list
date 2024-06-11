@@ -83,7 +83,7 @@ if __name__ == '__main__':
         existing_content = file.read()
 
     # New line of text to add at the top
-    badge = "![Resource Link Checked](https://github.com/NOAA-PSL/CEFI-info-hub-list/actions/workflows/gha_check_link_daily.yml/badge.svg)\n"
+    badge = "![Resource Link Checked](https://github.com/NOAA-CEFI-Portal/CEFI-info-hub-list/actions/workflows/gha_check_link_daily.yml/badge.svg)\n"
 
     # Combine the new line and existing content
     updated_content = badge + existing_content

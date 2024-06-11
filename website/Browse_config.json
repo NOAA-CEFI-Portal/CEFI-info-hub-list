@@ -1,7 +1,7 @@
 {
   "general_info_text": "Browse all the CEFI Resources in one place.",
   "general_title": "Browse all CEFI Resources",
-  "githubpage": "https://noaa-psl.github.io/CEFI-info-hub-list/browse",
+  "githubpage": "https://noaa-cefi-portal.github.io/CEFI-info-hub-list/browse",
   "google_analytics": "https://tag_url.google.co",
   "google_analytics_code": "some-code",
   "source_file": "../data/cefi_list.json",

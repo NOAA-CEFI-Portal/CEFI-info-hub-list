@@ -1,4 +1,4 @@
-![Resource Link Checked](https://github.com/NOAA-PSL/CEFI-info-hub-list/actions/workflows/gha_check_link_daily.yml/badge.svg)
+![Resource Link Checked](https://github.com/NOAA-CEFI-Portal/CEFI-info-hub-list/actions/workflows/gha_check_link_daily.yml/badge.svg)
 
 
 
