@@ -6348,6 +6348,70 @@
                 0,
                 6
             ]
+        },
+        {
+            "url": "https://polarwatch.noaa.gov/",
+            "title": "Arctic and Antarctic Ocean Satellite Data Portal",
+            "desc": "PolarWatch, part of the NOAA CoastWatch program, provides access to download and visualize satellite observation data for high latitude regions, specifically the Arctic and Southern Oceans.",
+            "thumbnail": "images/polar_data_access_and_visualization.png",
+            "cdata": [
+                0,
+                8
+            ],
+            "ctime": [
+                0,
+                2,
+                4,
+                5
+            ],
+            "cvar": [
+                0,
+                1,
+                2,
+                6,
+                9,
+                13,
+                28,
+                41
+            ],
+            "cproduct": [
+                0,
+                4,
+                9,
+                10,
+                11,
+                12,
+                15,
+                17,
+                18
+            ],
+            "ctopics": [
+                0,
+                10,
+                21
+            ],
+            "cplatforms": [
+                0,
+                3,
+                4,
+                5,
+                6,
+                10
+            ],
+            "cregions": [
+                0,
+                2,
+                4,
+                5,
+                15,
+                17,
+                18
+            ],
+            "corgs": [
+                0,
+                5,
+                14
+            ]
         }
     ]
 }

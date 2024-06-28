@@ -533,3 +533,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [World Ocean Atlas - WOA](https://www.ncei.noaa.gov/products/world-ocean-atlas) 
   
 > The World Ocean Atlas (WOA) is a collection of objectively analyzed, quality controlled temperature, salinity, oxygen, phosphate, silicate, and nitrate means based on profile data from the World Ocean Database (WOD). It can be used to create boundary and/or initial conditions for a variety of ocean models, verify numerical simulations of the ocean, and corroborate satellite data.
+  
+[Arctic and Antarctic Ocean Satellite Data Portal](https://polarwatch.noaa.gov/) 
+  
+> PolarWatch, part of the NOAA CoastWatch program, provides access to download and visualize satellite observation data for high latitude regions, specifically the Arctic and Southern Oceans.
