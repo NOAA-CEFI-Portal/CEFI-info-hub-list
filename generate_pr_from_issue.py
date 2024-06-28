@@ -19,7 +19,7 @@ def check_link_availability(test_url):
     """
     try:
         resp = requests.get(test_url)
-        if resp.status_code >= 200 and response.status_code < 300:
+        if resp.status_code >= 200 and resp.status_code < 300:
             print(f"The link '{test_url}' is available.")
         else:
             print(f"The link '{test_url}' returned a status code: {resp.status_code}")
@@ -70,7 +70,7 @@ if __name__ == '__main__' :
     # Using the GitHub api to get the issue info
     # Load the contents of the event payload from GITHUB_EVENT_PATH
     if DEBUG :
-        ISSUE_NUM = 69
+        ISSUE_NUM = 123
         # ISSUE_NUM = 59
     else :
         event_path = os.environ['GITHUB_EVENT_PATH']
