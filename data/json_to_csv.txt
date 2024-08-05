@@ -2,8 +2,8 @@ import json
 import csv
 
 # Path to the input JSON file and output CSV file
-input_file_path = r'C:\Users\jmansour\Documents\NOAA\CEFI\cefi_list.json'
-output_file_path = r'C:\Users\jmansour\Documents\NOAA\CEFI\cefi_list.csv'
+input_file_path = r'C:\path\to\your\file'
+output_file_path = r'C:\path\to\your\file'
 
 # Read the JSON data from the file
 with open(input_file_path, 'r') as json_file:
