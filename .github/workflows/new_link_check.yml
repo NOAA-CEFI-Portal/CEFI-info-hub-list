@@ -1,0 +1,33 @@
+name: Check URL Duplicates
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  check-url:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests
+
+      - name: Extract URL from issue and check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Extracting URL from Issue #${{ github.event.issue.number }}"
+          # Extract the first URL from the issue body
+          URL=$(jq --raw-output .issue.body $GITHUB_EVENT_PATH | grep -o 'http[s]*://[^ ]*')
+          echo "URL extracted: $URL"
+          python new_link_check.py "$URL"
+        shell: bash
