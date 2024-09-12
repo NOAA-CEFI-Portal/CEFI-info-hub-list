@@ -22,6 +22,6 @@ if __name__ == "__main__":
     # The new URL will be passed as a command-line argument
     new_url = sys.argv[1]
     # Correct the URL to point to the specific JSON file on GitHub
-    json_url = 'https://github.com/NOAA-CEFI-Portal/CEFI-info-hub-list/blob/5a3b4eaf813a2d136303c770fc8ff41a775c7f9a/data/cefi_list.json'
+    json_url = 'https://github.com/seventh-hokage/CEFI-info-hub-list/blob/bf273bcddc15f8e2e281b26cd47b36069619f158/data/cefi_list.json'
 
     check_duplicate_url(json_url, new_url)
