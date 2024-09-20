@@ -29,5 +29,5 @@ jobs:
           # Extract the first URL from the issue body
           URL=$(jq --raw-output .issue.body $GITHUB_EVENT_PATH | grep -o 'http[s]*://[^ ]*')
           echo "URL extracted: $URL"
-          python new_link_check.py "$URL"
+          python "https://github.com/seventh-hokage/CEFI-info-hub-list/blob/main/new_link_check.py" "$URL"
         shell: bash
