@@ -22,12 +22,10 @@ jobs:
           pip install pandas requests
 
       - name: Extract URL from issue and check
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Extracting URL from Issue #${{ github.event.issue.number }}"
           # Extract the first URL from the issue body
           URL=$(jq --raw-output .issue.body $GITHUB_EVENT_PATH | grep -o 'http[s]*://[^ ]*')
           echo "URL extracted: $URL"
-          python "https://github.com/seventh-hokage/CEFI-info-hub-list/blob/052bed376fb5fd1a44fb41fd7b4f9971d99a308c/new_link_check.py" "$URL"
+          python new_link_check.py "$URL"
         shell: bash
