@@ -1,29 +1,34 @@
+"""
+The script genearte the CSV file 
+based on the raw input json file
+"""
+
 import json
 import csv
 
 # Path to the input JSON file and output CSV file
-json_file_loc = r'data/cefi_list.json'
-csv_file_loc = r'data/cefi_list.csv'
+JSON_FILE = 'data/cefi_list.json'
+CSV_FILE = 'data/cefi_list.csv'
 
 # Read the JSON data from the file
-with open(input_file_path, 'r') as json_file:
-    data = json.load(json_file)
+with open(JSON_FILE, 'r', encoding='utf-8') as file:
+    data = json.load(file)
 
 # Extract the list of entries
 entries = data.get('lists', [])
 
 # Open the CSV file for writing
-with open(output_file_path, 'w', newline='', encoding='utf-8') as csv_file:
+with open(CSV_FILE, 'w', newline='', encoding='utf-8') as file:
     # Define the CSV writer
-    writer = csv.writer(csv_file)
-    
+    writer = csv.writer(file)
+
     # Write the header row
     writer.writerow(['Title', 'URL'])
-    
+
     # Iterate over the entries and write each one to the CSV
     for entry in entries:
         title = entry.get('title', '')
         url = entry.get('url', '')
         writer.writerow([title, url])
 
-print(f"CSV file '{csv_file_loc}' created successfully.")
+print(f"CSV file '{CSV_FILE}' created successfully.")
