@@ -177,7 +177,7 @@ class GetGitHubIssue:
 if __name__ == "__main__":
 
     # get parsed issue content in dict
-    dict_issue_parsed = GetGitHubIssue().get_issue_info(debug=True, issue_num=136)
+    dict_issue_parsed = GetGitHubIssue().get_issue_info(debug=False, issue_num=136)
 
     # check the url for duplication in the data base
     check_duplicate_url(dict_issue_parsed['url'])
