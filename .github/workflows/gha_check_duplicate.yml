@@ -20,4 +20,6 @@ jobs:
     
       - name: Parsing issue and check duplicate
         shell: bash -l {0}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # for label posting
         run: python new_link_check.py
