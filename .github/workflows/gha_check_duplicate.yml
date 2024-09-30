@@ -1,0 +1,23 @@
+name: Check Resource Duplicates
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  check-issue-url:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Micromamba ${{ matrix.python-version }}
+        uses: mamba-org/setup-micromamba@v1
+        with:
+            environment-file: environment.yml
+            init-shell: bash
+    
+      - name: Parsing issue and check duplicate
+        shell: bash -l {0}
+        run: python new_link_check.py
