@@ -37,7 +37,7 @@ def check_duplicate_url(new_url):
             print(f'New resource URL : {new_url}')
             print(f'Database resource URL : {cefi_list["url"]}')
             GetGitHubIssue().add_label('possible duplicate')
-            raise LookupError('Possible duplicate/overlapping resources!')
+            # raise LookupError('Possible duplicate/overlapping resources!')
 
 class GetGitHubIssue:
     """Get and Parse GitHub Issue
