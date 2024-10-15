@@ -6412,6 +6412,65 @@
                 5,
                 14
             ]
+        },
+        {
+            "url": "https://odv.awi.de/data/ocean/",
+            "title": "Ocean Data View: Central Hub for Global Oceanographic Data",
+            "desc": "Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying climate change impacts, and enhancing our understanding of oceanic processes.",
+            "thumbnail": "images/odv.png",
+            "cdata": [
+                0,
+                8,
+                13,
+                14
+            ],
+            "ctime": [
+                0,
+                5,
+                7
+            ],
+            "cvar": [
+                0,
+                1,
+                6,
+                9,
+                10,
+                13,
+                25
+            ],
+            "cproduct": [
+                0,
+                4,
+                5,
+                10,
+                11,
+                16,
+                17
+            ],
+            "ctopics": [
+                0,
+                5,
+                6,
+                7,
+                9,
+                14
+            ],
+            "cplatforms": [
+                0,
+                1,
+                5,
+                6,
+                11
+            ],
+            "cregions": [
+                0,
+                1,
+                6,
+                15
+            ],
+            "corgs": [
+                0
+            ]
         }
     ]
 }
