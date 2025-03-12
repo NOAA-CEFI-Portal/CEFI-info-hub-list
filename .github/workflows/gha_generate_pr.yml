@@ -38,7 +38,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           branch: new_resource_#${{ github.event.issue.number }}
-          title: "new resource PR by GHA based on issue #${{ github.event.issue.number }}"
+          title: "GHA PR for issue #${{ github.event.issue.number }}"
           body: |
             A new resource that is contributed by the user through issue submission. It has triggered a GitHub Action workflow that generate this PR. Refer to issue #${{ github.event.issue.number }}.
             This PR includes the following changes 
