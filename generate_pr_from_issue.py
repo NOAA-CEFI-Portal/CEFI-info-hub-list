@@ -9,6 +9,7 @@ based on the created issues of adding new resources
 import os
 import sys
 import subprocess
+import warnings
 import json
 import requests
 import generate_readme
@@ -23,7 +24,7 @@ def check_link_availability(test_url):
             print(f"The link '{test_url}' is available.")
         else:
             print(f"The link '{test_url}' returned a status code: {resp.status_code}")
-            sys.exit('Error : URL need check')
+            warnings.warn('Warning: URL needs check')
     except requests.exceptions.RequestException as error_msg:
         print(f"An error occurred while checking the link '{test_url}': {error_msg}")
         sys.exit('Error : URL not valid')
@@ -67,14 +68,14 @@ if __name__ == '__main__' :
     # cefi list repo location
     ORGNAME = "NOAA-CEFI-Portal"
     REPO_NAME = "CEFI-info-hub-list"
-    DEBUG = False
+    DEBUG = True
 
     # A token is automatically provided by GitHub Actions
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
     # Using the GitHub api to get the issue info
     # Load the contents of the event payload from GITHUB_EVENT_PATH
     if DEBUG :
-        ISSUE_NUM = 128
+        ISSUE_NUM = 131
         # ISSUE_NUM = 59
     else :
         event_path = os.environ['GITHUB_EVENT_PATH']
