@@ -541,3 +541,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Ocean Data View: Central Hub for Global Oceanographic Data](https://odv.awi.de/data/ocean/) 
   
 > Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying climate change impacts, and enhancing our understanding of oceanic processes.
+  
+[Mercator Ocean International: Advanced Tools for Global Oceanographic Data Analysis](https://www.mercator-ocean.eu/en/bulletin/) 
+  
+> Mercators' Ocean Data View (ODV) provides comprehensive access to global oceanographic datasets, including variables like sea surface temperature, salinity, and chlorophyll. With interactive plotting tools and gridded data analyses, ODV enables researchers to visualize, analyze, and interpret complex marine data. These resources are crucial for scientific research on ocean dynamics, climate change impacts, and marine ecosystems, facilitating in-depth studies and the development of predictive models for environmental monitoring and conservation efforts.
