@@ -541,3 +541,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Ocean Data View: Central Hub for Global Oceanographic Data](https://odv.awi.de/data/ocean/) 
   
 > Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying climate change impacts, and enhancing our understanding of oceanic processes.
+  
+[BASIS : Zooplankton Data](https://data.ucar.edu/dataset/basis-zooplankton-data) 
+  
+> Zooplankton data collected in conjunction with Bering Arctic Subarctic Integrated Surveys (BASIS) fish and Conductivity, temperature, and depth (CTD) data in the eastern Bering Sea. Note: dataset is not continuous from 2003-2014.
