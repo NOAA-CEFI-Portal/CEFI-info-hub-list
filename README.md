@@ -537,3 +537,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Arctic and Antarctic Ocean Satellite Data Portal](https://polarwatch.noaa.gov/) 
   
 > PolarWatch, part of the NOAA CoastWatch program, provides access to download and visualize satellite observation data for high latitude regions, specifically the Arctic and Southern Oceans.
+  
+[Ocean Data View: Central Hub for Global Oceanographic Data](https://odv.awi.de/data/ocean/) 
+  
+> Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying climate change impacts, and enhancing our understanding of oceanic processes.
