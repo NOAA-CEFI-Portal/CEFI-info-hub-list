@@ -6471,6 +6471,42 @@
             "corgs": [
                 0
             ]
+        },
+        {
+            "url": "https://www.earthdata.nasa.gov/",
+            "title": "NASA's Earth Data Ocean Portal",
+            "desc": "NASA's Earth Data Ocean portal monitors the significance of the ocean in global ecosystems and climate regulation. It offers resources and data supporting diverse scientific research on ocean circulation and surface winds, and heat exchange between the ocean and atmosphere, including sea surface temperature, sea surface salinity, and sea surface height. In addition, NASA data provide optical information that aids in assessing chlorophyll concentrations and turbidity and helps provide trends in global mean sea level.\nBelow are direct links to related and useful projects from the European Space Agency, that can provide publications, data repositories and models:\nhttps://www.earthdata.nasa.gov/topics/ocean (Ocean)\nhttps://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere (Terrestrial Hydrosphere)\nhttps://search.earthdata.nasa.gov/search (Search)\nhttps://www.earthdata.nasa.gov/learn/use-data/tools (Tools)\nhttps://www.earthdata.nasa.gov/learn/gis/data-recipes (Data Recipes)\nFor any assistance access the Earth Data Ocean Portal, a link to the HelpDesk team has been provided:\nhttps://forum.earthdata.nasa.gov/viewforum.php?f=7",
+            "thumbnail": "images/nasa_earth_data.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0,
+                1
+            ],
+            "cproduct": [
+                0,
+                10
+            ],
+            "ctopics": [
+                0,
+                6
+            ],
+            "cplatforms": [
+                0,
+                5
+            ],
+            "cregions": [
+                0,
+                15
+            ],
+            "corgs": [
+                0,
+                18
+            ]
         }
     ]
 }
