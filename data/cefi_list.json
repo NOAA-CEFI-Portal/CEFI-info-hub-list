@@ -6827,6 +6827,45 @@
                 0,
                 7
             ]
+        },
+        {
+            "url": "https://tidesandcurrents.noaa.gov/cora.html",
+            "title": "Coastal Ocean Reanalysis CORA",
+            "desc": "Through the combination of Advanced CIRCulation (ADCIRC) and Simulating WAves Nearshore (SWAN) modeling, and atmospheric data from ERA5 in addition to National Water Level Observation Network (NWLON), CORA models: Water level elevation and maximums, atmospheric pressure, wind speed and direction, wave heights, direction, and peaks.",
+            "thumbnail": "images/coastal_ocean_reanalysis_cora.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                2
+            ],
+            "cvar": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "cproduct": [
+                0,
+                2,
+                3
+            ],
+            "ctopics": [
+                0,
+                5
+            ],
+            "cplatforms": [
+                0
+            ],
+            "cregions": [
+                0,
+                1
+            ],
+            "corgs": [
+                0,
+                13
+            ]
         }
     ]
 }
