@@ -6471,6 +6471,56 @@
             "corgs": [
                 0
             ]
+        },
+        {
+            "url": "https://goosocean.org/our-work/",
+            "title": "GOOS: Global Ocean Observing System",
+            "desc": "The Global Ocean Observing System (GOOS) serves as a permanent, global system for the observation, modeling, and analysis of marine and ocean data. It supports essential scientific research and informs policy decisions by providing accurate, comprehensive datasets crucial for understanding marine ecosystems, predicting climate phenomena, and enhancing ocean health. Below are direct links to related and useful projects from the European Space Agency, that can provide publications, data repositories and models: <a href='https://goosocean.org/articles/documents/publications/'>https://goosocean.org/articles/documents/publications/</a>, <a href='https://goosocean.org/our-work/goos-meeting-reports-and-major-publications/'>https://goosocean.org/our-work/goos-meeting-reports-and-major-publications/</a>, <a href='https://goosocean.org/our-work/projects/'>https://goosocean.org/our-work/projects/</a>.",
+            "thumbnail": "images/goos.png",
+            "cdata": [
+                0,
+                8
+            ],
+            "ctime": [
+                0,
+                7
+            ],
+            "cvar": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                31
+            ],
+            "cproduct": [
+                0,
+                6,
+                10,
+                11,
+                19
+            ],
+            "ctopics": [
+                0,
+                6,
+                9,
+                12,
+                13
+            ],
+            "cplatforms": [
+                0,
+                1,
+                5
+            ],
+            "cregions": [
+                0,
+                2,
+                15
+            ],
+            "corgs": [
+                0,
+                18
+            ]
         }
     ]
 }
