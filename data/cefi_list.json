@@ -6790,6 +6790,43 @@
                 0,
                 18
             ]
+        },
+        {
+            "url": "https://data.ucar.edu/dataset/basis-zooplankton-data",
+            "title": "UCAR BASIS : Zooplankton Data",
+            "desc": "Zooplankton data collected in conjunction with Bering Arctic Subarctic Integrated Surveys (BASIS) fish and Conductivity, temperature, and depth (CTD) data in the eastern Bering Sea. Note: dataset is not continuous from 2003-2014.",
+            "thumbnail": "images/basis_zooplankton_dataset_ucar.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0,
+                27
+            ],
+            "cproduct": [
+                0,
+                2
+            ],
+            "ctopics": [
+                0,
+                10
+            ],
+            "cplatforms": [
+                0,
+                7
+            ],
+            "cregions": [
+                0,
+                5,
+                4
+            ],
+            "corgs": [
+                0,
+                7
+            ]
         }
     ]
 }
