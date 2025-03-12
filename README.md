@@ -541,3 +541,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Ocean Data View: Central Hub for Global Oceanographic Data](https://odv.awi.de/data/ocean/) 
   
 > Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying climate change impacts, and enhancing our understanding of oceanic processes.
+  
+[Electronic World Ocean Atlas](https://www.ewoce.org/data/index.html) 
+  
+> eWOCE offers an extensive collection of global oceanographic data, including sea surface temperature, salinity, currents, and sea level measurements. The repository features high-resolution in-situ data from CTDs, ADCPs, surface drifters, and subsurface floats, covering decades of observations. By providing access to interactive data visualization tools and detailed reports, eWOCE serves as a valuable resource for advancing scientific understanding of global ocean processes, researchers studying ocean dynamics, climate change impacts, and long-term marine trends.

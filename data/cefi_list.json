@@ -6471,6 +6471,64 @@
             "corgs": [
                 0
             ]
+        },
+        {
+            "url": "https://www.ewoce.org/data/index.html",
+            "title": "Electronic World Ocean Atlas",
+            "desc": "eWOCE offers an extensive collection of global oceanographic data, including sea surface temperature, salinity, currents, and sea level measurements. The repository features high-resolution in-situ data from CTDs, ADCPs, surface drifters, and subsurface floats, covering decades of observations. By providing access to interactive data visualization tools and detailed reports, eWOCE serves as a valuable resource for advancing scientific understanding of global ocean processes, researchers studying ocean dynamics, climate change impacts, and long-term marine trends.",
+            "thumbnail": "images/ewoce.png",
+            "cdata": [
+                0,
+                6,
+                8,
+                12
+            ],
+            "ctime": [
+                0,
+                2,
+                5,
+                7
+            ],
+            "cvar": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                33,
+                40
+            ],
+            "cproduct": [
+                0,
+                4,
+                9,
+                10,
+                16,
+                19
+            ],
+            "ctopics": [
+                0,
+                5,
+                6,
+                9,
+                13
+            ],
+            "cplatforms": [
+                0,
+                1,
+                5,
+                6,
+                7
+            ],
+            "cregions": [
+                0,
+                2,
+                6,
+                15
+            ],
+            "corgs": [
+                0
+            ]
         }
     ]
 }
