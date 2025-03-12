@@ -569,3 +569,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [UCAR BASIS : Zooplankton Data](https://data.ucar.edu/dataset/basis-zooplankton-data) 
   
 > Zooplankton data collected in conjunction with Bering Arctic Subarctic Integrated Surveys (BASIS) fish and Conductivity, temperature, and depth (CTD) data in the eastern Bering Sea. Note: dataset is not continuous from 2003-2014.
+  
+[Coastal Ocean Reanalysis CORA](https://tidesandcurrents.noaa.gov/cora.html) 
+  
+> Through the combination of Advanced CIRCulation (ADCIRC) and Simulating WAves Nearshore (SWAN) modeling, and atmospheric data from ERA5 in addition to National Water Level Observation Network (NWLON), CORA models: Water level elevation and maximums, atmospheric pressure, wind speed and direction, wave heights, direction, and peaks.
