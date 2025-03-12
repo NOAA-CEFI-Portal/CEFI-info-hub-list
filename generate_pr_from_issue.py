@@ -32,29 +32,33 @@ def parse_issue(body):
     """
     The function parse the body of the github issue
     """
-    # read source json file (data type definition)
-    ori_cefi_data = generate_readme.get_cefi_list()
+    # # read source json file (data type definition)
+    # ori_cefi_data = generate_readme.get_cefi_list()
 
-    # loop over all categories (variable is skipped at the moment)
-    cat_list = []
-    for cat in ori_cefi_data['categories_definition'].keys():
-        cat_list.append(ori_cefi_data['categories_definition'][cat]['name'])
+    # # loop over all categories (variable is skipped at the moment)
+    # cat_list = []
+    # for cat in ori_cefi_data['categories_definition'].keys():
+    #     cat_list.append(ori_cefi_data['categories_definition'][cat]['name'])
 
-    # Split the text by '\n\n' to separate paragraphs
-    paragraphs = body.split('\n\n')   # original post of issue line change
-    if len(paragraphs) == 1 :
-        paragraphs = body.split('\r\n\r\n')  # edited issue line change
-
+    # Split the text by '###' to separate headings and their content
+    sections = body.split('###')
+    
     # Initialize lists to store the headings and their content
     head_list = []
     cont_list = []
 
-    for paragraph in paragraphs:
-        # Check if the paragraph is a Markdown heading
-        if "###" in paragraph:
-            head_list.append(paragraph.strip()[3:])
-        else:
-            cont_list.append(paragraph.strip())
+    for section in sections:
+        if section.strip():
+            # Split the section into heading and content
+            parts = section.split('\n\n', 1)
+            heading = parts[0].strip()
+            content = parts[1].strip() if len(parts) > 1 else ""
+            head_list.append(heading)
+            cont_list.append(content)
+
+    # Remove empty elements from the lists
+    head_list = [heading for heading in head_list if heading]
+    cont_list = [content for content in cont_list if content]
 
     return head_list, cont_list
 
@@ -70,7 +74,7 @@ if __name__ == '__main__' :
     # Using the GitHub api to get the issue info
     # Load the contents of the event payload from GITHUB_EVENT_PATH
     if DEBUG :
-        ISSUE_NUM = 123
+        ISSUE_NUM = 128
         # ISSUE_NUM = 59
     else :
         event_path = os.environ['GITHUB_EVENT_PATH']
@@ -91,7 +95,7 @@ if __name__ == '__main__' :
     headings, contents = parse_issue(issue['body'])
 
     if len(headings) != len(contents) :
-        sys.exit('Error : there might be mismatching heading and content from issue parsing.')
+        raise ValueError('Error : there might be mismatching heading and content from issue parsing.')
 
     # read source json file (data type definition)
     cefi_data = generate_readme.get_cefi_list()
