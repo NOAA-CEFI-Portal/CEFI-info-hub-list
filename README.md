@@ -565,3 +565,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [EAWAG: the Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/department/fishec/projects/) 
   
 > Eawag, the Swiss Federal Institute of Aquatic Science and Technology, conducts research and conservation projects focused on water resources and aquatic ecosystems. The Department investigates the impact of climate change and human activities on fish biodiversity, including the effects on fish movement patterns, nutritional needs, and the adaptation of aquatic species to changing environments. This research contributes to the understanding of eco-evolutionary dynamics in aquatic ecosystems and provides data and tools for conservation efforts. Eawag's publications, data repositories, and code repositories can be valuable resources for other scientific research, aiding in the understanding and preservation of aquatic ecosystems.
+  
+[UCAR BASIS : Zooplankton Data](https://data.ucar.edu/dataset/basis-zooplankton-data) 
+  
+> Zooplankton data collected in conjunction with Bering Arctic Subarctic Integrated Surveys (BASIS) fish and Conductivity, temperature, and depth (CTD) data in the eastern Bering Sea. Note: dataset is not continuous from 2003-2014.
