@@ -6471,6 +6471,63 @@
             "corgs": [
                 0
             ]
+        },
+        {
+            "url": "https://www.eawag.ch/en/department/fishec/projects/",
+            "title": "EAWAG: the Swiss Federal Institute of Aquatic Science and Technology",
+            "desc": "Eawag, the Swiss Federal Institute of Aquatic Science and Technology, conducts research and conservation projects focused on water resources and aquatic ecosystems. The Department investigates the impact of climate change and human activities on fish biodiversity, including the effects on fish movement patterns, nutritional needs, and the adaptation of aquatic species to changing environments. This research contributes to the understanding of eco-evolutionary dynamics in aquatic ecosystems and provides data and tools for conservation efforts. Eawag's publications, data repositories, and code repositories can be valuable resources for other scientific research, aiding in the understanding and preservation of aquatic ecosystems.",
+            "thumbnail": "images/eawag.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0,
+                5,
+                6,
+                7
+            ],
+            "cvar": [
+                0,
+                9,
+                14,
+                23,
+                39
+            ],
+            "cproduct": [
+                0,
+                9,
+                12,
+                16,
+                19
+            ],
+            "ctopics": [
+                0,
+                1,
+                6,
+                7,
+                9,
+                10,
+                21
+            ],
+            "cplatforms": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                7
+            ],
+            "cregions": [
+                0,
+                1,
+                2,
+                4,
+                6
+            ],
+            "corgs": [
+                0,
+                18
+            ]
         }
     ]
 }

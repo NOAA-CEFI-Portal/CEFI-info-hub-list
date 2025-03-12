@@ -541,3 +541,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Ocean Data View: Central Hub for Global Oceanographic Data](https://odv.awi.de/data/ocean/) 
   
 > Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying climate change impacts, and enhancing our understanding of oceanic processes.
+  
+[EAWAG: the Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/department/fishec/projects/) 
+  
+> Eawag, the Swiss Federal Institute of Aquatic Science and Technology, conducts research and conservation projects focused on water resources and aquatic ecosystems. The Department investigates the impact of climate change and human activities on fish biodiversity, including the effects on fish movement patterns, nutritional needs, and the adaptation of aquatic species to changing environments. This research contributes to the understanding of eco-evolutionary dynamics in aquatic ecosystems and provides data and tools for conservation efforts. Eawag's publications, data repositories, and code repositories can be valuable resources for other scientific research, aiding in the understanding and preservation of aquatic ecosystems.
