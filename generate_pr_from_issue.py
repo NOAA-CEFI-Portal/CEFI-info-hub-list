@@ -68,7 +68,7 @@ if __name__ == '__main__' :
     # cefi list repo location
     ORGNAME = "NOAA-CEFI-Portal"
     REPO_NAME = "CEFI-info-hub-list"
-    DEBUG = True
+    DEBUG = False
 
     # A token is automatically provided by GitHub Actions
     # ACCESS_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
