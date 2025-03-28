@@ -23,4 +23,4 @@ jobs:
 
       - name: check JSON source
         shell: bash -l {0}
-        run: python check_json.py
+        run: python -m pytest -rxs tests
