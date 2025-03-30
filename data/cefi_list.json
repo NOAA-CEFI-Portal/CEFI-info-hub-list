@@ -3163,7 +3163,7 @@
             ]
         },
         {
-            "url": "https://ioos.us/compliance-checker",
+            "url": "https://compliance.ioos.us/index.html",
             "title": "Integrated Ocean Observing System (IOOS) Metadata Compliance Checker",
             "desc": "The IOOS Compliance Checker is a Python-based tool for data providers to check for completeness and community standard compliance of local or remote netCDF files against CF and ACDD file standards.",
             "thumbnail": "images/compliance.png",
