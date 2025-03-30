@@ -2686,7 +2686,7 @@
             ]
         },
         {
-            "url": "http://portal.glos.us/",
+            "url": "https://seagull.glos.org/landing",
             "title": "Integrated Ocean Observing System (IOOS) Great Lakes (GLOS) Data Portal",
             "desc": "A collection of data related to the Great Lakes region. Portal includes links to the source, a viewer, an openDAP access, a map access page, and metadata for the data.",
             "thumbnail": "images/greatlakes.png",
