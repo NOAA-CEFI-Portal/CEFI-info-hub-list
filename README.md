@@ -254,7 +254,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The IOOS Data Management and Cyberinfrastructure (DMAC) program maintains a collection of open source software packages, documentation, and utilities to facilitate data distribution and cyberinfrastructure implementation within our community of practice. These resources are all contained within the IOOS GitHub organization.
   
-[Integrated Ocean Observing System (IOOS) Metadata Compliance Checker](https://ioos.us/compliance-checker) 
+[Integrated Ocean Observing System (IOOS) Metadata Compliance Checker](https://compliance.ioos.us/index.html) 
   
 > The IOOS Compliance Checker is a Python-based tool for data providers to check for completeness and community standard compliance of local or remote netCDF files against CF and ACDD file standards.
   
