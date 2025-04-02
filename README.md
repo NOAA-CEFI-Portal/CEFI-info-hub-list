@@ -218,7 +218,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The Data Portal provides timely information about the environment of the United States portion of the Gulf of Mexico and its estuaries for use by decision-makers, including researchers, government managers, industry, the military, educators, emergency responders, and the general public.
   
-[Integrated Ocean Observing System (IOOS) Great Lakes (GLOS) Data Portal](http://portal.glos.us/) 
+[Integrated Ocean Observing System (IOOS) Great Lakes (GLOS) Data Portal](https://seagull.glos.org/landing) 
   
 > A collection of data related to the Great Lakes region. Portal includes links to the source, a viewer, an openDAP access, a map access page, and metadata for the data.
   
