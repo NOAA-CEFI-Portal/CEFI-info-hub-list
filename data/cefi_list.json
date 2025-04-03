@@ -6866,6 +6866,62 @@
                 0,
                 13
             ]
+        },
+        {
+            "url": "https://oceanobservatories.org/data/",
+            "title": "OOI (Ocean Observations Initiative) Data",
+            "desc": "The OOI has been collecting data since 2014 and provides about seven terabytes of data each month. The data available range from raw data as received directly from an instrument to carefully crafted data products that can be used to answer scientific questions. Includes code ([tools](https://oceanobservatories.org/community-data-tools/)) for analyzing accessing data",
+            "thumbnail": "images/ooi_(ocean_observations_initiative)_data.png",
+            "cdata": [
+                0
+            ],
+            "ctime": [
+                0
+            ],
+            "cvar": [
+                0
+            ],
+            "cproduct": [
+                0,
+                16,
+                7,
+                8,
+                4,
+                2,
+                1,
+                9,
+                10,
+                11,
+                12
+            ],
+            "ctopics": [
+                0,
+                7,
+                19,
+                9
+            ],
+            "cplatforms": [
+                0,
+                2,
+                1,
+                3,
+                4,
+                6,
+                7,
+                8,
+                11,
+                5,
+                10,
+                13,
+                14
+            ],
+            "cregions": [
+                0,
+                15
+            ],
+            "corgs": [
+                0
+            ]
         }
     ]
 }

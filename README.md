@@ -573,3 +573,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Coastal Ocean Reanalysis CORA](https://tidesandcurrents.noaa.gov/cora.html) 
   
 > Through the combination of Advanced CIRCulation (ADCIRC) and Simulating WAves Nearshore (SWAN) modeling, and atmospheric data from ERA5 in addition to National Water Level Observation Network (NWLON), CORA models: Water level elevation and maximums, atmospheric pressure, wind speed and direction, wave heights, direction, and peaks.
+  
+[OOI (Ocean Observations Initiative) Data](https://oceanobservatories.org/data/) 
+  
+> The OOI has been collecting data since 2014 and provides about seven terabytes of data each month. The data available range from raw data as received directly from an instrument to carefully crafted data products that can be used to answer scientific questions. Includes code ([tools](https://oceanobservatories.org/community-data-tools/)) for analyzing accessing data
