@@ -218,7 +218,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The Data Portal provides timely information about the environment of the United States portion of the Gulf of Mexico and its estuaries for use by decision-makers, including researchers, government managers, industry, the military, educators, emergency responders, and the general public.
   
-[Integrated Ocean Observing System (IOOS) Great Lakes (GLOS) Data Portal](http://portal.glos.us/) 
+[Integrated Ocean Observing System (IOOS) Great Lakes (GLOS) Data Portal](https://seagull.glos.org/landing) 
   
 > A collection of data related to the Great Lakes region. Portal includes links to the source, a viewer, an openDAP access, a map access page, and metadata for the data.
   
@@ -254,7 +254,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The IOOS Data Management and Cyberinfrastructure (DMAC) program maintains a collection of open source software packages, documentation, and utilities to facilitate data distribution and cyberinfrastructure implementation within our community of practice. These resources are all contained within the IOOS GitHub organization.
   
-[Integrated Ocean Observing System (IOOS) Metadata Compliance Checker](https://ioos.us/compliance-checker) 
+[Integrated Ocean Observing System (IOOS) Metadata Compliance Checker](https://compliance.ioos.us/index.html) 
   
 > The IOOS Compliance Checker is a Python-based tool for data providers to check for completeness and community standard compliance of local or remote netCDF files against CF and ACDD file standards.
   
@@ -573,3 +573,8 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Coastal Ocean Reanalysis CORA](https://tidesandcurrents.noaa.gov/cora.html) 
   
 > Through the combination of Advanced CIRCulation (ADCIRC) and Simulating WAves Nearshore (SWAN) modeling, and atmospheric data from ERA5 in addition to National Water Level Observation Network (NWLON), CORA models: Water level elevation and maximums, atmospheric pressure, wind speed and direction, wave heights, direction, and peaks.
+
+[OOI (Ocean Observations Initiative) Data](https://oceanobservatories.org/data/) 
+  
+> The OOI has been collecting data since 2014 and provides about seven terabytes of data each month. The data available range from raw data as received directly from an instrument to carefully crafted data products that can be used to answer scientific questions. Includes code ([tools](https://oceanobservatories.org/community-data-tools/)) for analyzing accessing data
+
