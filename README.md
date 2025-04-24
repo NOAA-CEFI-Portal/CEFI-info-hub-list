@@ -64,7 +64,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Australian Ocean Data Network Portal](https://portal.aodn.org.au) 
   
-> The AODN Portal provides access to all available Australian marine and climate science data and is the primary access to Integrated Marine Observing System (IMOS) data including access to the IMOS metadata.
+> The AODN Portal provides access to all available Australian marine data and is the primary access to Integrated Marine Observing System (IMOS) data including access to the IMOS metadata.
   
 [Biological and Chemical Oceanography Data Portal: BCO-DMO](https://www.bco-dmo.org) 
   
@@ -80,27 +80,23 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [California Cooperative Oceanic Fisheries Investigation: ](https://calcofi.org/) 
   
-> The California Cooperative Oceanic Fisheries Investigations (CalCOFI) is an oceanographic and marine ecosystem research program off the coast of southern California that holistically studies the physics, biogeochemistry, and biology of the marine environment to inform the sustainable management of marine resources in the context of climate change. Maintains collections of ocean and marine ecosystem data 
+> The California Cooperative Oceanic Fisheries Investigations (CalCOFI) is an oceanographic and marine ecosystem research program off the coast of southern California that holistically studies the physics, biogeochemistry, and biology of the marine environment to inform the sustainable management of marine resources. Maintains collections of ocean and marine ecosystem data 
   
 [California Current Marine Heatwave Tracker: NOAA/PMEL](https://oceanview.pfeg.noaa.gov/products/mhw/latest) 
   
 > An experimental tool for tracking marine heatwaves
   
-[Climate Change Web Portal: NOAA/PSL](https://psl.noaa.gov/ipcc/) 
+[Long Term Change Web Portal: NOAA/PSL](https://psl.noaa.gov/ipcc/) 
   
 > Plot maps and time series of selected variables from the CMIP5 and CMIP6 archives. There are specific web applications for ocean and marine ecosystems, land and rivers, and northwest Atlantic and US west coast dynamical downscaling simulations.
   
-[Climate Data Library and Plotter: NOAA/IRI](http://iridl.ldeo.columbia.edu/) 
+[IRI Data Library and Plotter: NOAA/IRI](http://iridl.ldeo.columbia.edu/) 
   
-> The IRI Data Library is a freely accessible online data repository and analysis tool that allows a user to view, analyze, and download hundreds of terabytes of climate-related data through standard web browsers.
+> The IRI Data Library is a freely accessible online data repository and analysis tool that allows a user to view, analyze, and download hundreds of terabytes of data through standard web browsers.
   
-[Climate Reanalyzer: Climate Change Institute](https://climatereanalyzer.org/) 
+[Long Term Indices: Web Portal (data since 1856)](https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/) 
   
-> Climate Reanalyzer is a platform for visualizing climate and weather datasets.
-  
-[Climate Indices: Web Portal (data since 1856)](https://psl.noaa.gov/gcos_wgsp/Timeseries/Plot/) 
-  
-> Plot and compare monthly climate index time series such as the PDO, the NPI, ENSO, and others.
+> Plot and compare monthly long term index time series such as the PDO, the NPI, ENSO, and others.
   
 [Coastal Inundation Dashboard: NOAA Center for Operational Oceanographic Products and Services.](https://tidesandcurrents.noaa.gov/inundationdb/) 
   
@@ -132,7 +128,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [ENSO Status, Research, and Interactive Webtools: NOAA/PSL](https://psl.noaa.gov/enso/) 
   
-> The NOAA Physical Sciences Laboratory studies multiple aspects of ENSO including its precursors, prediction, diversity, and climate and ecosystem impacts. In particular, we supply a set of web tools that allow users to examine historical impacts of ENSO on climate including a <a href='https://psl.noaa.gov/enso/enso.composite.html'> that displays El Ni&ntilde;o and La Ni&ntilde;a averages of different climate variables for winter and summer</a> and <a href='https://psl.noaa.gov/enso/climaterisks/'>ENSO Climate risks</a> for the US, 
+> The NOAA Physical Sciences Laboratory studies multiple aspects of ENSO including its precursors, prediction, diversity, and ecosystem impacts. In particular, we supply a set of web tools that allow users to examine historical impacts of ENSO on climate including a <a href='https://psl.noaa.gov/enso/enso.composite.html'> that displays El Ni&ntilde;o and La Ni&ntilde;a averages of different climate variables for winter and summer</a> and <a href='https://psl.noaa.gov/enso/climaterisks/'>ENSO risks</a> for the US, 
   
 [ENSO Dashboard: NOAA/PSL](https://psl.noaa.gov/enso/dashboard.html) 
   
@@ -150,7 +146,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > ERDDAP is a data server that gives you a simple, consistent way to download subsets of scientific datasets in common file formats and make graphs and maps. There are many <a href='https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html#organizations'>ERDDAP installations available</a>, a <a href='https://coastwatch.pfeg.noaa.gov/erddap/search/advanced.html?page=1&itemsPerPage=1000'>general dataset search page</a> and <a href='https://coastwatch.pfeg.noaa.gov/projects/erddap/catalog.html'>help pages</a>
   
-[Gridded Climate Data Animator: NOAA/PSL](https://psl.noaa.gov/data/animation/) 
+[Gridded Data Animator: NOAA/PSL](https://psl.noaa.gov/data/animation/) 
   
 > Create custom animations from gridded datasets.
   
@@ -182,7 +178,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > GODAS is an ocean analysis system, conducted by NOAA/National Center for Environmental Prediction, which combines observations with an ocean model to deliver routine ocean monitoring products. Animations, maps, cross sections as a function of depth and latitude or longitude, and time-longitude diagrams are among the many pre-generated plots that are available. Monthly state of the ocean briefings are also available.
   
-[Gridded Climate Datasets: NOAA/PSL](https://psl.noaa.gov/data/gridded/) 
+[Gridded Datasets: NOAA/PSL](https://psl.noaa.gov/data/gridded/) 
   
 > Search by variable or dataset from the Physical Sciences Laboratory archive.
   
@@ -300,7 +296,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Ocean Adapt Marine Species Distribution: Rutgers University](https://oceanadapt.rutgers.edu/) 
   
-> OceanAdapt is a collaboration between the Pinsky Lab of Rutgers University, the National Marine Fisheries Service (NMFS), and Fisheries and Oceans Canada (DFO) to provide information about the impacts of changing climate and other factors on the distribution of marine life to the National Climate Assessment, fisheries communities, policymakers, and to others. This website hosts an annually updated database of scientific surveys in the United States and Canada, providing tools for exploring changes in marine fish and invertebrate distributions. 
+> OceanAdapt is a collaboration between the Pinsky Lab of Rutgers University, the National Marine Fisheries Service (NMFS), and Fisheries and Oceans Canada (DFO) to provide information about the impacts of long term change and other factors on the distribution of marine life to the National Climate Assessment, fisheries communities, policymakers, and to others. This website hosts an annually updated database of scientific surveys in the United States and Canada, providing tools for exploring changes in marine fish and invertebrate distributions. 
   
 [Ocean Biodiversity Information System (OBIS)](https://obis.org) 
   
@@ -376,7 +372,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Science on a Sphere (SOS) Ocean Dataset Videos](https://search.usa.gov/search/docs?affiliate=science-on-a-sphere&dc=9122&query=ocean+data ) 
   
-> Researchers at NOAA developed Science On a Sphere® as an educational tool to help illustrate Earth System science to people of all ages. Animated images of atmospheric storms, climate change, and ocean temperature can be shown on the sphere, which is used to explain what are sometimes complex environmental processes. Videos can also be downloaded for viewing from the web.
+> Researchers at NOAA developed Science On a Sphere® as an educational tool to help illustrate Earth System science to people of all ages. Animated images of atmospheric storms, long term change, and ocean temperature can be shown on the sphere, which is used to explain what are sometimes complex environmental processes. Videos can also be downloaded for viewing from the web.
   
 [Seasonal Forecasts from the North American Multi-Model Ensemble (NMME): NOAA/CPC](https://www.cpc.ncep.noaa.gov/products/international/nmme/nmme.shtml) 
   
@@ -446,15 +442,15 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 > The gateway to essential ocean variables to monitor the health of the ocean. It includes the monitoring of ocean circulation, climate, variability and extremes, and health.
   
-[Climate Change Indicators for Oceans: EPA](https://climatechange.chicago.gov/climate-indicators/oceans) 
+[Long Term Indicators for Oceans: EPA](https://climatechange.chicago.gov/climate-indicators/oceans) 
   
-> EPA partners with more than 40 data contributors from various government agencies, academic institutions, and other organizations to compile a key set of ocean indicators related to the causes and effects of climate change. The indicators are published in EPA's report, Climate Change Indicators in the United States, available on this website and in print.
+> EPA partners with more than 40 data contributors from various government agencies, academic institutions, and other organizations to compile a key set of ocean indicators related to the causes and effects of long term change. The indicators are published in EPA's report, long term Change Indicators in the United States, available on this website and in print.
   
-[Global Climate Indicators: WMO](https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators) 
+[Global Long Term Indicators: WMO](https://public.wmo.int/en/resources/bulletin/Ocean_Climate_Nexus/Climate%20Indicators) 
   
-> The page provide a report of global climate indicator in ocean heat content, acidification, deoxygenation and blue carbon.
+> The page provide a report of global long term indicator in ocean heat content, acidification, deoxygenation and blue carbon.
   
-[Climate Change Indicators for Marine Species Distribution: EPA](https://www.epa.gov/climate-indicators/) 
+[Long Term Change Indicators for Marine Species Distribution: EPA](https://www.epa.gov/climate-indicators/) 
   
 > This indicator examines changes in the location of fish, shellfish, and other marine species along U.S. coasts
   
@@ -468,7 +464,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Coastal Resilience Toolkits : The Nature Conservancy](https://maps.coastalresilience.org) 
   
-> Coastal Resilience is a program led by The Nature Conservancy to examine nature’s role in reducing coastal flood risks. The program consists of an approach, a web mapping tool, and a network of practitioners around the world supporting hazard mitigation and climate adaptation planning.
+> Coastal Resilience is a program led by The Nature Conservancy to examine nature’s role in reducing coastal flood risks. The program consists of an approach, a web mapping tool, and a network of practitioners around the world supporting hazard mitigation and adaptation planning.
   
 [Coastal Wiki](https://www.coastalwiki.org/wiki/Main_Page) 
   
@@ -540,15 +536,15 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Ocean Data View: Central Hub for Global Oceanographic Data](https://odv.awi.de/data/ocean/) 
   
-> Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying climate change impacts, and enhancing our understanding of oceanic processes.
+> Ocean Data View portal serves as a broad resource for accessing global oceanographic datasets, including temperature, salinity, chlorophyll, and carbon content. By providing comprehensive data compilations like the World Ocean Atlas and tools for detailed visual analysis, ODV supports the scientific community in conducting robust oceanographic research. These datasets are instrumental for modeling marine environments, studying long term change impacts, and enhancing our understanding of oceanic processes.
   
 [NASA's Earth Data Ocean Portal](https://www.earthdata.nasa.gov/) 
   
 > NASA's Earth Data Ocean portal monitors the significance of the ocean in global ecosystems and climate regulation. It offers resources and data supporting diverse scientific research on ocean circulation and surface winds, and heat exchange between the ocean and atmosphere, including sea surface temperature, sea surface salinity, and sea surface height. In addition, NASA data provide optical information that aids in assessing chlorophyll concentrations and turbidity and helps provide trends in global mean sea level. Below are direct links to related and useful projects from the European Space Agency, that can provide publications, data repositories and models: <a href='https://www.earthdata.nasa.gov/topics/ocean'> Ocean </a>, <a href='https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere'> Terrestrial Hydrosphere </a>,  <a href='https://search.earthdata.nasa.gov/search'> Search </a>, <a href='https://www.earthdata.nasa.gov/learn/use-data/tools'> Tools </a>, <a href='https://www.earthdata.nasa.gov/learn/gis/data-recipes'> Data Recipes </a>.
   
-[European Space Agency: Climate Change Initiative](https://climate.esa.int/en/projects/) 
+[European Space Agency: Long Term Change Initiative](https://climate.esa.int/en/projects/) 
   
-> The European Space Agency Climate Change Initiative facilitates projects that generate vital data sets on essential climate variables. These projects offer extensive repositories and publications, enhancing global climate research by providing validated data for scientific studies. Access to these detailed datasets enables accurate climate modeling and analysis, supporting research in climate variability, environmental impacts, and policy formulation. This initiative underscores the importance of integrated Earth observation data in comprehending and addressing climate dynamics on a global scale. Below are direct links to related and useful projects from the European Space Agency, that can provide publications, data repositories and models: <a href='https://climate.esa.int/en/projects/cmug/'>Climate Modelling User Group</a>, <a href='https://climate.esa.int/en/projects/sea-surface-temperature/'>Sea Surface Temperature</a>, <a href='https://climate.esa.int/en/projects/sea-surface-salinity/'>Sea Surface Salinity</a>, <a href='https://climate.esa.int/en/projects/ocean-colour/'>Ocean Colour</a>, <a href='https://climate.esa.int/en/projects/sea-level/'>Sea Level</a>, <a href='https://climate.esa.int/en/projects/sea-state/'>Sea State</a>, <a href='https://climate.esa.int/en/projects/sea-ice/'>Sea Ice</a>.
+> The European Space Agency Long Term Change Initiative facilitates projects that generate vital data sets on essential climate variables. These projects offer extensive repositories and publications, enhancing global climate research by providing validated data for scientific studies. Access to these detailed datasets enables accurate climate modeling and analysis, supporting research in climate variability, environmental impacts, and policy formulation. This initiative underscores the importance of integrated Earth observation data in comprehending and addressing climate dynamics on a global scale. Below are direct links to related and useful projects from the European Space Agency, that can provide publications, data repositories and models: <a href='https://climate.esa.int/en/projects/cmug/'>Climate Modelling User Group</a>, <a href='https://climate.esa.int/en/projects/sea-surface-temperature/'>Sea Surface Temperature</a>, <a href='https://climate.esa.int/en/projects/sea-surface-salinity/'>Sea Surface Salinity</a>, <a href='https://climate.esa.int/en/projects/ocean-colour/'>Ocean Colour</a>, <a href='https://climate.esa.int/en/projects/sea-level/'>Sea Level</a>, <a href='https://climate.esa.int/en/projects/sea-state/'>Sea State</a>, <a href='https://climate.esa.int/en/projects/sea-ice/'>Sea Ice</a>.
   
 [GOOS: Global Ocean Observing System](https://goosocean.org/our-work/) 
   
@@ -556,15 +552,15 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
   
 [Mercator Ocean International: Advanced Tools for Global Oceanographic Data Analysis](https://www.mercator-ocean.eu/en/bulletin/) 
   
-> Mercators' Ocean Data View (ODV) provides comprehensive access to global oceanographic datasets, including variables like sea surface temperature, salinity, and chlorophyll. With interactive plotting tools and gridded data analyses, ODV enables researchers to visualize, analyze, and interpret complex marine data. These resources are crucial for scientific research on ocean dynamics, climate change impacts, and marine ecosystems, facilitating in-depth studies and the development of predictive models for environmental monitoring and conservation efforts.
+> Mercators' Ocean Data View (ODV) provides comprehensive access to global oceanographic datasets, including variables like sea surface temperature, salinity, and chlorophyll. With interactive plotting tools and gridded data analyses, ODV enables researchers to visualize, analyze, and interpret complex marine data. These resources are crucial for scientific research on ocean dynamics, long term change impacts, and marine ecosystems, facilitating in-depth studies and the development of predictive models for environmental monitoring and conservation efforts.
   
 [Electronic World Ocean Atlas](https://www.ewoce.org/data/index.html) 
   
-> eWOCE offers an extensive collection of global oceanographic data, including sea surface temperature, salinity, currents, and sea level measurements. The repository features high-resolution in-situ data from CTDs, ADCPs, surface drifters, and subsurface floats, covering decades of observations. By providing access to interactive data visualization tools and detailed reports, eWOCE serves as a valuable resource for advancing scientific understanding of global ocean processes, researchers studying ocean dynamics, climate change impacts, and long-term marine trends.
+> eWOCE offers an extensive collection of global oceanographic data, including sea surface temperature, salinity, currents, and sea level measurements. The repository features high-resolution in-situ data from CTDs, ADCPs, surface drifters, and subsurface floats, covering decades of observations. By providing access to interactive data visualization tools and detailed reports, eWOCE serves as a valuable resource for advancing scientific understanding of global ocean processes, researchers studying ocean dynamics, long term change impacts, and long-term marine trends.
   
 [EAWAG: the Swiss Federal Institute of Aquatic Science and Technology](https://www.eawag.ch/en/department/fishec/projects/) 
   
-> Eawag, the Swiss Federal Institute of Aquatic Science and Technology, conducts research and conservation projects focused on water resources and aquatic ecosystems. The Department investigates the impact of climate change and human activities on fish biodiversity, including the effects on fish movement patterns, nutritional needs, and the adaptation of aquatic species to changing environments. This research contributes to the understanding of eco-evolutionary dynamics in aquatic ecosystems and provides data and tools for conservation efforts. Eawag's publications, data repositories, and code repositories can be valuable resources for other scientific research, aiding in the understanding and preservation of aquatic ecosystems.
+> Eawag, the Swiss Federal Institute of Aquatic Science and Technology, conducts research and conservation projects focused on water resources and aquatic ecosystems. The Department investigates the impact of long term change and human activities on fish biodiversity, including the effects on fish movement patterns, nutritional needs, and the adaptation of aquatic species to changing environments. This research contributes to the understanding of eco-evolutionary dynamics in aquatic ecosystems and provides data and tools for conservation efforts. Eawag's publications, data repositories, and code repositories can be valuable resources for other scientific research, aiding in the understanding and preservation of aquatic ecosystems.
   
 [UCAR BASIS : Zooplankton Data](https://data.ucar.edu/dataset/basis-zooplankton-data) 
   
@@ -573,8 +569,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Coastal Ocean Reanalysis CORA](https://tidesandcurrents.noaa.gov/cora.html) 
   
 > Through the combination of Advanced CIRCulation (ADCIRC) and Simulating WAves Nearshore (SWAN) modeling, and atmospheric data from ERA5 in addition to National Water Level Observation Network (NWLON), CORA models: Water level elevation and maximums, atmospheric pressure, wind speed and direction, wave heights, direction, and peaks.
-
+  
 [OOI (Ocean Observations Initiative) Data](https://oceanobservatories.org/data/) 
   
 > The OOI has been collecting data since 2014 and provides about seven terabytes of data each month. The data available range from raw data as received directly from an instrument to carefully crafted data products that can be used to answer scientific questions. Includes code ([tools](https://oceanobservatories.org/community-data-tools/)) for analyzing accessing data
-
