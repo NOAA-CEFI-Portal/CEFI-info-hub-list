@@ -12,9 +12,9 @@ Contents
 # CEFI related resource list
 
 
-This is a curated list for the 'CEFI related resource'on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet)). The goal of the information hub is 
+This is a curated list for the 'CEFI related resource'on the information hub created for the NOAA Changing, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet)). The goal of the information hub is 
   
-> Build a comprehensive Climate, Ecosystems, and Fisheries Initiative Information Hub to provide easy access to regional ocean model outputs (high spatial resolution reanalysis, hindcasts, predictions, and projections optimized for management applications), ecosystem projections, and other information relevant to climate-informed resource management. 
+> Build a comprehensive Changing, Ecosystems, and Fisheries Initiative Information Hub to provide easy access to regional ocean model outputs (high spatial resolution reanalysis, hindcasts, predictions, and projections optimized for management applications), ecosystem projections, and other information relevant to resource management. 
   
 The complete list here is mirroring the [CEFI related resource search tool](https://psl.noaa.gov/data/fisheries/). Through the search tool, users can apply filter and search text to narrow down the list based on the related topics. 
   
@@ -573,7 +573,8 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 [Coastal Ocean Reanalysis CORA](https://tidesandcurrents.noaa.gov/cora.html) 
   
 > Through the combination of Advanced CIRCulation (ADCIRC) and Simulating WAves Nearshore (SWAN) modeling, and atmospheric data from ERA5 in addition to National Water Level Observation Network (NWLON), CORA models: Water level elevation and maximums, atmospheric pressure, wind speed and direction, wave heights, direction, and peaks.
-  
+
 [OOI (Ocean Observations Initiative) Data](https://oceanobservatories.org/data/) 
   
 > The OOI has been collecting data since 2014 and provides about seven terabytes of data each month. The data available range from raw data as received directly from an instrument to carefully crafted data products that can be used to answer scientific questions. Includes code ([tools](https://oceanobservatories.org/community-data-tools/)) for analyzing accessing data
+

@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     mdFile.new_paragraph(
         "This is a curated list for the 'CEFI related resource'"+
-        "on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ("+
+        "on the information hub created for the NOAA Changing, Ecosystems, and Fisheries Initiative ("+
         mdFile.new_inline_link(
             link='https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet',
             text='CEFI'
@@ -46,10 +46,10 @@ if __name__ == '__main__':
         )
 
     mdFile.new_line(
-        '> Build a comprehensive Climate, Ecosystems, and Fisheries Initiative Information Hub to provide easy access'+
+        '> Build a comprehensive Changing, Ecosystems, and Fisheries Initiative Information Hub to provide easy access'+
         ' to regional ocean model outputs (high spatial resolution reanalysis, hindcasts, predictions, and projections'+
         ' optimized for management applications), ecosystem projections, and other information relevant to'+
-        ' climate-informed resource management. \n'
+        ' resource management. \n'
         )
 
 
