@@ -12,9 +12,9 @@ Contents
 # CEFI related resource list
 
 
-This is a curated list for the 'CEFI related resource'on the information hub created for the NOAA Climate, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet)). The goal of the information hub is 
+This is a curated list for the 'CEFI related resource'on the information hub created for the NOAA Changing, Ecosystems, and Fisheries Initiative ([CEFI](https://www.fisheries.noaa.gov/resource/document/noaa-climate-ecosystems-and-fisheries-initiative-fact-sheet)). The goal of the information hub is 
   
-> Build a comprehensive Climate, Ecosystems, and Fisheries Initiative Information Hub to provide easy access to regional ocean model outputs (high spatial resolution reanalysis, hindcasts, predictions, and projections optimized for management applications), ecosystem projections, and other information relevant to climate-informed resource management. 
+> Build a comprehensive Changing, Ecosystems, and Fisheries Initiative Information Hub to provide easy access to regional ocean model outputs (high spatial resolution reanalysis, hindcasts, predictions, and projections optimized for management applications), ecosystem projections, and other information relevant to resource management. 
   
 The complete list here is mirroring the [CEFI related resource search tool](https://psl.noaa.gov/data/fisheries/). Through the search tool, users can apply filter and search text to narrow down the list based on the related topics. 
   
