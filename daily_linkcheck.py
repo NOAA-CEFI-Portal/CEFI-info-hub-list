@@ -31,7 +31,7 @@ def check_urls(url_list):
     bad_list = []
     for url in url_list:
         try:
-            response = requests.get(url)
+            response = requests.get(url,timeout=2.5,verify=False)
             if response.status_code == 200:
                 print(f"{url} valid with 200 response.")
             else:
