@@ -31,14 +31,21 @@ def check_urls(url_list):
     bad_list = []
     for url in url_list:
         try:
-            response = requests.get(url,timeout=2.5,verify=False)
+            response = requests.get(url,timeout=5)
             if response.status_code == 200:
                 print(f"{url} valid with 200 response.")
             else:
                 print(f"{url} valid returned {response.status_code} response.")
         except requests.exceptions.RequestException as e:
-            print(f"{url} is not a valid URL. Error: {e}")
-            bad_list.append(url)
+            try:
+                response = requests.get(url,timeout=5,verify=False)
+                if response.status_code == 200:
+                    print(f"{url} valid with 200 response.")
+                else:
+                    print(f"{url} valid returned {response.status_code} response.")
+            except requests.exceptions.RequestException as e:
+                print(f"{url} is not a valid URL. Error: {e}")
+                bad_list.append(url)
     return bad_list
 
 class URLNotValidError(Exception):
