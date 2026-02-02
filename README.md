@@ -442,7 +442,7 @@ We welcome external contribution to this list. Please read the `CONTRIBUTION.md`
 
 > The gateway to essential ocean variables to monitor the health of the ocean. It includes the monitoring of ocean circulation, climate, variability and extremes, and health.
 
-[Long Term Indicators for Oceans: EPA](https://climatechange.chicago.gov/climate-indicators/oceans) 
+[Long Term Indicators for Oceans: EPA](https://19january2021snapshot.epa.gov/climate-indicators/oceans_.html) 
 
 > EPA partners with more than 40 data contributors from various government agencies, academic institutions, and other organizations to compile a key set of ocean indicators related to the causes and effects of long term change. The indicators are published in EPA's report, long term Change Indicators in the United States, available on this website and in print.
 
