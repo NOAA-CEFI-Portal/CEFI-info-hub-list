@@ -7,6 +7,7 @@ based on the created issues of adding new resources
 
 """
 import os
+import re
 import sys
 import subprocess
 import warnings
@@ -115,23 +116,21 @@ if __name__ == '__main__' :
     for string in issue['title'].split(']:')[1].strip().lower().split():
         img_filename += string + "_"
     img_filename = img_filename[:-1]
+    # the title is user supplied, so keep the parts that can name a file
+    img_filename = re.sub(r'[^a-z0-9_-]', '', img_filename)
     
     if img_filename == '':
         img_filename = f'issue_number_{issue["number"]}'
 
 
     if not DEBUG :
+        # img_url and img_filename both come from the issue, so pass them as
+        # arguments rather than letting a shell read them
         wget = subprocess.call(
-            f'wget -O {img_filename}.png {img_url}',
-            shell=True,
-            executable="/usr/bin/bash"
+            ['wget', '-O', f'{img_filename}.png', img_url]
         )
 
-        mv = subprocess.call(
-            f'mv {img_filename}.png images/{img_filename}.png',
-            shell=True,
-            executable="/usr/bin/bash"
-        )
+        os.replace(f'{img_filename}.png', os.path.join('images', f'{img_filename}.png'))
 
     # add category type of new entry
     add_dict = {}
